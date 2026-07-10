@@ -1,10 +1,14 @@
 {
   "source": "agribalyse-3.2",
   "target": "ef-3.1",
-  "title": "Agribalyse 3.2 elementary flows → EF 3.1 characterization flow keys",
+  "title": "Agribalyse 3.2 elementary flows \u2192 EF 3.1 characterization flow keys",
   "rank": 2,
-  "kinds": ["biosphere"],
+  "kinds": [
+    "biosphere"
+  ],
   "target_proprietary": false,
   "schema_version": "0.1.0",
-  "entry_counts": { "biosphere": 0 }
+  "entry_counts": {
+    "biosphere": 1095
+  }
 }
