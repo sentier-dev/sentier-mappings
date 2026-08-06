@@ -1,0 +1,14 @@
+{
+  "source": "bafu-2026-v1",
+  "target": "ef-3.1",
+  "title": "BAFU 2026 v1 elementary flows → EF 3.1 characterization flow keys",
+  "rank": 3,
+  "kinds": [
+    "biosphere"
+  ],
+  "target_proprietary": false,
+  "schema_version": "0.1.0",
+  "entry_counts": {
+    "biosphere": 0
+  }
+}
