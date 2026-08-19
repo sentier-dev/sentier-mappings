@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "replace": [
     {
       "source": {
@@ -2504,7 +2504,7 @@
       "target": {
         "name": "carbon-14",
         "code": "08a91e70-3ddc-11dd-9257-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -2525,7 +2525,7 @@
       "target": {
         "name": "cesium-134",
         "code": "2906b08b-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -2546,7 +2546,7 @@
       "target": {
         "name": "cesium-137",
         "code": "29063b6d-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -2651,7 +2651,7 @@
       "target": {
         "name": "cobalt-58",
         "code": "08a91e70-3ddc-11dd-9697-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -2672,7 +2672,7 @@
       "target": {
         "name": "cobalt-60",
         "code": "08a91e70-3ddc-11dd-969e-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -3347,7 +3347,7 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -3368,7 +3368,7 @@
       "target": {
         "name": "iodine-129",
         "code": "32cd48a7-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -3389,7 +3389,7 @@
       "target": {
         "name": "iodine-131",
         "code": "29063b69-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -3431,7 +3431,7 @@
       "target": {
         "name": "krypton-85",
         "code": "08a91e70-3ddc-11dd-95ca-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4319,7 +4319,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4340,7 +4340,7 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4466,7 +4466,7 @@
       "target": {
         "name": "thorium-230",
         "code": "08a91e70-3ddc-11dd-9976-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4508,7 +4508,7 @@
       "target": {
         "name": "uranium-234",
         "code": "2906899d-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4529,7 +4529,7 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c3c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4550,7 +4550,7 @@
       "target": {
         "name": "uranium-238",
         "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4571,7 +4571,7 @@
       "target": {
         "name": "xenon-133",
         "code": "08a91e70-3ddc-11dd-94dd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4655,7 +4655,7 @@
       "target": {
         "name": "americium-241",
         "code": "fe0acd60-3ddc-11dd-acd4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -4697,7 +4697,7 @@
       "target": {
         "name": "antimony-124",
         "code": "4d9a8790-3ddd-11dd-977f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -4718,7 +4718,7 @@
       "target": {
         "name": "antimony-125",
         "code": "32cc855e-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -4928,7 +4928,7 @@
       "target": {
         "name": "carbon-14",
         "code": "08a91e70-3ddc-11dd-925b-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -4949,7 +4949,7 @@
       "target": {
         "name": "cesium-134",
         "code": "4d9a8790-3ddd-11dd-9b30-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -4970,7 +4970,7 @@
       "target": {
         "name": "cesium-137",
         "code": "4d9a8790-3ddd-11dd-9b3b-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5098,7 +5098,7 @@
       "target": {
         "name": "cobalt-58",
         "code": "08a91e70-3ddc-11dd-969a-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5119,7 +5119,7 @@
       "target": {
         "name": "cobalt-60",
         "code": "fe0acd60-3ddc-11dd-a79a-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5455,7 +5455,7 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b6-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5476,7 +5476,7 @@
       "target": {
         "name": "iodine-129",
         "code": "fe0acd60-3ddc-11dd-a7e8-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5497,7 +5497,7 @@
       "target": {
         "name": "iodine-131",
         "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5518,7 +5518,7 @@
       "target": {
         "name": "manganese-54",
         "code": "fe0acd60-3ddc-11dd-9e61-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5877,7 +5877,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5961,7 +5961,7 @@
       "target": {
         "name": "uranium-234",
         "code": "fe0acd60-3ddc-11dd-ae3f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -5982,7 +5982,7 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c40-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -6003,7 +6003,7 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -6340,7 +6340,7 @@
       "target": {
         "name": "uranium-234",
         "code": "2906899d-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -6361,7 +6361,7 @@
       "target": {
         "name": "uranium-238",
         "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -6382,7 +6382,7 @@
       "target": {
         "name": "polonium-210",
         "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -6424,7 +6424,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -6445,7 +6445,7 @@
       "target": {
         "name": "thorium-230",
         "code": "08a91e70-3ddc-11dd-9976-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -6466,7 +6466,7 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -6508,7 +6508,7 @@
       "target": {
         "name": "lead-210",
         "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -7497,7 +7497,7 @@
       "target": {
         "name": "americium-241",
         "code": "fe0acd60-3ddc-11dd-acd4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7602,7 +7602,7 @@
       "target": {
         "name": "antimony-124",
         "code": "4d9a8790-3ddd-11dd-977f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7623,7 +7623,7 @@
       "target": {
         "name": "antimony-125",
         "code": "32cc855e-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7917,7 +7917,7 @@
       "target": {
         "name": "carbon-14",
         "code": "08a91e70-3ddc-11dd-925b-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7938,7 +7938,7 @@
       "target": {
         "name": "carbon-14",
         "code": "08a91e70-3ddc-11dd-925b-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7959,7 +7959,7 @@
       "target": {
         "name": "cesium-134",
         "code": "4d9a8790-3ddd-11dd-9b30-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7980,7 +7980,7 @@
       "target": {
         "name": "cesium-134",
         "code": "4d9a8790-3ddd-11dd-9b33-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -8001,7 +8001,7 @@
       "target": {
         "name": "cesium-137",
         "code": "4d9a8790-3ddd-11dd-9b3b-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -8022,7 +8022,7 @@
       "target": {
         "name": "cesium-137",
         "code": "4d9a8790-3ddd-11dd-9b3e-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -8279,7 +8279,7 @@
       "target": {
         "name": "cobalt-58",
         "code": "08a91e70-3ddc-11dd-969a-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -8300,7 +8300,7 @@
       "target": {
         "name": "cobalt-60",
         "code": "fe0acd60-3ddc-11dd-a79a-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -8321,7 +8321,7 @@
       "target": {
         "name": "cobalt-60",
         "code": "fe0acd60-3ddc-11dd-a79d-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9142,7 +9142,7 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b6-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9163,7 +9163,7 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b9-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9205,7 +9205,7 @@
       "target": {
         "name": "iodine-129",
         "code": "fe0acd60-3ddc-11dd-a7e8-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9226,7 +9226,7 @@
       "target": {
         "name": "iodine-131",
         "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9247,7 +9247,7 @@
       "target": {
         "name": "iodine-131",
         "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9310,7 +9310,7 @@
       "target": {
         "name": "lead-210",
         "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -9415,7 +9415,7 @@
       "target": {
         "name": "manganese-54",
         "code": "fe0acd60-3ddc-11dd-9e61-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9774,7 +9774,7 @@
       "target": {
         "name": "polonium-210",
         "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -9837,7 +9837,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9858,7 +9858,7 @@
       "target": {
         "name": "ruthenium-106",
         "code": "fe0acd60-3ddc-11dd-abdb-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9879,7 +9879,7 @@
       "target": {
         "name": "ruthenium-106",
         "code": "fe0acd60-3ddc-11dd-abdb-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9900,7 +9900,7 @@
       "target": {
         "name": "silver-110",
         "code": "08a91e70-3ddc-11dd-98de-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -9984,7 +9984,7 @@
       "target": {
         "name": "strontium-90",
         "code": "4d9a8790-3ddd-11dd-926c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10005,7 +10005,7 @@
       "target": {
         "name": "strontium-90",
         "code": "4d9a8790-3ddd-11dd-926c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10237,7 +10237,7 @@
       "target": {
         "name": "uranium-234",
         "code": "fe0acd60-3ddc-11dd-ae3f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10258,7 +10258,7 @@
       "target": {
         "name": "uranium-234",
         "code": "fe0acd60-3ddc-11dd-ae42-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10279,7 +10279,7 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c40-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10300,7 +10300,7 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10321,7 +10321,7 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db7-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -10510,7 +10510,7 @@
       "target": {
         "name": "lead-210",
         "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -10531,7 +10531,7 @@
       "target": {
         "name": "polonium-210",
         "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -10552,7 +10552,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -10573,7 +10573,7 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -10615,7 +10615,7 @@
       "target": {
         "name": "uranium-238",
         "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -11773,13 +11773,14 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -11794,13 +11795,14 @@
       "target": {
         "name": "cesium-137",
         "code": "4d9a8790-3ddd-11dd-9b3e-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -11836,13 +11838,14 @@
       "target": {
         "name": "lead-210",
         "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -11857,13 +11860,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12132,13 +12136,14 @@
       "target": {
         "name": "uranium-238",
         "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12342,13 +12347,14 @@
       "target": {
         "name": "cobalt-60",
         "code": "08a91e70-3ddc-11dd-969e-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12405,13 +12411,14 @@
       "target": {
         "name": "polonium-210",
         "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12532,13 +12539,14 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12553,13 +12561,14 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c3c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12574,13 +12583,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12659,13 +12669,14 @@
       "target": {
         "name": "lead-210",
         "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -12743,13 +12754,14 @@
       "target": {
         "name": "uranium-238",
         "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13059,13 +13071,14 @@
       "target": {
         "name": "strontium-90",
         "code": "4d9a8790-3ddd-11dd-926c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13164,13 +13177,14 @@
       "target": {
         "name": "polonium-210",
         "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13503,13 +13517,14 @@
       "target": {
         "name": "xenon-133",
         "code": "08a91e70-3ddc-11dd-94dd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13524,13 +13539,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13609,13 +13625,14 @@
       "target": {
         "name": "manganese-54",
         "code": "fe0acd60-3ddc-11dd-9e61-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13630,13 +13647,14 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b6-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13777,13 +13795,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13862,13 +13881,14 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -13989,13 +14009,14 @@
       "target": {
         "name": "plutonium-238",
         "code": "32cbe90e-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -14472,13 +14493,14 @@
       "target": {
         "name": "cobalt-58",
         "code": "08a91e70-3ddc-11dd-969a-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -14619,13 +14641,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -14958,13 +14981,14 @@
       "target": {
         "name": "cobalt-58",
         "code": "08a91e70-3ddc-11dd-9697-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified (long-term)"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15000,13 +15024,14 @@
       "target": {
         "name": "uranium-238",
         "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15042,13 +15067,14 @@
       "target": {
         "name": "antimony-125",
         "code": "32cc855e-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15105,13 +15131,14 @@
       "target": {
         "name": "cobalt-60",
         "code": "fe0acd60-3ddc-11dd-a79a-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15168,13 +15195,14 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15400,13 +15428,14 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c40-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15421,13 +15450,14 @@
       "target": {
         "name": "silver-110",
         "code": "08a91e70-3ddc-11dd-98de-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15442,13 +15472,14 @@
       "target": {
         "name": "polonium-210",
         "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15631,13 +15662,14 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15695,13 +15727,14 @@
       "target": {
         "name": "uranium-234",
         "code": "fe0acd60-3ddc-11dd-ae3f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15759,13 +15792,14 @@
       "target": {
         "name": "carbon-14",
         "code": "08a91e70-3ddc-11dd-9257-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15780,13 +15814,14 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b9-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -15906,13 +15941,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -16205,13 +16241,14 @@
       "target": {
         "name": "iodine-131",
         "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -16289,13 +16326,14 @@
       "target": {
         "name": "antimony-124",
         "code": "4d9a8790-3ddd-11dd-977f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -16752,13 +16790,14 @@
       "target": {
         "name": "uranium-234",
         "code": "fe0acd60-3ddc-11dd-ae3f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -16899,13 +16938,14 @@
       "target": {
         "name": "cesium-137",
         "code": "4d9a8790-3ddd-11dd-9b3b-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17047,13 +17087,14 @@
       "target": {
         "name": "cesium-134",
         "code": "2906b08b-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17089,13 +17130,14 @@
       "target": {
         "name": "cesium-137",
         "code": "29063b6d-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17364,13 +17406,14 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17532,13 +17575,14 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db7-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17553,13 +17597,14 @@
       "target": {
         "name": "thorium-230",
         "code": "08a91e70-3ddc-11dd-9976-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17764,13 +17809,14 @@
       "target": {
         "name": "iodine-131",
         "code": "29063b69-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17785,13 +17831,14 @@
       "target": {
         "name": "strontium-90",
         "code": "4d9a8790-3ddd-11dd-926c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -17954,13 +18001,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18038,13 +18086,14 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c40-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18123,13 +18172,14 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18228,13 +18278,14 @@
       "target": {
         "name": "uranium-234",
         "code": "2906899d-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18312,13 +18363,14 @@
       "target": {
         "name": "lead-210",
         "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18375,13 +18427,14 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18481,13 +18534,14 @@
       "target": {
         "name": "krypton-85",
         "code": "08a91e70-3ddc-11dd-95ca-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18629,13 +18683,14 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18650,13 +18705,14 @@
       "target": {
         "name": "cesium-134",
         "code": "4d9a8790-3ddd-11dd-9b30-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to fresh water"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -18734,13 +18790,14 @@
       "target": {
         "name": "iodine-129",
         "code": "32cd48a7-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -19049,13 +19106,14 @@
       "target": {
         "name": "iodine-133",
         "code": "08a91e70-3ddc-11dd-9587-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "conversion_factor": 0.001
     },
     {
       "source": {
@@ -19196,7 +19254,7 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19217,7 +19275,7 @@
       "target": {
         "name": "iodine-131",
         "code": "29063b69-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19238,7 +19296,7 @@
       "target": {
         "name": "krypton-85",
         "code": "08a91e70-3ddc-11dd-95ca-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19259,7 +19317,7 @@
       "target": {
         "name": "radon-222",
         "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19280,7 +19338,7 @@
       "target": {
         "name": "hydrogen-3",
         "code": "08a91e70-3ddc-11dd-94b2-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19301,7 +19359,7 @@
       "target": {
         "name": "uranium-234",
         "code": "fe0acd60-3ddc-11dd-ae3f-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19322,7 +19380,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19343,7 +19401,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19364,7 +19422,7 @@
       "target": {
         "name": "plutonium-238",
         "code": "32cbe90e-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19385,7 +19443,7 @@
       "target": {
         "name": "carbon-14",
         "code": "08a91e70-3ddc-11dd-9257-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19406,7 +19464,7 @@
       "target": {
         "name": "iodine-129",
         "code": "32cd48a7-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19427,7 +19485,7 @@
       "target": {
         "name": "iodine-133",
         "code": "08a91e70-3ddc-11dd-9587-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19448,7 +19506,7 @@
       "target": {
         "name": "radium-226",
         "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19469,7 +19527,7 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c40-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19490,7 +19548,7 @@
       "target": {
         "name": "uranium-235",
         "code": "08a91e70-3ddc-11dd-9c3c-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19511,7 +19569,7 @@
       "target": {
         "name": "xenon-133",
         "code": "08a91e70-3ddc-11dd-94dd-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19532,7 +19590,7 @@
       "target": {
         "name": "cobalt-60",
         "code": "08a91e70-3ddc-11dd-969e-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19553,7 +19611,7 @@
       "target": {
         "name": "cesium-137",
         "code": "29063b6d-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19574,7 +19632,7 @@
       "target": {
         "name": "uranium-238",
         "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -19595,7 +19653,7 @@
       "target": {
         "name": "cesium-134",
         "code": "2906b08b-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -19616,7 +19674,7 @@
       "target": {
         "name": "cobalt-58",
         "code": "08a91e70-3ddc-11dd-9697-0050c2490048",
-        "unit": "kilogram",
+        "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
