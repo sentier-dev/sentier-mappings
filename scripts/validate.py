@@ -12,6 +12,8 @@ For each ``data/<NN>-<source>__<target>/`` bridge folder:
     recognised, a cross-dimension pair (e.g. activity kBq -> mass kilogram) must carry an
     explicit ``conversion_factor``, and a same-dimension magnitude change (Bq -> kBq) must
     carry exactly the right one. Unrecognised unit strings are skipped, not guessed at.
+  - no two entries in a package may share the same (source.code, source.context) key
+    (PR #10): randonneur applies entries in order, so duplicates silently shadow.
 
 Empty scaffold bridges (metadata only, all counts 0) validate. Exits non-zero on any error.
 """
@@ -91,6 +93,26 @@ def check_entry_units(entry: dict) -> str | None:
     return None
 
 
+def check_duplicate_source_keys(package: dict, label: str, errors: list[str]) -> None:
+    """Two entries sharing (source.code, source.context) are indistinguishable to a
+    keyed consumer, and randonneur applies entries in order, so the later one
+    silently shadows the earlier (issue found by Eaternity in PR #10)."""
+    seen: dict[tuple, int] = {}
+    for i, entry in enumerate(_entries(package)):
+        source = entry.get("source") or {}
+        code = source.get("code")
+        if not code:
+            continue  # rank-2 agribalyse entries mostly carry no code; nothing to key on
+        key = (code, tuple(source.get("context") or ()))
+        if key in seen:
+            errors.append(
+                f"{label} entry {i}: source key (code={code}, "
+                f"context={list(key[1])}) duplicates entry {seen[key]}"
+            )
+        else:
+            seen[key] = i
+
+
 def validate_bridge(bridge: Path, errors: list[str]) -> None:
     meta_path = bridge / "metadata.json"
     if not meta_path.exists():
@@ -132,6 +154,7 @@ def validate_bridge(bridge: Path, errors: list[str]) -> None:
             unit_error = check_entry_units(entry)
             if unit_error:
                 errors.append(f"{bridge.name}/{kind}.json entry {i}: {unit_error}")
+        check_duplicate_source_keys(package, f"{bridge.name}/{kind}.json", errors)
 
 
 def main() -> int:
