@@ -1,0 +1,175 @@
+{
+ "name": "bafu-2026-v1__ef-3.1-biosphere-land-use-review",
+ "version": "0.5.0",
+ "note": "E land flows without a consistent class mapping from the Eaternity contribution - reported, not guessed.",
+ "review": [
+  {
+   "source": {
+    "name": "Occupation, seabed, infrastructure",
+    "code": "efe96c4f-6aab-5ee3-a117-56830e4dc658",
+    "unit": "m2a",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Occupation, traffic area, rail network, CH",
+    "code": "2c616d73-407e-5ee3-9bc3-09e83cb9f9d0",
+    "unit": "m2a",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Occupation, traffic area, rail/road embankment, CH",
+    "code": "9d094b30-74a5-5821-949e-044c9b0edc78",
+    "unit": "m2a",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Occupation, water bodies, artificial",
+    "code": "2be198b4-c2fc-51c9-8f96-6cd04f391c81",
+    "unit": "m2a",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Occupation, water courses, artificial",
+    "code": "9d2306ab-da81-5e18-87f4-ba28b1397a50",
+    "unit": "m2a",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Transformation, from sea and ocean",
+    "code": "6938af1f-e57f-5e05-97c0-3f81ee012614",
+    "unit": "m2",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Transformation, from seabed, unspecified",
+    "code": "3e410f0f-24ea-5399-b912-1628ce1dd35d",
+    "unit": "m2",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Transformation, to sea and ocean",
+    "code": "4fdc8f88-b5e9-5bd7-a841-fd8459abd47e",
+    "unit": "m2",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Transformation, to water bodies, artificial",
+    "code": "bf437a2e-ae92-5ef9-ba1b-e990563e88fe",
+    "unit": "m2",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Transformation, to water courses, artificial",
+    "code": "6fbaadc9-72e6-5a28-86b3-7b1260dd12e8",
+    "unit": "m2",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Uranium",
+    "code": "d4c1cf79-0016-5a3a-8057-ed259ca6c6fa",
+    "unit": "kg",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Water, process, unspecified natural origin/kg",
+    "code": "08698eae-d921-5e20-8655-5aae485393de",
+    "unit": "kg",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Water, process, unspecified natural origin/m3",
+    "code": "3c82cd9b-88c7-519b-9c9c-e414a795b82e",
+    "unit": "m3",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  },
+  {
+   "source": {
+    "name": "Wood, unspecified, standing/kg",
+    "code": "05446841-2cf9-5b0e-bf07-bfcd2c71c703",
+    "unit": "kg",
+    "context": [
+     "resources",
+     "land"
+    ]
+   },
+   "reason": "no_contributed_class_mapping"
+  }
+ ]
+}
