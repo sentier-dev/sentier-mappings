@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "replace": [
     {
       "source": {
@@ -23717,6 +23717,2266 @@
           "Emissions",
           "Emissions to soil",
           "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, agriculture",
+        "code": "8c76f86a-fd43-5a70-8035-a48b3615c43c",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "agriculture",
+        "code": "e1d56d4e-afe3-4b92-bd51-0a21f75e50a8",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, agriculture, mosaic",
+        "code": "fdcfadf1-5c25-5489-9724-0d0f441efd52",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "agriculture, mosaic",
+        "code": "1d443c61-ff6f-419a-99a8-9ff3055f4922",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, annual crop",
+        "code": "e53a75c6-a08d-551a-a5ba-8f6b87906e02",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "arable",
+        "code": "b88d3b6d-229e-477e-bce1-e16376f75c7b",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, annual crop, non-irrigated",
+        "code": "410288f8-6791-5841-8613-a797aaf61f9c",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "arable, non-irrigated",
+        "code": "97990d8f-aae4-41ea-afb4-c62d2bcfea3b",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, annual crop, non-irrigated, diverse-intensive",
+        "code": "b356ab36-6611-5645-88bf-f03a65bb4afc",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "arable, non-irrigated, intensive",
+        "code": "6f4ecdc5-0cf7-430b-9c66-8efe4113b2a2",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, annual crop, organic",
+        "code": "a6080f1d-4096-57da-b176-048a8d08a132",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "arable",
+        "code": "b88d3b6d-229e-477e-bce1-e16376f75c7b",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, construction site",
+        "code": "0f02325e-eff5-54aa-a84c-047eadfa375d",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "construction site",
+        "code": "2de36d9f-313b-4fb1-8060-676eecbfec29",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, dump site",
+        "code": "c1502ff3-44fd-5772-8e9c-290b0df10c84",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "dump site",
+        "code": "616ab5c3-116f-4fbb-bc6b-196318afe5be",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, dump site, benthos",
+        "code": "b707b63c-133a-523d-8cfe-a86e7a31e006",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "dump site",
+        "code": "616ab5c3-116f-4fbb-bc6b-196318afe5be",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, forest, intensive",
+        "code": "ee93d12a-d6a0-592c-ba6d-850e69c6f7aa",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "forest, intensive",
+        "code": "eb01bbdf-8977-4dd2-9c20-9d59d6f8a71f",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, forest, intensive, normal",
+        "code": "4318efca-e526-56d2-9fde-6917391788ed",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "forest, intensive",
+        "code": "eb01bbdf-8977-4dd2-9c20-9d59d6f8a71f",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, forest, intensive, short-cycle",
+        "code": "bb402940-a121-5601-9fa9-c0bcfa146645",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "forest, intensive",
+        "code": "eb01bbdf-8977-4dd2-9c20-9d59d6f8a71f",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, forest, unspecified",
+        "code": "7c2ab46b-5f44-5863-9ac4-0a80961a247a",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "forest",
+        "code": "641d3aa1-93d3-4fb2-9bd8-17600536c3c0",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, heterogeneous, agricultural",
+        "code": "9aae09e1-5eb4-573e-acd7-c3ba54a4b84f",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "arable",
+        "code": "b88d3b6d-229e-477e-bce1-e16376f75c7b",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, industrial area",
+        "code": "8d3fb5d2-0ce3-5922-aebf-6d28c86bb239",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "industrial area",
+        "code": "eb84226d-129f-49d8-8d69-cc484b7a6cbf",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, industrial area, benthos",
+        "code": "18bcf01b-24d8-5361-a8e9-b0fc9070126a",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "industrial area",
+        "code": "eb84226d-129f-49d8-8d69-cc484b7a6cbf",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, industrial area, built up",
+        "code": "d578efe2-4f4e-5e45-90a6-1eaf52b6f2c4",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "industrial area",
+        "code": "eb84226d-129f-49d8-8d69-cc484b7a6cbf",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, industrial area, vegetation",
+        "code": "4c8e4d6c-444a-555c-97bc-0ca8e6c38ef4",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "industrial area",
+        "code": "eb84226d-129f-49d8-8d69-cc484b7a6cbf",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, mineral extraction site",
+        "code": "55d34f30-d534-51a8-bc9c-ec6202c9a299",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "mineral extraction site",
+        "code": "b0744c5e-9859-470f-99dc-b117be5a32c5",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, pasture, man made",
+        "code": "d1e033a1-efa4-5dfc-975f-702f91cb171d",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "pasture/meadow",
+        "code": "07937495-00a4-4676-8ef7-1161ee7a9f28",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, pasture, man made, extensive",
+        "code": "5d05c697-0724-5595-8293-f925689fed26",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "pasture/meadow, extensive",
+        "code": "52a3918e-59b7-4d62-9255-a8479e6671ae",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, pasture, man made, intensive",
+        "code": "67037aa1-0bf7-5ec7-b420-94df0fff3fef",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "pasture/meadow, intensive",
+        "code": "b76e1ff4-d0f3-4906-b6f9-240112e3dd69",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, pasture, man made, organic",
+        "code": "8c6f4e99-72e3-53e9-b72e-7f14899aea53",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "pasture/meadow, intensive",
+        "code": "b76e1ff4-d0f3-4906-b6f9-240112e3dd69",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, permanent crop, fruit, intensive",
+        "code": "3e232a86-7c8b-5bc7-bf53-65de531229fa",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "permanent crops, non-irrigated, intensive",
+        "code": "0ef5f936-2cfd-49a8-8d11-a062926464e4",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, sealed soil",
+        "code": "d49fd46d-627e-52cc-a021-51f5e9a35830",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "artificial areas",
+        "code": "3f52e820-a921-4ddb-a51b-45fdabc77d6e",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, shrub land, sclerophyllous",
+        "code": "dfd747d4-9252-5c76-9619-5f60b9dd9a5f",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "shrub land",
+        "code": "8ee82f3b-c2dd-4807-8e65-b33dc05f4aee",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, traffic area, rail network",
+        "code": "1f47331a-5a7b-55cc-a247-93adb0a4a1dd",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "traffic area, rail network",
+        "code": "e1f89e32-e86c-452d-91bc-57d93ded3d0d",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, traffic area, rail/road embankment",
+        "code": "193a06da-16ef-5670-aacf-67ded9a28d2f",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "traffic area, rail/road embankment",
+        "code": "1dea9abe-eef4-4e7e-9439-fa041242ceb5",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, traffic area, road embankment",
+        "code": "a25893c2-5841-50c0-9d24-d85761ca96b5",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "traffic area, rail/road embankment",
+        "code": "1dea9abe-eef4-4e7e-9439-fa041242ceb5",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, traffic area, road network",
+        "code": "31c6d75e-71be-5a8c-87d1-b680e3e4806e",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "traffic area, road network",
+        "code": "92f1554f-121d-4f07-a1bb-b07cd2f7c2f5",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, tropical rain forest",
+        "code": "8546f6ff-632a-5fcd-a4f8-1b3798c51383",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "forest, natural",
+        "code": "0747ea88-7080-442f-b55c-832a0058d74a",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, unspecified, natural (non-use)",
+        "code": "a0d46b6f-1980-5a66-8e58-f455da7a37f2",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "unspecified",
+        "code": "be7cc1fe-c49e-4cce-9549-3d547f10c189",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, unspecified, used",
+        "code": "ad882efd-eede-5d82-ba40-4ffbf8efbff2",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "unspecified, used",
+        "code": "3b93ab27-c0b5-4376-be16-7946c7dd6d87",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, urban, continuously built",
+        "code": "1b305a74-df7e-50ed-b1bf-4ceedb004b10",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "urban, continuously built",
+        "code": "6d34cf70-c64e-4a5b-8738-fd6e3237888f",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Occupation, urban, discontinuously built",
+        "code": "c89846bf-0c9b-5cf9-90f3-8eca82ca2438",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "urban, discontinuously built",
+        "code": "0860f823-69da-48ae-b3ea-4ede3b661b7d",
+        "unit": "m2*a",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from agriculture",
+        "code": "7a0aaa5a-a893-5448-9d35-d9eb9a4fc299",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from agriculture",
+        "code": "c0143eba-3daf-44ad-8d34-6e1d34128ace",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from agriculture, mosaic",
+        "code": "16f567b0-c5f4-5edb-ac36-19429501a832",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from agriculture, mosaic",
+        "code": "aeea42cc-4215-465f-981f-ae2ab387fbb9",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from annual crop",
+        "code": "816f5991-9fb5-5d30-8e90-075331c13d05",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from arable",
+        "code": "9699a63f-c966-43a4-816c-b1fbbf0a3e88",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from annual crop, non-irrigated",
+        "code": "384f82de-1862-5d68-9a28-11191b781633",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from arable, non-irrigated",
+        "code": "87334803-fa5b-4c21-b52c-de9d79d806f8",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from annual crop, non-irrigated, fallow",
+        "code": "b994dceb-b98b-5d14-84bd-334bd28a55c6",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from arable, fallow",
+        "code": "67055318-bad9-420f-ae31-9ba54456518d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from arable, non-irrigated, diverse-intensive",
+        "code": "88278416-6807-529a-8caa-111be80d941e",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from arable, non-irrigated, intensive",
+        "code": "37b2391c-6d90-4ef3-be80-df3d114cface",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from arable, organic",
+        "code": "4bee6bce-133d-5c2d-abd2-dc254b300da5",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from arable",
+        "code": "9699a63f-c966-43a4-816c-b1fbbf0a3e88",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from dump site, inert material landfill",
+        "code": "9bdfc8b0-a8c5-549c-b8ef-58d1aadcbdca",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from dump site",
+        "code": "05d4147c-59c1-46df-8df9-3971fab75779",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from dump site, residual material landfill",
+        "code": "9e28dbcd-a838-5e72-8d28-93e5aecca562",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from dump site",
+        "code": "05d4147c-59c1-46df-8df9-3971fab75779",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from dump site, sanitary landfill",
+        "code": "7b97f492-ce68-558e-934a-9ef551417983",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from dump site",
+        "code": "05d4147c-59c1-46df-8df9-3971fab75779",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from dump site, slag compartment",
+        "code": "526f3139-4f22-5aac-8dc0-83a291b41bb0",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from dump site",
+        "code": "05d4147c-59c1-46df-8df9-3971fab75779",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from forest, extensive",
+        "code": "8a639dbd-2cb7-5ff5-906b-a040ace7ebdc",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest, extensive",
+        "code": "d30e2c86-78a3-4693-99c9-e69b95548e99",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from forest, intensive, clear-cutting",
+        "code": "2ba5b2d9-251f-5310-a437-fb0ed6099edf",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest, intensive",
+        "code": "f80c15bc-c2bf-4491-8b02-46ad74b8e1eb",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from forest, intensive, normal",
+        "code": "066a6095-e0f8-517d-a8db-7949bf5181dd",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest, intensive",
+        "code": "f80c15bc-c2bf-4491-8b02-46ad74b8e1eb",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from forest, intensive, short-cycle",
+        "code": "b15d6e19-82c0-51cf-9050-bc2dfd711b4d",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest, intensive",
+        "code": "f80c15bc-c2bf-4491-8b02-46ad74b8e1eb",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from forest, natural",
+        "code": "e3563d81-3f1e-5c04-8a73-45f31cf93b5d",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest, natural",
+        "code": "ac0aba5c-66ce-42c9-9f46-1e47ab7bc4b9",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from forest, unspecified",
+        "code": "f1f99a1c-58c4-5968-bafe-13223c12ca46",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest",
+        "code": "25a53117-7717-41f6-9085-64b1728c9b0d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from heterogeneous, agricultural",
+        "code": "1d1c7af3-8429-5f05-9f4e-991b3875fce9",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from arable",
+        "code": "9699a63f-c966-43a4-816c-b1fbbf0a3e88",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from industrial area",
+        "code": "046a1a1d-72b7-5e12-8d66-a3e6f2328076",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from industrial area",
+        "code": "2abdec35-e00d-4760-842c-e63403507b1d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from industrial area, benthos",
+        "code": "72ceac17-f345-5e1e-bf2a-0953bccc341b",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from industrial area",
+        "code": "2abdec35-e00d-4760-842c-e63403507b1d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from industrial area, built up",
+        "code": "43cf687a-b4fd-54c5-8ccb-01e7d42ac383",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from industrial area",
+        "code": "2abdec35-e00d-4760-842c-e63403507b1d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from industrial area, vegetation",
+        "code": "16f0a6fa-b8e4-5d01-bc49-86dfaaa388de",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from industrial area",
+        "code": "2abdec35-e00d-4760-842c-e63403507b1d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from mineral extraction site",
+        "code": "c0f39163-3299-5755-9563-e9aa5e54f4b7",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from mineral extraction site",
+        "code": "b129498b-6ff1-4025-95f4-a7f821b341c1",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from pasture and meadow",
+        "code": "bdee3452-c0e2-5d73-b16a-61db65450bc1",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from pasture/meadow",
+        "code": "e29e7755-623d-47fb-b2ac-c0615a1b709f",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from pasture and meadow, organic",
+        "code": "bcdf8122-7cfb-5c4e-9f3c-e85e97920627",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from pasture/meadow, intensive",
+        "code": "9cc0de8b-e413-48a5-b013-80ff11a693b2",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from pasture, man made",
+        "code": "7b341f63-0e29-500a-8182-9ea4e036185f",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from pasture/meadow",
+        "code": "e29e7755-623d-47fb-b2ac-c0615a1b709f",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from pasture, man made, extensive",
+        "code": "41922294-fc96-54c1-93af-b67f63cced46",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from pasture/meadow, extensive",
+        "code": "5ba8d644-c1bb-410b-9bf4-e5f969efb078",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from pasture, man made, intensive",
+        "code": "5cb3df72-fd3d-534d-a322-771bae31f002",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from pasture/meadow, intensive",
+        "code": "9cc0de8b-e413-48a5-b013-80ff11a693b2",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from permanent crop, fruit, extensive",
+        "code": "8bca218f-d30d-5151-8964-470ed18a0bf0",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from permanent crops, non-irrigated, extensive",
+        "code": "dd5923b1-6ff5-4bb2-a37a-20b84727c16a",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from shrub land, sclerophyllous",
+        "code": "c1305f04-f866-57ad-9e23-354ed25d8e93",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from shrub land",
+        "code": "64faa7b1-e114-497a-b584-f4659e7115e4",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from traffic area, rail/road embankment",
+        "code": "a24c2dbf-3943-5fac-9f03-6c8ba09333e6",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from traffic area, rail/road embankment",
+        "code": "1102e599-8b30-4c4e-bc98-6c34ac2c1748",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from traffic area, road network",
+        "code": "a35df9a2-5993-51f1-b5df-0329d898a596",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from traffic area, road network",
+        "code": "1058891f-9dbe-419c-ae48-9d03289eeb39",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from tropical rain forest",
+        "code": "6dcd4c09-47bd-592c-9eb7-19a8bd025b1b",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from forest, natural",
+        "code": "ac0aba5c-66ce-42c9-9f46-1e47ab7bc4b9",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from unknown",
+        "code": "10a4c75f-cb2e-5261-827a-03d191dfaab8",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from unspecified",
+        "code": "52a7fc6d-de3b-4348-9ef2-11b119da6c98",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from unspecified",
+        "code": "63cff744-1922-5a80-b7dd-4bc49dcc7f86",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from unspecified",
+        "code": "52a7fc6d-de3b-4348-9ef2-11b119da6c98",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from unspecified, natural (non-use)",
+        "code": "9e8731cb-3974-53c8-b366-8af0bc8ebc92",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from unspecified",
+        "code": "52a7fc6d-de3b-4348-9ef2-11b119da6c98",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from urban, continuously built",
+        "code": "ca27d961-1148-506f-a06c-9f71cb0ac0d9",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from urban, continuously built",
+        "code": "157addff-967a-49a8-b3ee-8393e0ffce5a",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, from urban, discontinuously built",
+        "code": "f9d4339f-629d-582d-bad3-b60acb3f8230",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "from urban, discontinuously built",
+        "code": "e13b293a-b22b-46aa-a689-b2e22d31f358",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to agriculture",
+        "code": "2c580cf3-87da-5f82-9c38-fe4563d93296",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to agriculture",
+        "code": "28e5f69f-7b2e-4e31-9725-d407b2964b3f",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to annual crop",
+        "code": "0067e578-1ad0-5ded-8adb-5b77fed3239c",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable",
+        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to annual crop, non-irrigated",
+        "code": "25f610dc-18cb-50d7-84d4-ef479f983b11",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable, non-irrigated",
+        "code": "aa9dc400-929f-48c8-86c6-628f34a0efa3",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to arable land, unspecified use",
+        "code": "f6c2fc49-6340-54c3-8c1d-f6ee14d8d508",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable",
+        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to arable, non-irrigated, diverse-intensive",
+        "code": "7348a9ae-552b-5ca0-85e0-5aa2032a9d09",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable, non-irrigated, intensive",
+        "code": "3b9ccd9f-1dd3-48ad-b444-b08fb5a63a89",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to arable, non-irrigated, fallow",
+        "code": "a0b55645-489f-5e9d-8e8f-c43955aae908",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable, fallow",
+        "code": "7b830424-436d-428c-b2ad-3e93f3115d7b",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to arable, organic",
+        "code": "ddfc2f3f-b439-546b-9989-efc89dd06ab9",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable",
+        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to dump site",
+        "code": "36da8cb7-16e8-5ba6-bbb7-502b142832b1",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to dump site",
+        "code": "9fcab08d-c0e9-490f-b594-ee023a78d5c7",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to dump site, benthos",
+        "code": "d36f47d0-55e5-5d0c-8f20-4208378b65fb",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to dump site",
+        "code": "9fcab08d-c0e9-490f-b594-ee023a78d5c7",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to dump site, inert material landfill",
+        "code": "f2ab90b2-f238-5117-93c3-faa3635038e8",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to dump site",
+        "code": "9fcab08d-c0e9-490f-b594-ee023a78d5c7",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to dump site, residual material landfill",
+        "code": "0a01a9ae-7d88-5af8-851a-1f9a921207f5",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to dump site",
+        "code": "9fcab08d-c0e9-490f-b594-ee023a78d5c7",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to dump site, sanitary landfill",
+        "code": "d8643b27-677a-5189-a93f-5ebd9646e867",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to dump site",
+        "code": "9fcab08d-c0e9-490f-b594-ee023a78d5c7",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to dump site, slag compartment",
+        "code": "b18c6677-c216-578b-acef-5b6d551dda19",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to dump site",
+        "code": "9fcab08d-c0e9-490f-b594-ee023a78d5c7",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to forest, extensive",
+        "code": "79e20e69-f441-51c0-83d2-c3ff0111cb41",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest, extensive",
+        "code": "a53128a5-3383-4487-baab-860c4492f6e3",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to forest, intensive",
+        "code": "86e49ff5-3274-5471-9c85-bccb83106e76",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest, intensive",
+        "code": "f20439b3-200f-48d7-b0a0-972a0628a31e",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to forest, intensive, clear-cutting",
+        "code": "8d1a7cdd-2b3b-555a-a38e-f6b2bb1776d4",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest, intensive",
+        "code": "f20439b3-200f-48d7-b0a0-972a0628a31e",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to forest, intensive, normal",
+        "code": "d917f634-a07a-50c7-833c-8c6c8d946470",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest, intensive",
+        "code": "f20439b3-200f-48d7-b0a0-972a0628a31e",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to forest, intensive, short-cycle",
+        "code": "c0f9bbb0-cf1d-59d7-b9c8-8a4006c5504a",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest, intensive",
+        "code": "f20439b3-200f-48d7-b0a0-972a0628a31e",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to forest, unspecified",
+        "code": "936cfb07-6826-5841-bafb-33b484b4b13f",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest",
+        "code": "37c63eed-fdfd-4601-9756-7094d4c9f381",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to heterogeneous, agricultural",
+        "code": "90949650-dffa-5945-a106-dbe0a549dd9e",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to arable",
+        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to industrial area",
+        "code": "1cef8cf3-b9c8-5c6f-ad58-44e72e11b291",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to industrial area",
+        "code": "2f8cc78f-7f63-4b5c-9010-70a847737d23",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to industrial area, benthos",
+        "code": "4d5f5cd2-b5a0-5ccc-9a63-0eac12b2b588",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to industrial area",
+        "code": "2f8cc78f-7f63-4b5c-9010-70a847737d23",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to industrial area, built up",
+        "code": "fed0bfcc-f9da-585f-8717-0d904153ccc9",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to industrial area",
+        "code": "2f8cc78f-7f63-4b5c-9010-70a847737d23",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to industrial area, vegetation",
+        "code": "55a8a722-b960-5f4c-aced-8db9a869025e",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to industrial area",
+        "code": "2f8cc78f-7f63-4b5c-9010-70a847737d23",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to mineral extraction site",
+        "code": "37a332e8-406e-5b58-859f-003fb84b09c1",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to mineral extraction site",
+        "code": "68f57e2a-2909-423c-ad8e-6a695f59a48f",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to pasture and meadow, organic",
+        "code": "b2f5379e-4732-56d4-a311-cc5d7d60f3ba",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to pasture/meadow, intensive",
+        "code": "6d2e9579-899e-4de6-a13d-e569c4aacd81",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to pasture, man made",
+        "code": "2f336a7d-b3bf-5611-a877-6fceef5f12aa",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to pasture/meadow",
+        "code": "848d055d-88c2-4926-9ddd-1671887c4e2f",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to pasture, man made, extensive",
+        "code": "a2ee1585-0011-5170-868b-258baf9b5a93",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to pasture/meadow, extensive",
+        "code": "8348ce0c-3dcf-4425-8336-04d6c5619e4d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to pasture, man made, intensive",
+        "code": "da0217d8-8f30-56f9-a98c-7345b4bb7793",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to pasture/meadow, intensive",
+        "code": "6d2e9579-899e-4de6-a13d-e569c4aacd81",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to permanent crop, fruit, intensive",
+        "code": "795f42bb-f704-52f2-8722-faf22bc870fc",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to permanent crops, non-irrigated, intensive",
+        "code": "8e2bf561-a95a-402d-83c1-d737dd73523d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to sealed soil",
+        "code": "ae4acbc9-0e2f-53ba-8bc0-a7538eb1daff",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to artificial areas",
+        "code": "0c72ce8f-abf1-4d29-8a13-01f9dc6b1c3b",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to shrub land, sclerophyllous",
+        "code": "37be2240-ab61-530f-8aaa-47ef09520c9b",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to shrub land",
+        "code": "1a00b335-af6e-47db-bc23-012f2c0642ab",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to traffic area, rail network",
+        "code": "468af726-232c-5aa5-b4ba-d9f2c4c387ac",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to traffic area, rail network",
+        "code": "68e9e9b5-bd61-4fd3-a422-c3cff4f67203",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to traffic area, rail/road embankment",
+        "code": "619c2f8c-143e-5fba-84cc-292a9d69e27c",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to traffic area, rail/road embankment",
+        "code": "0c08b290-70d4-4d06-bf99-af10a0df99d5",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to traffic area, road embankment",
+        "code": "5894f1cf-96ba-5fc0-9a7c-d545a248474b",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to traffic area, rail/road embankment",
+        "code": "0c08b290-70d4-4d06-bf99-af10a0df99d5",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to traffic area, road network",
+        "code": "8b1c8747-70d5-58c9-8d80-1f226302177f",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to traffic area, road network",
+        "code": "4a227586-270a-4b07-9f15-79da640bec83",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to tropical rain forest",
+        "code": "1468845e-8ebd-5b56-85c4-39cab96ece2c",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to forest, natural",
+        "code": "f775aae7-0b18-467e-bb29-97b5497eabd9",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to unknown",
+        "code": "64c40dee-b5e0-5f23-8365-08ed6f789e70",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to unspecified",
+        "code": "7db3936a-8686-46e7-a694-107a117c6360",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to urban, continuously built",
+        "code": "52565bcc-6836-5549-9226-c9991df2147a",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to urban, continuously built",
+        "code": "f2a476ca-2f66-4b4e-ae8e-2af9e263d722",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Transformation, to urban, discontinuously built",
+        "code": "9e535455-c3fe-58c7-87da-3f3c584be35a",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "name": "to urban, discontinuously built",
+        "code": "dc3f4893-9db3-4d19-b108-bcd3a44ed78d",
+        "unit": "m2",
+        "context": [
+          "Land use",
+          "Land transformation"
         ]
       }
     }
