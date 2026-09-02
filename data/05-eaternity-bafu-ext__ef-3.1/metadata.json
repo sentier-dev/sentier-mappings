@@ -1,0 +1,15 @@
+{
+  "source": "eaternity-bafu-ext",
+  "target": "ef-3.1",
+  "title": "Eaternity BAFU-extension elementary flows → EF 3.1 characterization flow keys",
+  "rank": 5,
+  "kinds": [
+    "biosphere"
+  ],
+  "target_proprietary": false,
+  "schema_version": "0.1.0",
+  "entry_counts": {
+    "biosphere": 19275
+  },
+  "description": "Provisional datasource: Eaternity's extension of their BAFU-2026-based instance (sub-compartments collapsed, extension substances beyond official BAFU-2026). Entries derived from the Eaternity contributions in PR #5 (fork commit 4cf9cf5: 1,210 soil pairs) and PR #6 (fork commit e12f8a9: 18,065 regionalized land-use pairs, flow x ISO), keeping Eaternity's native source codes. To be re-pinned against Eaternity's published, versioned flow list when it ships."
+}
