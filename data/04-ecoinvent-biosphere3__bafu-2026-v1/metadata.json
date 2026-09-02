@@ -1,0 +1,15 @@
+{
+ "source": "ecoinvent-biosphere3",
+ "target": "bafu-2026-v1",
+ "title": "ecoinvent biosphere3 elementary flows -> BAFU 2026 v1 equivalents",
+ "rank": 4,
+ "kinds": [
+  "biosphere"
+ ],
+ "target_proprietary": false,
+ "schema_version": "0.1.0",
+ "entry_counts": {
+  "biosphere": 1470
+ },
+ "description": "ecoinvent biosphere3 elementary flows -> BAFU-2026 equivalents (root-compartment level; BAFU-2026 has no sub-compartments). 1,371 rule-attributed pairs; 99 speciation-changing candidates shipped separately for review."
+}

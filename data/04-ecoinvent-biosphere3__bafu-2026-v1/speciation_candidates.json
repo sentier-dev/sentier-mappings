@@ -1,0 +1,1976 @@
+{
+ "name": "ecoinvent-biosphere3__bafu-2026-v1-speciation-candidates",
+ "version": "0.1.1",
+ "description": "Speciation-changing mapping candidates (NOT applied as replace): ionic-form or oxidation-state notation differs between source and target. Proposed resolution: extend the BAFU biosphere with speciated flows. Includes one resource-reclassification candidate (graphite ore).",
+ "candidates": [
+  {
+   "source": {
+    "name": "Nickel",
+    "code": "0545c382-2312-43b6-9ec3-63dbb1438565",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Nickel II",
+    "code": "3d6bdac05bc1b1c1f21721d800c3a5f7",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Potassium, ion",
+    "code": "130bbacf-e7c7-4ffd-b109-4d576f1d02c1",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Potassium",
+    "code": "24070512c6bb7b7d44317450fb62f2be",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Ammonium, ion",
+    "code": "130cedc6-f6ed-4f1b-bd1e-881177f79e74",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Ammonium",
+    "code": "8ac41a5426f6f5842870e66f8a82c2f7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Ammonium, ion",
+    "code": "13331e67-6006-48c4-bdb4-340c12010036",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Ammonium",
+    "code": "8ac41a5426f6f5842870e66f8a82c2f7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Potassium, ion",
+    "code": "1653bf60-f682-4088-b02d-6dc44eae2786",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Potassium",
+    "code": "24070512c6bb7b7d44317450fb62f2be",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium, ion",
+    "code": "1c87de06-e58f-4684-a54c-d29f1a251a87",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "f7008fb1059c25c5e901fc58b32e32af",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Calcium, ion",
+    "code": "1d0f4392-8c91-4d01-8a5d-f8fe1f5b05c9",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Calcium II",
+    "code": "a6dcb6da478e946cb7b4469da409884c",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Arsenic, ion",
+    "code": "1f607ae2-b42d-4411-90b8-e9bbac66a554",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Arsenic",
+    "code": "a8dd9b15164e5ee162756b3a9312fd2f",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Sodium, ion",
+    "code": "1fc409bc-b8e7-48b2-92d5-2ced4aa7bae2",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Sodium",
+    "code": "9308302b0976e0ef0a6ca713b8b43e50",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc, ion",
+    "code": "2195d86f-e4c8-4e86-9f18-b5b065b1df7e",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Zinc",
+    "code": "3e75a8586313e1fcbd2d38b44a95be0a",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Silver, ion",
+    "code": "21c257b2-57ce-4a6e-b4bd-40f0f75f310f",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Silver",
+    "code": "7e9ae5c075c098c784670a3f84ccd1c8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel, ion",
+    "code": "23cb10a4-6228-4ce4-9fb5-7043bc31faec",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Nickel",
+    "code": "7b63265d462e34c0e922ae0afb7f823d",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium",
+    "code": "23eaa36d-add4-4219-961e-ca7104dc0de9",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "low population density, long-term"
+    ]
+   },
+   "target": {
+    "name": "Cadmium II",
+    "code": "d6b7a21fe9630e8d96c4db41bba3e325",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium, ion",
+    "code": "2712fe5f-0d3c-4c8e-8bc4-26c604413849",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Cadmium",
+    "code": "cef55ce0ac859832826865ca3ef7d0a7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Lead",
+    "code": "2718482b-8399-442e-b89a-52fbcc22d2e6",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Lead II",
+    "code": "d06a75fb029dad111f1d59548dcee120",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Potassium, ion",
+    "code": "297cc04f-e215-433c-ae3b-d1e34464c785",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Potassium",
+    "code": "24070512c6bb7b7d44317450fb62f2be",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Titanium, ion",
+    "code": "2a46e7f4-c66c-43e5-8a8a-d119c4098aff",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Titanium",
+    "code": "27f67bac4bd8bed140d6fae77e1edb17",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium",
+    "code": "2a5ed451-12a2-47db-b4dc-fa0bfbc01d79",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "5dce3d56f92956653586e001b727bbd0",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Titanium, ion",
+    "code": "2beb46d1-2d1d-48ca-bf95-f0668fed29bf",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Titanium",
+    "code": "27f67bac4bd8bed140d6fae77e1edb17",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc, ion",
+    "code": "2c7be02c-791f-4fef-b231-b90321bbeb30",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Zinc",
+    "code": "3e75a8586313e1fcbd2d38b44a95be0a",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Iron, ion",
+    "code": "2c9a7182-37c8-4777-a37a-9a007c3edb2f",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Iron",
+    "code": "dbaf48dfbae611f365808869c90b82d0",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Iron, ion",
+    "code": "33fd8342-58e7-45c9-ad92-0951c002c403",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Iron",
+    "code": "dbaf48dfbae611f365808869c90b82d0",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper",
+    "code": "3573a5af-88f8-4f74-ade7-cd269cbc4e66",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "460a941b42fa0f35626fa246460bb90a",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium",
+    "code": "36e53653-1338-42c7-816c-f6667809e0b1",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Cadmium II",
+    "code": "d6b7a21fe9630e8d96c4db41bba3e325",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium, ion",
+    "code": "3937f5a5-b4a4-434d-9fc3-1d29064fc3f8",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Cadmium",
+    "code": "cef55ce0ac859832826865ca3ef7d0a7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Tin, ion",
+    "code": "3ddb2e36-bc1b-43a5-8ef4-cbcdbeeeea70",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Tin",
+    "code": "608e42ad45c60b94c9e47517523a2669",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper, ion",
+    "code": "40229ebf-9346-4f20-910a-f8ea3bd88d44",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "586fbfef49c6c6cc68f50e92dcc1a63e",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Vanadium, ion",
+    "code": "41dbbe1f-06e1-4a34-8497-5986be8f9e51",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Vanadium V",
+    "code": "bcc815e55d61a74420583505ed7ecbc8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Mercury",
+    "code": "48aa661d-be05-4c24-94fe-8d6feb3dcb31",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Mercury II",
+    "code": "535b54e758eea746bc862ed1a758a4cb",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium, ion",
+    "code": "4ce23896-a82f-49f1-a8e3-8848734805a3",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Cadmium",
+    "code": "cef55ce0ac859832826865ca3ef7d0a7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium",
+    "code": "4d40d8e3-9bc7-4ab1-ac5c-4f4a76fda8e5",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "5dce3d56f92956653586e001b727bbd0",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc, ion",
+    "code": "541b633c-17a3-4047-bce6-0c0e4fdb7c10",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Zinc",
+    "code": "3e75a8586313e1fcbd2d38b44a95be0a",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Calcium, ion",
+    "code": "55bf893f-0d89-429c-be59-2f99b33ddb11",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Calcium II",
+    "code": "a6dcb6da478e946cb7b4469da409884c",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Sodium, ion",
+    "code": "5ac961f0-8e53-42ff-b13f-1a7fb9133868",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Sodium",
+    "code": "9308302b0976e0ef0a6ca713b8b43e50",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Mercury",
+    "code": "5ec9c16a-959d-44cd-be7d-a935727d2151",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Mercury II",
+    "code": "535b54e758eea746bc862ed1a758a4cb",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Tin, ion",
+    "code": "60a6702f-20ad-444f-a6df-f6374f1e3183",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Tin",
+    "code": "608e42ad45c60b94c9e47517523a2669",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium, ion",
+    "code": "62fcd384-906d-474f-a84b-9f944b78f804",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Cadmium",
+    "code": "cef55ce0ac859832826865ca3ef7d0a7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Lead",
+    "code": "6a903634-c97f-4c49-a7c0-88f0e6ac7a23",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Lead II",
+    "code": "d06a75fb029dad111f1d59548dcee120",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Silver, ion",
+    "code": "6aa8673f-f7e3-4270-93dc-e97b745fced7",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Silver",
+    "code": "7e9ae5c075c098c784670a3f84ccd1c8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper, ion",
+    "code": "6d9550e2-e670-44c1-bad8-c0c4975ffca7",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "586fbfef49c6c6cc68f50e92dcc1a63e",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel, ion",
+    "code": "6ec6cdaa-5a01-46d4-b716-1905e56690ea",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Nickel",
+    "code": "7b63265d462e34c0e922ae0afb7f823d",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Silver, ion",
+    "code": "71cfe87c-ab80-421e-adba-afb7d5bd0861",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Silver",
+    "code": "7e9ae5c075c098c784670a3f84ccd1c8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Ammonium, ion",
+    "code": "736f52e8-9703-4076-8909-7ae80a7f8005",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Ammonium",
+    "code": "8ac41a5426f6f5842870e66f8a82c2f7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc",
+    "code": "748f22a9-eba4-4726-bef5-92c7442ce189",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Zinc II",
+    "code": "0a28419a02a3cc3ccba22ae65a172fde",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium",
+    "code": "7705f0e1-5b14-44f4-b330-1245b5c7fc08",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "5dce3d56f92956653586e001b727bbd0",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Iron, ion",
+    "code": "7c335b9c-a403-47a8-bb6d-2e7d3c3a230e",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Iron",
+    "code": "dbaf48dfbae611f365808869c90b82d0",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc, ion",
+    "code": "7e769b3e-03fb-4b53-be15-85a910dcfea9",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Zinc",
+    "code": "3e75a8586313e1fcbd2d38b44a95be0a",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc",
+    "code": "87a69874-34f9-4070-a525-aa301ab2634b",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Zinc II",
+    "code": "0a28419a02a3cc3ccba22ae65a172fde",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper",
+    "code": "88cde01c-df69-40bb-9b14-6eac71bea5b8",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "460a941b42fa0f35626fa246460bb90a",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Arsenic, ion",
+    "code": "8c8ffaa5-84ed-4668-ba7d-80fd0f47013f",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Arsenic",
+    "code": "a8dd9b15164e5ee162756b3a9312fd2f",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc",
+    "code": "8f871bab-96dc-49d9-bf08-12cdd0715901",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "low population density, long-term"
+    ]
+   },
+   "target": {
+    "name": "Zinc II",
+    "code": "0a28419a02a3cc3ccba22ae65a172fde",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Sodium, ion",
+    "code": "9310f497-3205-4717-aaa8-1a94c321f7d8",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Sodium",
+    "code": "9308302b0976e0ef0a6ca713b8b43e50",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Silver, ion",
+    "code": "94426df9-63b1-4dc6-ad1b-3509e22f1154",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Silver",
+    "code": "7e9ae5c075c098c784670a3f84ccd1c8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel, ion",
+    "code": "9798359e-a3ee-4362-a038-23a188582c6e",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Nickel",
+    "code": "7b63265d462e34c0e922ae0afb7f823d",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Iron, ion",
+    "code": "9b6d6f07-ebc6-447d-a3c0-f2017d77d852",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Iron",
+    "code": "dbaf48dfbae611f365808869c90b82d0",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Lead",
+    "code": "9ee7f4ab-b826-47ae-8623-e138f944b42e",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "low population density, long-term"
+    ]
+   },
+   "target": {
+    "name": "Lead II",
+    "code": "d06a75fb029dad111f1d59548dcee120",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel, ion",
+    "code": "9f69cb8e-51fe-447b-a1ac-4da74de8ebe4",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Nickel",
+    "code": "7b63265d462e34c0e922ae0afb7f823d",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Vanadium, ion",
+    "code": "a46a250e-297d-43e9-b1c4-052cdcfb79c5",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Vanadium V",
+    "code": "bcc815e55d61a74420583505ed7ecbc8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Titanium, ion",
+    "code": "a4c31e2a-915e-4ab2-accd-d3ae93d2e01e",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Titanium",
+    "code": "27f67bac4bd8bed140d6fae77e1edb17",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Mercury",
+    "code": "a850e6de-a007-432f-be7f-ce6e2cf1f2ae",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Mercury II",
+    "code": "535b54e758eea746bc862ed1a758a4cb",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Calcium, ion",
+    "code": "ac066c02-b403-407b-a1f0-b29ad0f8188f",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Calcium II",
+    "code": "a6dcb6da478e946cb7b4469da409884c",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc",
+    "code": "ada3ecfe-8244-4389-bcce-e83ca4f66e09",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Zinc II",
+    "code": "0a28419a02a3cc3ccba22ae65a172fde",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Calcium, ion",
+    "code": "ae28c923-a4a3-4f00-b862-1ae6e748efb9",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Calcium II",
+    "code": "a6dcb6da478e946cb7b4469da409884c",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium, ion",
+    "code": "af83b42f-a4e6-4457-be74-46a87798f82a",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Cadmium",
+    "code": "cef55ce0ac859832826865ca3ef7d0a7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Silver, ion",
+    "code": "af9793ba-25a1-4928-a14a-4bcf7d5bd3f7",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Silver",
+    "code": "7e9ae5c075c098c784670a3f84ccd1c8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Potassium, ion",
+    "code": "b93fc4df-91b2-4ac4-a315-89147515ddfb",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Potassium",
+    "code": "24070512c6bb7b7d44317450fb62f2be",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Ammonium, ion",
+    "code": "bc069d24-fbbd-4c05-8b6e-4089dc8249ae",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Ammonium",
+    "code": "8ac41a5426f6f5842870e66f8a82c2f7",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Zinc, ion",
+    "code": "bdce3a7c-e008-4391-be26-285f71a02453",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Zinc",
+    "code": "3e75a8586313e1fcbd2d38b44a95be0a",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper, ion",
+    "code": "c3b659e5-35f1-408c-8cb5-b5f9b295c76e",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "586fbfef49c6c6cc68f50e92dcc1a63e",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel",
+    "code": "c89873de-cd23-4323-a948-f5cfeebd2fc9",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "low population density, long-term"
+    ]
+   },
+   "target": {
+    "name": "Nickel II",
+    "code": "3d6bdac05bc1b1c1f21721d800c3a5f7",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Tin, ion",
+    "code": "d5c40848-fc29-47fa-90a4-46db64a45a4e",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Tin",
+    "code": "608e42ad45c60b94c9e47517523a2669",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Arsenic, ion",
+    "code": "d70b4182-d633-4178-84c0-8854f5f6594b",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Arsenic",
+    "code": "a8dd9b15164e5ee162756b3a9312fd2f",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper, ion",
+    "code": "d8f9ccf6-fd32-4348-83c0-1cee724af9ae",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "586fbfef49c6c6cc68f50e92dcc1a63e",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium, ion",
+    "code": "d98f0ec0-bf19-4c90-a457-a8593dec497f",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "f7008fb1059c25c5e901fc58b32e32af",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Vanadium, ion",
+    "code": "dbdc3ea8-cc2b-4dbe-82b9-e954e333281d",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ocean"
+    ]
+   },
+   "target": {
+    "name": "Vanadium V",
+    "code": "bcc815e55d61a74420583505ed7ecbc8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Mercury",
+    "code": "dc90db73-6f27-403d-baf1-cb7e0b6cae31",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "low population density, long-term"
+    ]
+   },
+   "target": {
+    "name": "Mercury II",
+    "code": "535b54e758eea746bc862ed1a758a4cb",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium",
+    "code": "dd1bbaa1-d1f1-4584-aeb2-6f02bfb04e87",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Cadmium II",
+    "code": "d6b7a21fe9630e8d96c4db41bba3e325",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Iron, ion",
+    "code": "de444dc0-5964-4501-8367-50ba53bfc6b9",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Iron",
+    "code": "dbaf48dfbae611f365808869c90b82d0",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Arsenic, ion",
+    "code": "e1bd008f-c3c2-47f1-ab60-35e1a842acc0",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Arsenic",
+    "code": "a8dd9b15164e5ee162756b3a9312fd2f",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Titanium, ion",
+    "code": "e2380d91-f278-41ee-9926-15272a7d1443",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Titanium",
+    "code": "27f67bac4bd8bed140d6fae77e1edb17",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Cadmium",
+    "code": "e2d58f90-9aac-4ac4-87f7-bbd6cfc358e3",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Cadmium II",
+    "code": "d6b7a21fe9630e8d96c4db41bba3e325",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper",
+    "code": "e336eee7-148a-4d1c-8027-780cbfafa12b",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "460a941b42fa0f35626fa246460bb90a",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium, ion",
+    "code": "e34d3da4-a3d5-41be-84b5-458afe32c990",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "f7008fb1059c25c5e901fc58b32e32af",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel",
+    "code": "e43a270f-4f88-4789-a0b8-7aba56677743",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "urban air close to ground"
+    ]
+   },
+   "target": {
+    "name": "Nickel II",
+    "code": "3d6bdac05bc1b1c1f21721d800c3a5f7",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Arsenic, ion",
+    "code": "e60edb16-3c74-415b-9aff-a22a6f49fecb",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Arsenic",
+    "code": "a8dd9b15164e5ee162756b3a9312fd2f",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium",
+    "code": "e65a9c58-21f1-48b6-b738-d05a8f10e5f3",
+    "unit": "kilogram",
+    "context": [
+     "soil",
+     "industrial"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "f1eb6814c9cb641bdfd534f5bb7e66a1",
+    "unit": "kg",
+    "context": [
+     "soil"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Chromium",
+    "code": "e7881581-21b3-4f5c-bd63-6b0684b5e712",
+    "unit": "kilogram",
+    "context": [
+     "soil",
+     "agricultural"
+    ]
+   },
+   "target": {
+    "name": "Chromium III",
+    "code": "f1eb6814c9cb641bdfd534f5bb7e66a1",
+    "unit": "kg",
+    "context": [
+     "soil"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Nickel",
+    "code": "e8fc62ba-678e-4706-97d2-b79d83e227d5",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "non-urban air or from high stacks"
+    ]
+   },
+   "target": {
+    "name": "Nickel II",
+    "code": "3d6bdac05bc1b1c1f21721d800c3a5f7",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Lithium, ion",
+    "code": "e98084d6-88a2-48cf-9ad5-6462fe9cf857",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Lithium",
+    "code": "8ab0213c4d467f3af22ab4a15c5d65e4",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Acrylate, ion",
+    "code": "eabb67d6-08cc-4c6e-ad95-6509e778730a",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Acrylate",
+    "code": "bce8ce480e51492c7c7e8142834a3a1d",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Lithium, ion",
+    "code": "eb2bfdf1-1881-40e8-bebb-d674b2a79149",
+    "unit": "kilogram",
+    "context": [
+     "water"
+    ]
+   },
+   "target": {
+    "name": "Lithium",
+    "code": "8ab0213c4d467f3af22ab4a15c5d65e4",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Vanadium, ion",
+    "code": "ed1fd27e-014a-41cf-842f-7b2022b0be79",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Vanadium V",
+    "code": "bcc815e55d61a74420583505ed7ecbc8",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Sodium, ion",
+    "code": "ee9fdd7c-5e29-4bdb-852a-3258f06ec2ab",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Sodium",
+    "code": "9308302b0976e0ef0a6ca713b8b43e50",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Tin, ion",
+    "code": "f73177d8-5e57-4f0d-ba34-6889cfdfed40",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-"
+    ]
+   },
+   "target": {
+    "name": "Tin",
+    "code": "608e42ad45c60b94c9e47517523a2669",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Sodium, ion",
+    "code": "fb83d61e-6fe3-4da7-8eb2-b0e2dc85a76d",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "ground-, long-term"
+    ]
+   },
+   "target": {
+    "name": "Sodium",
+    "code": "9308302b0976e0ef0a6ca713b8b43e50",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Copper",
+    "code": "fd153f15-1d16-410a-91fa-04d205e36c43",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "low population density, long-term"
+    ]
+   },
+   "target": {
+    "name": "Copper ion",
+    "code": "460a941b42fa0f35626fa246460bb90a",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Lead",
+    "code": "fe4613d7-1ed8-427d-9b06-c8e8f4f5e1b1",
+    "unit": "kilogram",
+    "context": [
+     "air",
+     "lower stratosphere + upper troposphere"
+    ]
+   },
+   "target": {
+    "name": "Lead II",
+    "code": "d06a75fb029dad111f1d59548dcee120",
+    "unit": "kg",
+    "context": [
+     "air"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Titanium, ion",
+    "code": "ff36578b-f403-4656-b934-81d8d4e02dc8",
+    "unit": "kilogram",
+    "context": [
+     "water",
+     "surface water"
+    ]
+   },
+   "target": {
+    "name": "Titanium",
+    "code": "27f67bac4bd8bed140d6fae77e1edb17",
+    "unit": "kg",
+    "context": [
+     "water"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE (not in replace): pair changes chemical speciation notation (ionic form / oxidation state), e.g. assigning unspecified metal to one oxidation state. Identity-preserving resolution: extend the BAFU biosphere with the speciated flow instead of collapsing."
+  },
+  {
+   "source": {
+    "name": "Metamorphous rock, graphite containing, in ground",
+    "code": "5666353e-2db2-41d3-8414-404709151422",
+    "unit": "kilogram",
+    "context": [
+     "natural resource",
+     "in ground"
+    ]
+   },
+   "target": {
+    "name": "Graphite",
+    "code": "01438934aa904ab43cc3ad9af7d61967",
+    "unit": "kg",
+    "context": [
+     "natural resource"
+    ]
+   },
+   "comment": "Eaternity REVIEW CANDIDATE: resource reclassification (ore-with-content -> pure substance), not a name equivalence. Needs a stoichiometric/content conversion factor, not replace."
+  }
+ ]
+}
