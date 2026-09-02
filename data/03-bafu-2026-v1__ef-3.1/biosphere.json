@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "replace": [
     {
       "source": {
@@ -23255,6 +23255,468 @@
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "1203328f-6de2-55b0-8470-e48418ce35ff",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "aluminium",
+        "code": "fe0acd60-3ddc-11dd-a72d-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "d682235d-0c0a-5c88-b18b-5286b9fbd25c",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "antimony",
+        "code": "08a91e70-3ddc-11dd-9688-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Arsenic",
+        "code": "fa036ccb-a015-5baf-8e62-33146af9d8d4",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "arsenic",
+        "code": "08a91e70-3ddc-11dd-91d6-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "3493f084-a6bd-5a0b-92b9-405f78b3d1f9",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "barium",
+        "code": "fe0acd60-3ddc-11dd-a7ff-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cadmium",
+        "code": "2dd0efbe-209a-5deb-9045-74e853df1a6d",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "cadmium",
+        "code": "08a91e70-3ddc-11dd-9673-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Chloride",
+        "code": "bc677fc1-ee77-5771-9aa8-28461cb64cba",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "chloride",
+        "code": "3e4c8d3f-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Chromium",
+        "code": "6205b69b-02f3-528d-8e13-5f8d762368de",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "chromium",
+        "code": "08a91e70-3ddc-11dd-9acb-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "a6b1efe5-f8fe-5799-a9ae-16438820e968",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "cobalt",
+        "code": "08a91e70-3ddc-11dd-9282-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Copper",
+        "code": "be67d1c6-24e1-53b4-8c7b-3b91c851618c",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "copper",
+        "code": "fe0acd60-3ddc-11dd-a79f-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iron",
+        "code": "59a6dc09-2c9e-577d-b9ca-a98c264b2523",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "iron",
+        "code": "08a91e70-3ddc-11dd-9590-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "7dee27fd-5066-5508-b6af-bfb3c44cfac0",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "lead",
+        "code": "fe0acd60-3ddc-11dd-a97e-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lithium",
+        "code": "5eccce2e-f95d-560b-b5c3-4b266e605c28",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "lithium",
+        "code": "fe0acd60-3ddc-11dd-a859-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "30579a0e-06c5-5928-9881-25010a130166",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "manganese",
+        "code": "08a91e70-3ddc-11dd-9bc6-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "9244a071-c1b2-5a18-ab21-03531e13350e",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "mercury",
+        "code": "08a91e70-3ddc-11dd-95f9-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "6b11fbba-03b9-516d-93a0-e956af718234",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "molybdenum",
+        "code": "fe0acd60-3ddc-11dd-a75c-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Nickel",
+        "code": "3adba391-f9d8-5372-94e5-25864d4c8f56",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "nickel",
+        "code": "08a91e70-3ddc-11dd-96c7-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "5c75724b-0e30-5596-a3e4-67dfbf259721",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "selenium",
+        "code": "fe0acd60-3ddc-11dd-abf2-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Silver",
+        "code": "565056b0-e627-552e-bd08-80a728eaebd8",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "silver",
+        "code": "fe0acd60-3ddc-11dd-abf5-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "50e070c0-f67d-5c57-894e-4a14cf4bb4c7",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "tin",
+        "code": "08a91e70-3ddc-11dd-99ba-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Titanium",
+        "code": "e00096ad-0055-534d-93e2-93882420f4d2",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "titanium",
+        "code": "08a91e70-3ddc-11dd-9995-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Vanadium",
+        "code": "3eef1dd8-b29d-54b5-b551-361c61acd6f1",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "vanadium",
+        "code": "4d9a8790-3ddd-11dd-8db9-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Zinc",
+        "code": "c51519c5-a690-54ef-8926-4b41cbc8181b",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "zinc",
+        "code": "4d9a8790-3ddd-11dd-96aa-0050c2490048",
+        "unit": "kg",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
         ]
       }
     }
