@@ -1,0 +1,76 @@
+{
+ "name": "bafu-2026-v1__ef-3.1-biosphere-subcompartment-review",
+ "version": "0.1.1",
+ "note": "Entries whose source names a sub-compartment that EF 3.1 cannot resolve — reported, not guessed.",
+ "review": [
+  {
+   "source": {
+    "name": "Particulates, > 2.5 um, and < 10um",
+    "code": "a046bffc-00ab-5c08-abcb-c44816fd43cb",
+    "unit": "kg",
+    "context": [
+     "emissions to air",
+     "low. pop., long-term"
+    ]
+   },
+   "current_target": {
+    "name": "particles (PM10)",
+    "code": "08a91e70-3ddc-11dd-91be-0050c2490048",
+    "unit": "kilogram",
+    "context": [
+     "Emissions",
+     "Emissions to air",
+     "Emissions to air, unspecified"
+    ]
+   },
+   "reason": "no_subcompartment_rule",
+   "comment": "Eaternity: BAFU sub-compartment 'low. pop., long-term' has no declared EF resolved context — reported rather than guessed"
+  },
+  {
+   "source": {
+    "name": "Nitrate",
+    "code": "c93672c8-3dd9-551e-9ddd-7add970de53b",
+    "unit": "kg",
+    "context": [
+     "emissions to air",
+     "low. pop., long-term"
+    ]
+   },
+   "current_target": {
+    "name": "nitrate",
+    "code": "08a91e70-3ddc-11dd-96d7-0050c2490048",
+    "unit": "kilogram",
+    "context": [
+     "Emissions",
+     "Emissions to air",
+     "Emissions to air, unspecified"
+    ]
+   },
+   "reason": "no_subcompartment_rule",
+   "comment": "Eaternity: BAFU sub-compartment 'low. pop., long-term' has no declared EF resolved context — reported rather than guessed"
+  },
+  {
+   "source": {
+    "name": "Particulates, < 2.5 um",
+    "code": "e868311d-1b38-5a19-9895-28d1704ca4f5",
+    "unit": "kg",
+    "context": [
+     "emissions to air",
+     "low. pop., long-term"
+    ]
+   },
+   "current_target": {
+    "name": "particles (PM2.5)",
+    "code": "08a91e70-3ddc-11dd-9293-0050c2490048",
+    "unit": "kilogram",
+    "context": [
+     "Emissions",
+     "Emissions to air",
+     "Emissions to air, unspecified"
+    ]
+   },
+   "reason": "no_subcompartment_rule",
+   "comment": "Eaternity: BAFU sub-compartment 'low. pop., long-term' has no declared EF resolved context — reported rather than guessed"
+  }
+ ]
+}

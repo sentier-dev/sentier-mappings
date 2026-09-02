@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "replace": [
     {
       "source": {
@@ -35,12 +35,12 @@
       },
       "target": {
         "name": "particles (PM2.5)",
-        "code": "08a91e70-3ddc-11dd-9293-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-9295-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -56,12 +56,12 @@
       },
       "target": {
         "name": "particles (PM10)",
-        "code": "08a91e70-3ddc-11dd-91be-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-91c0-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -98,12 +98,12 @@
       },
       "target": {
         "name": "carbon dioxide (fossil)",
-        "code": "08a91e70-3ddc-11dd-923d-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-9c12-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -140,14 +140,15 @@
       },
       "target": {
         "name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
-        "code": "fe0acd60-3ddc-11dd-ab67-0050c2490048",
-        "unit": "kilogram",
+        "code": "77d2a10a-f49d-4204-bbb1-79ef1901e2ee",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to air, indoor"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -267,12 +268,12 @@
       },
       "target": {
         "name": "Nitrogen oxides",
-        "code": "2f89fbbd-e428-4de1-8c33-9dd66e53310c",
-        "unit": "kilogram",
+        "code": "e575ebc3-0a3b-4c38-9a2a-13e42c72553b",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -415,12 +416,12 @@
       },
       "target": {
         "name": "sulfur dioxide",
-        "code": "fe0acd60-3ddc-11dd-ac48-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-ac4a-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -858,14 +859,15 @@
       },
       "target": {
         "name": "Nitrogen oxides",
-        "code": "2f89fbbd-e428-4de1-8c33-9dd66e53310c",
-        "unit": "kilogram",
+        "code": "191b44d4-90c9-465a-8802-93a651b4fd52",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -879,14 +881,15 @@
       },
       "target": {
         "name": "particles (PM2.5)",
-        "code": "08a91e70-3ddc-11dd-9293-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-9296-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -1447,12 +1450,12 @@
       },
       "target": {
         "name": "carbon dioxide (fossil)",
-        "code": "08a91e70-3ddc-11dd-923d-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-9c13-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -6254,14 +6257,15 @@
       },
       "target": {
         "name": "2-hydroxybenzonitrile",
-        "code": "f25f4b3b-a955-4eb9-be2a-4cd9a1437188",
-        "unit": "kilogram",
+        "code": "dddc7e8a-3c37-4419-ab2f-0b1b9e45b6ce",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -6360,12 +6364,12 @@
       },
       "target": {
         "name": "uranium-238",
-        "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-8db3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -6402,14 +6406,15 @@
       },
       "target": {
         "name": "particles (PM10)",
-        "code": "08a91e70-3ddc-11dd-91be-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-91c1-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -6444,12 +6449,12 @@
       },
       "target": {
         "name": "thorium-230",
-        "code": "08a91e70-3ddc-11dd-9976-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9979-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -6486,14 +6491,15 @@
       },
       "target": {
         "name": "sulfur dioxide",
-        "code": "fe0acd60-3ddc-11dd-ac48-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-ac4b-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -6696,12 +6702,12 @@
       },
       "target": {
         "name": "CFC-114",
-        "code": "08a91e70-3ddc-11dd-98b3-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-ab9b-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -6886,12 +6892,12 @@
       },
       "target": {
         "name": "strontium",
-        "code": "4d9a8790-3ddd-11dd-9265-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-ac0e-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
       }
     },
@@ -8063,12 +8069,12 @@
       },
       "target": {
         "name": "chlorate",
-        "code": "08a91e70-3ddc-11dd-9263-0050c2490048",
-        "unit": "kilogram",
+        "code": "4d9a8790-3ddd-11dd-9b3f-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
       }
     },
@@ -8446,14 +8452,15 @@
       },
       "target": {
         "name": "decane",
-        "code": "08a91e70-3ddc-11dd-9807-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-980b-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -9225,12 +9232,12 @@
       },
       "target": {
         "name": "iodine-131",
-        "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-a7f0-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
       }
     },
@@ -9246,12 +9253,12 @@
       },
       "target": {
         "name": "iodine-131",
-        "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9586-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to sea water"
         ]
       }
     },
@@ -9393,14 +9400,15 @@
       },
       "target": {
         "name": "mancozeb",
-        "code": "08a91e70-3ddc-11dd-95ef-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-95ed-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -10614,12 +10622,12 @@
       },
       "target": {
         "name": "uranium-238",
-        "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-af96-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -12093,12 +12101,12 @@
       },
       "target": {
         "name": "nitrate",
-        "code": "08a91e70-3ddc-11dd-96d7-0050c2490048",
-        "unit": "kilogram",
+        "code": "4d9a8790-3ddd-11dd-8d67-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -12135,12 +12143,12 @@
       },
       "target": {
         "name": "uranium-238",
-        "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-af96-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       },
       "conversion_factor": 0.001
@@ -12346,12 +12354,12 @@
       },
       "target": {
         "name": "cobalt-60",
-        "code": "08a91e70-3ddc-11dd-969e-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-96a1-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -12474,15 +12482,14 @@
       },
       "target": {
         "name": "γ-butyrolactone",
-        "code": "02a5d443-47d2-4452-aff3-f546e14753e8",
-        "unit": "kilogram",
+        "code": "a59c2637-c8f6-421e-9e18-caaafce31960",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
-      },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      }
     },
     {
       "source": {
@@ -12560,12 +12567,12 @@
       },
       "target": {
         "name": "uranium-235",
-        "code": "08a91e70-3ddc-11dd-9c3c-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9c3f-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -13516,12 +13523,12 @@
       },
       "target": {
         "name": "xenon-133",
-        "code": "08a91e70-3ddc-11dd-94dd-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-94e0-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -13880,12 +13887,12 @@
       },
       "target": {
         "name": "hydrogen-3",
-        "code": "08a91e70-3ddc-11dd-94b2-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-94b5-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -13923,12 +13930,12 @@
       },
       "target": {
         "name": "strontium",
-        "code": "4d9a8790-3ddd-11dd-9265-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-ac0e-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
       }
     },
@@ -14030,12 +14037,12 @@
       },
       "target": {
         "name": "isopropylamine",
-        "code": "21698b8c-b563-433b-8cbf-f07e3dfa7d5e",
-        "unit": "kilogram",
+        "code": "478f031d-d257-4036-ad59-9b5eaefc244a",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
       }
     },
@@ -14156,12 +14163,12 @@
       },
       "target": {
         "name": "HCFC-21",
-        "code": "08a91e70-3ddc-11dd-965c-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-a919-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -14408,12 +14415,12 @@
       },
       "target": {
         "name": "carbon dioxide (fossil)",
-        "code": "08a91e70-3ddc-11dd-923d-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-9c14-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
       }
     },
@@ -14980,12 +14987,12 @@
       },
       "target": {
         "name": "cobalt-58",
-        "code": "08a91e70-3ddc-11dd-9697-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9699-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -15023,12 +15030,12 @@
       },
       "target": {
         "name": "uranium-238",
-        "code": "08a91e70-3ddc-11dd-9c44-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-8db3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -15342,13 +15349,13 @@
         ]
       },
       "target": {
-        "name": "(r)-2-(4-chloro-2-methylphenoxy)propionic acid",
-        "code": "456652f8-0fa4-43c5-898c-afd832e61a1e",
-        "unit": "kilogram",
+        "name": "(R)-2-(4-chloro-2-methylphenoxy)propionic acid",
+        "code": "5fb3229a-3f82-4bb9-b2cd-fccf9d7be7e5",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to agricultural soil"
         ]
       }
     },
@@ -15791,12 +15798,12 @@
       },
       "target": {
         "name": "carbon-14",
-        "code": "08a91e70-3ddc-11dd-9257-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-925a-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -16240,12 +16247,12 @@
       },
       "target": {
         "name": "iodine-131",
-        "code": "08a91e70-3ddc-11dd-9585-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-a7f0-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
       },
       "conversion_factor": 0.001
@@ -16368,12 +16375,12 @@
       },
       "target": {
         "name": "mesotrione (iso); 2-[4-(methylsulfonyl)-2-nitrobenzoyl]-1,3-cyclohexanedione",
-        "code": "65a42736-10dd-44b5-bea4-69d6fdb4af41",
-        "unit": "kilogram",
+        "code": "aa74fbea-4268-423c-ab40-41b2d38aa56c",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to agricultural soil"
         ]
       }
     },
@@ -16641,12 +16648,12 @@
       },
       "target": {
         "name": "nitrate",
-        "code": "08a91e70-3ddc-11dd-96d7-0050c2490048",
-        "unit": "kilogram",
+        "code": "4d9a8790-3ddd-11dd-8d66-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -17596,12 +17603,12 @@
       },
       "target": {
         "name": "thorium-230",
-        "code": "08a91e70-3ddc-11dd-9976-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9979-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -18533,12 +18540,12 @@
       },
       "target": {
         "name": "krypton-85",
-        "code": "08a91e70-3ddc-11dd-95ca-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-95cd-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -19105,12 +19112,12 @@
       },
       "target": {
         "name": "iodine-133",
-        "code": "08a91e70-3ddc-11dd-9587-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-958a-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
       "conversion_factor": 0.001
@@ -19295,12 +19302,12 @@
       },
       "target": {
         "name": "krypton-85",
-        "code": "08a91e70-3ddc-11dd-95ca-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-95cd-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19337,12 +19344,12 @@
       },
       "target": {
         "name": "hydrogen-3",
-        "code": "08a91e70-3ddc-11dd-94b2-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-94b5-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19442,12 +19449,12 @@
       },
       "target": {
         "name": "carbon-14",
-        "code": "08a91e70-3ddc-11dd-9257-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-925a-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19484,12 +19491,12 @@
       },
       "target": {
         "name": "iodine-133",
-        "code": "08a91e70-3ddc-11dd-9587-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-958a-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19547,12 +19554,12 @@
       },
       "target": {
         "name": "uranium-235",
-        "code": "08a91e70-3ddc-11dd-9c3c-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9c3f-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19568,12 +19575,12 @@
       },
       "target": {
         "name": "xenon-133",
-        "code": "08a91e70-3ddc-11dd-94dd-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-94e0-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19589,12 +19596,12 @@
       },
       "target": {
         "name": "cobalt-60",
-        "code": "08a91e70-3ddc-11dd-969e-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-96a1-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19673,12 +19680,12 @@
       },
       "target": {
         "name": "cobalt-58",
-        "code": "08a91e70-3ddc-11dd-9697-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9699-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to non-urban air or from high stacks"
         ]
       }
     },
@@ -19694,14 +19701,15 @@
       },
       "target": {
         "name": "anthracene",
-        "code": "fe0acd60-3ddc-11dd-a300-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-a302-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -19715,14 +19723,15 @@
       },
       "target": {
         "name": "naphthalene",
-        "code": "fe0acd60-3ddc-11dd-a682-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-a684-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified"
+          "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -21423,12 +21432,12 @@
       },
       "target": {
         "name": "2-methylpentane",
-        "code": "08a91e70-3ddc-11dd-a01e-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-a01f-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to urban air close to ground"
         ]
       }
     },
@@ -22666,14 +22675,15 @@
       },
       "target": {
         "name": "hexachlorobenzene",
-        "code": "fe0acd60-3ddc-11dd-a2ba-0050c2490048",
-        "unit": "kilogram",
+        "code": "08a91e70-3ddc-11dd-a2ff-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
@@ -22708,14 +22718,15 @@
       },
       "target": {
         "name": "pentachlorobenzene",
-        "code": "fe0acd60-3ddc-11dd-a2a0-0050c2490048",
-        "unit": "kilogram",
+        "code": "fe0acd60-3ddc-11dd-a29e-0050c2490048",
+        "unit": "kg",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to water, unspecified"
+          "Emissions to fresh water"
         ]
-      }
+      },
+      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
     },
     {
       "source": {
