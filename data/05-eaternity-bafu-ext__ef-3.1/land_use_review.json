@@ -1,0 +1,293 @@
+{
+  "name": "eaternity-bafu-ext__ef-3.1-biosphere-land-use-review",
+  "version": "0.1.0",
+  "note": "BAFU-2026 land flows the name-evidence resolver would not place, or whose JRC (class, ISO) CF disagrees with the CF Eaternity ships — reported, not guessed.",
+  "review": [
+    {
+      "source": {
+        "name": "Transformation, from seabed, unspecified",
+        "code": "049973d56d990e999338809f7dfe192e",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, unspecified' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from river, natural (non-use)",
+        "code": "090c284392cdc9f9516e4969006b68af",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'river, natural (non-use)' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from inland waterbody, unspecified",
+        "code": "09c1810f1f7ffd306697253b9433e524",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'inland waterbody, unspecified' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to water bodies, artificial",
+        "code": "0f478ea530d4e33b9fd212cc884a6420",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'water bodies, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to inland waterbody, unspecified",
+        "code": "406021ad719c63ddca27c59d1a840017",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'inland waterbody, unspecified' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from seabed, infrastructure",
+        "code": "4fc964e06f92435308ff0b894a006ef6",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, infrastructure' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to water courses, artificial",
+        "code": "5a024bc304bdd8d0c4ebd4e1f667ba39",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'water courses, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, seabed, infrastructure",
+        "code": "5d42683df0572d1bc00ecf5087daad68",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, infrastructure' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from water courses, artificial",
+        "code": "632cd250a4944fed0376f938ba961f1c",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'water courses, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from water bodies, artificial",
+        "code": "63ebb7c9f5f0ed255b0fc428d4cb34f7",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'water bodies, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to seabed, drilling and mining",
+        "code": "7018dae6765c1d6c61bc3db9025ed90b",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, drilling and mining' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to sea and ocean",
+        "code": "70dec1be9df617a820e2c0f858c99888",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'sea and ocean' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, inland waterbody, unspecified",
+        "code": "90440abbcfad175e1836208d6e693459",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'inland waterbody, unspecified' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, lakes, artificial",
+        "code": "920607fa0a37ba0ff92dfd284da3e661",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'lakes, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to seabed, infrastructure",
+        "code": "9499a2e15715ab8afb3d62fa9dec5dec",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, infrastructure' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, water bodies, artificial",
+        "code": "9cc13e7396c43dc7ee56f28320ecbd75",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'water bodies, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from seabed, drilling and mining",
+        "code": "a396f18dd70a1fce3c49863ad828778c",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, drilling and mining' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, from sea and ocean",
+        "code": "a7ce819619a71813f2abf7728fec9a7c",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'sea and ocean' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_from, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Transformation, to seabed, unspecified",
+        "code": "b12c38fffe0d226e89f4d98d066121be",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, unspecified' (seabed, artificial water bodies … carry no EF land CF) (kind=transformation_to, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, seabed, drilling and mining",
+        "code": "ba16c3238f7addf3fc94786156cf04fd",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'seabed, drilling and mining' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, water courses, artificial",
+        "code": "f201315739ad9caeca80af85bf79486d",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'water courses, artificial' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    },
+    {
+      "source": {
+        "name": "Occupation, sea and ocean",
+        "code": "f58f90a376daf662a68d9571d6f130ba",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "reason": "class_unresolved",
+      "comment": "Eaternity: no JRC/EF land stem for BAFU class 'sea and ocean' (seabed, artificial water bodies … carry no EF land CF) (kind=occupation, location=GLO)"
+    }
+  ]
+}
