@@ -1,0 +1,4062 @@
+{
+  "name": "bafu-2026-v1__ef-3.1-biosphere-inferred",
+  "version": "0.1.0",
+  "replace": [
+    {
+      "source": {
+        "name": "Acenaphthene",
+        "code": "2820132f-d9ca-5896-8e81-eb89eaf8299b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9a07-0050c2490048",
+        "name": "acenaphthene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Acetaldehyde",
+        "code": "4b4365fa-65ca-53a9-ba83-1fcf388e5580",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a7a8-0050c2490048",
+        "name": "acetaldehyde",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Acetic acid",
+        "code": "8b102b39-700f-5024-bdf9-0128f73c3319",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-92c6-0050c2490048",
+        "name": "acetic acid",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Acetone",
+        "code": "9569c576-07ea-5aa6-ab18-71a10a50c68b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9523-0050c2490048",
+        "name": "acetone",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Acetonitrile",
+        "code": "ab0847e8-253c-5350-9ecb-60efa2f5864c",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-ad81-0050c2490048",
+        "name": "acetonitrile",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Acrolein",
+        "code": "8f658a62-82f2-58cd-ae8c-4f86b1d41943",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a26b-0050c2490048",
+        "name": "acrolein",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Aldehydes, unspecified",
+        "code": "482fdee0-63ef-5612-8905-2b3ff1af98f2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "289ce09d-2aca-4d43-890d-c50ae0a6d8e1",
+        "name": "Aldehydes, unspecified",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "023aecf3-cb9e-5034-9b4b-5b1af53fff4d",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a730-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "eae18917-0505-5b93-9aeb-d9306d2fa039",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a731-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "3abc7d52-355f-5072-8950-c4d86de1daea",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a72e-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "6a24944f-39b2-5c83-a801-66c486e9c9a4",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a72c-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "6d280e0d-c0fb-52ee-b541-235fc8b251de",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a735-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "8e3e6099-d87e-5a11-8311-298461ddf29a",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a732-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "ff84823b-f52f-5432-95d8-0fdc3b1fd867",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a736-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "a9165617-f3b7-574b-8517-bcc32c4b26aa",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a732-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Aluminium",
+        "code": "ed7dcb10-653c-5e97-b5e3-8fb457ea078e",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a734-0050c2490048",
+        "name": "aluminium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ammonia",
+        "code": "ca8ff24e-3b4f-5dec-9deb-ecc475878a5e",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96af-0050c2490048",
+        "name": "ammonia",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "9a70e7ec-b61b-57ff-8922-dc2bac7c6500",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-968b-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "ef5df80b-e8ef-52d4-9be4-724e47b9841c",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-968c-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "a84846d2-420a-504b-bd9c-0a0151b15286",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9689-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "b068ce1d-95ad-5e40-b21a-441f75962d75",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9687-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "30d4c51a-7a42-54d3-8bd5-25cca9ee7de9",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-968d-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "db8148ba-cdd9-5ced-a6a7-4f543138e0b9",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-968d-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Antimony",
+        "code": "b0dc2f72-2334-563a-a28c-85d55120c7b3",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91d2-0050c2490048",
+        "name": "antimony",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Arsenic",
+        "code": "d8100016-e63a-532a-b5b4-6abc8fdf0e02",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91d9-0050c2490048",
+        "name": "arsenic",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Arsenic",
+        "code": "cd58424d-0ed8-514d-b511-369a42355f48",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91de-0050c2490048",
+        "name": "arsenic",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Arsenic",
+        "code": "4fec6f72-2483-5de0-beff-caf51ad24ac5",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91d7-0050c2490048",
+        "name": "arsenic",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Arsenic",
+        "code": "d53df415-0941-5a3c-bfa4-923814b85b16",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91dd-0050c2490048",
+        "name": "arsenic",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Arsenic",
+        "code": "d9aa1116-1be9-598d-bc84-6789dce0deef",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91e2-0050c2490048",
+        "name": "arsenic",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "285d6751-0b10-52c7-bb50-cc095c84a608",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "e77711ad-ae7f-4c6e-9bfd-75a15aadbd5d",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "dda5a87b-c946-595e-a59b-9cf68a3a1332",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "d8815744-3a16-4af5-a726-2ef269fab8f8",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "97358eb1-2fbd-5253-b2b5-31c0f9c8d246",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "a92b3c3e-2aa6-4cf1-be1d-b9d745087477",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "c3292b09-db7c-5009-998c-d6b217751a4e",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "a07b6e7e-f541-4018-a8e2-1a76a9c66460",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "c2a6f4d2-ea85-5d1c-ab00-582531873f4a",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "78e283b8-4d2a-4456-a1b6-f9f945ceaab1",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "eecb6ccc-661f-520a-9595-79081b19180a",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "2c1699b1-2147-4c58-93ad-9ad59bc10bb5",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "15881006-3283-564c-b31d-68062fba8906",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-96ca-0050c2490048",
+        "name": "barium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "cfb28d7c-1870-5393-b93b-28c111b422a6",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "2c1699b1-2147-4c58-93ad-9ad59bc10bb5",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Barium",
+        "code": "1d2bafd4-eff1-5957-a557-99d56e0d7df4",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "c7126c80-8176-4c45-950a-da40aa9ebc18",
+        "name": "barium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Benzaldehyde",
+        "code": "b562a687-00a6-527f-b0db-9a0079211b06",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91fa-0050c2490048",
+        "name": "benzaldehyde",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Benzene",
+        "code": "3519057a-6ed9-5526-8e86-e3927e2fd9b5",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9205-0050c2490048",
+        "name": "benzene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Benzene, ethyl-",
+        "code": "70e19c80-330b-5d6f-ab15-d3c4664bf497",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a2ee-0050c2490048",
+        "name": "ethyl benzene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Benzene, hexachloro-",
+        "code": "6a544a9d-9c87-5ce2-a600-98cd53b93e28",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-a2fe-0050c2490048",
+        "name": "hexachlorobenzene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Benzo(a)pyrene",
+        "code": "d53e6d86-60b3-56f7-8988-a52dd7c9a568",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9224-0050c2490048",
+        "name": "benzo[a]pyrene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Beryllium",
+        "code": "845bb7a4-4e71-5c87-b6dc-b6515fcbef9f",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "47c3144b-122d-4c8c-b3ab-9480c25dc1f3",
+        "name": "beryllium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Beryllium",
+        "code": "4d79afb7-9525-5608-9329-3db01e94c533",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4b722511-fd9e-41b4-8ccf-3e2689198baa",
+        "name": "beryllium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Beryllium",
+        "code": "565166c4-10ba-516c-9068-5236c2e98887",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "24e2089e-56ed-4198-8f18-7fd96901543a",
+        "name": "beryllium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Beryllium",
+        "code": "030ec610-887f-5655-9ebd-3fad55482241",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "a3e57a0b-2d69-4e1b-abd2-dcbb40debbc2",
+        "name": "beryllium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Beryllium",
+        "code": "e1fee659-0be3-5334-9b70-9ddbf1d89c55",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "a3e57a0b-2d69-4e1b-abd2-dcbb40debbc2",
+        "name": "beryllium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Beryllium",
+        "code": "1f12801b-7fed-505c-99fe-69fa78b4a181",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "df1822f8-579e-484f-96f7-279ee2109f6d",
+        "name": "beryllium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Boron",
+        "code": "fe576d41-3453-5f0a-a15d-08e19720b83a",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-a0fa-0050c2490048",
+        "name": "boron",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Bromine",
+        "code": "b5f70d3a-ddb4-5de9-93e6-97033a859495",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-8de3-0050c2490048",
+        "name": "bromine",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Butadiene",
+        "code": "45812cbe-6902-536d-8cd6-43cfff7d0da1",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-98ea-0050c2490048",
+        "name": "butadiene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Butane",
+        "code": "a695d9b7-2fe2-5b24-ac7b-edf5359c1f9d",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-94c5-0050c2490048",
+        "name": "n-butane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cadmium",
+        "code": "0e2b816b-971c-5cf8-a3dd-3710617d5ee6",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "076eb3e5-1d9f-47a0-b156-2cd9e6d60d5c",
+        "name": "cadmium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cadmium",
+        "code": "40af17fa-6712-585b-8b00-51069ccbedf4",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "6ae59115-5804-442b-9474-9edc55042875",
+        "name": "cadmium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Carbon disulfide",
+        "code": "693a28b4-31e3-5169-99ec-dd7d1cb6c972",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9248-0050c2490048",
+        "name": "carbon disulphide",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Chloride",
+        "code": "ce8739a4-277f-5d20-9bec-7065f18c6237",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "3e4c8d3d-6556-11dd-ad8b-0800200c9a66",
+        "name": "chloride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Chloride",
+        "code": "1c256b2e-e3c9-5f23-adfb-172dbb3a4860",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a959-0050c2490048",
+        "name": "chloride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Chloride",
+        "code": "8ec41d10-5789-5d2b-bf47-553cd8b6d4a1",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9508-0050c2490048",
+        "name": "chloride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Chloride",
+        "code": "d9d44e2b-c4e8-512d-9d01-8618529e5b54",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-aa2f-0050c2490048",
+        "name": "chloride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Chloride",
+        "code": "da51d38b-3db8-59dd-adda-0d5cacef17b9",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9508-0050c2490048",
+        "name": "chloride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Chlorine",
+        "code": "1a237e65-5ba1-5e61-bcbd-bfe57cc40b03",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-9b48-0050c2490048",
+        "name": "chlorine",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Chloroform",
+        "code": "3af3214f-708f-53e7-879a-e53a0a853d4e",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9642-0050c2490048",
+        "name": "chloroform",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Chromium VI",
+        "code": "385d0c63-7ca4-5876-bac6-2110fdef9811",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9f72-0050c2490048",
+        "name": "chromium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "49058e92-059b-5c35-bd05-7b778ecf9cce",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9285-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "529b4958-a4c2-551c-8320-8079f0348082",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a4ed-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "6111998d-0e8b-56e6-9ed1-2b39b7bb0c83",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9283-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "15e81057-a884-589c-83ad-ae5ff1751173",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-a28e-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "29aa2c35-c4da-5d0f-8cc3-38d1d2de725d",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a4f1-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "2bbeb989-c149-5c31-8f5d-db7a983885f2",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a4ee-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "637b003e-9f4e-5c68-8690-9ea1983aa6c3",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a4f2-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "6d90931d-c1fa-5918-a88b-717635aeec88",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a4ee-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cobalt",
+        "code": "02880761-4c4a-5e9b-9053-b76462a85fd4",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a4f0-0050c2490048",
+        "name": "cobalt",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Copper",
+        "code": "e433b7c5-c73f-52d0-adee-703470f8938a",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "e65500c3-380d-4eca-ab90-fc15d0ccdccc",
+        "name": "copper (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Copper",
+        "code": "d307bf19-5bdc-5abc-84e1-98aab68f1e7f",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-96d0-0050c2490048",
+        "name": "copper",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cumene",
+        "code": "0cf16698-f3d5-5bbc-912f-a9ecb27c5fda",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-928c-0050c2490048",
+        "name": "cumene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Cyanide",
+        "code": "75f60ed2-bb07-5bc3-93fc-b827c787c8e2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "d86c61e8-6555-11dd-ad8b-0800200c9a66",
+        "name": "cyanide",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Dinitrogen monoxide",
+        "code": "73bb8e96-6ab5-5e72-842b-92f244114b89",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94c6-0050c2490048",
+        "name": "nitrous oxide",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethane",
+        "code": "58a7b100-ce83-5650-9426-f7bf09b06377",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-921c-0050c2490048",
+        "name": "ethane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethane, 1,1,1,2-tetrafluoro-, HFC-134a",
+        "code": "52ffd208-b522-586c-9b49-3b1eb20efda9",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a6d5-0050c2490048",
+        "name": "HFC-134a",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethane, 1,1-difluoro-, HFC-152a",
+        "code": "b1defcf0-43a8-5318-9b38-6eb2efca9797",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-930c-0050c2490048",
+        "name": "HFC-152a",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethane, 1,2-dichloro-",
+        "code": "e03b4b46-4b75-5123-a4f3-5477a73747f3",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a748-0050c2490048",
+        "name": "1,2-dichloroethane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethanol",
+        "code": "527076ee-bb35-5e3c-af0a-0b45378552ff",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a3f0-0050c2490048",
+        "name": "ethanol",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethylene oxide",
+        "code": "082f3457-983c-5b01-818c-11cc83d465dd",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-938d-0050c2490048",
+        "name": "ethylene oxide",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Ethyne",
+        "code": "525b31b9-15fd-5e64-9069-095253767457",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-9122-0050c2490048",
+        "name": "acetylene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Fluorine",
+        "code": "c831867a-55df-51b7-8198-6fb3bf602e6b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9403-0050c2490048",
+        "name": "fluorine",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Formaldehyde",
+        "code": "845051f9-955b-53cb-8bab-1356a4f0a4a2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-941e-0050c2490048",
+        "name": "formaldehyde",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Formic acid",
+        "code": "f7ea27a8-249b-5c42-ae85-fe8697019c0f",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9427-0050c2490048",
+        "name": "formic acid",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Furan",
+        "code": "bf47e9a4-87fb-5f0d-b932-4deba457f18b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a635-0050c2490048",
+        "name": "furan",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Hexane",
+        "code": "7fde6fa4-b9ea-5851-8d71-458cabece8fd",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a692-0050c2490048",
+        "name": "hexane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Hydrocarbons, aromatic",
+        "code": "ddc3f55a-544b-5791-ba0e-31ff70b0c0a2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "a03df797-82bf-4e49-86ca-d15f0a0885af",
+        "name": "Hydrocarbons, aromatic",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Hydrogen fluoride",
+        "code": "05a7862b-2b0d-5367-91de-c0d8fa0524c3",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-aab2-0050c2490048",
+        "name": "hydrogen fluoride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Hydrogen sulfide",
+        "code": "21f6dd21-aff0-5124-98d7-fc1f069c2609",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94ac-0050c2490048",
+        "name": "hydrogen sulfide",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iodine",
+        "code": "5997d8c5-7fa0-563f-a4a8-e331c24b00ff",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a7c0-0050c2490048",
+        "name": "iodine",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iron",
+        "code": "042e9235-2917-5d9b-93ba-e6ac34b46d3b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9593-0050c2490048",
+        "name": "iron",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iron",
+        "code": "21daca34-0180-5963-8450-a81e220428c3",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9594-0050c2490048",
+        "name": "iron",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iron",
+        "code": "6cbb1864-8779-5f95-ab3b-f499afdc2410",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9591-0050c2490048",
+        "name": "iron",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iron",
+        "code": "73e54225-6577-58ce-aa0c-8774a911cefd",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9598-0050c2490048",
+        "name": "iron",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Iron",
+        "code": "7484f4a1-c846-5566-aff1-7871fd401617",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9598-0050c2490048",
+        "name": "iron",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Isoprene",
+        "code": "eb7e75c9-de65-5e0c-ad9f-49723d939399",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a840-0050c2490048",
+        "name": "isoprene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "a61c9056-61ac-59f2-8c52-768d4fc91cb8",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "f7ac221c-e254-4741-b3d8-edc06d36b0a0",
+        "name": "lead (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "7af0172d-f72c-5975-b403-5673d797c721",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-91e3-0050c2490048",
+        "name": "lead",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "fd735414-c397-5ffb-a324-f0b91c543bf0",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "189ac180-12b2-418f-9842-949051cfe67a",
+        "name": "lead (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "17462180-6afb-53a7-9be5-ae02a135c52c",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "00b640e9-fde9-4c5c-9e04-af2429535dfa",
+        "name": "lead (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "1d82dd04-9518-568a-b05f-a51d52675f6a",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "189ac180-12b2-418f-9842-949051cfe67a",
+        "name": "lead (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lead",
+        "code": "6621943c-8b9a-5c71-aef6-77ceffe3f0b0",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "4a763efe-793f-49d4-82c1-20ae97db1b2a",
+        "name": "lead (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Lithium",
+        "code": "843d437f-b492-5b05-a6d6-8970add37ffb",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a85c-0050c2490048",
+        "name": "lithium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Magnesium",
+        "code": "3e6f3b49-306b-5c53-a72e-778a5cdb9419",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "29055104-6556-11dd-ad8b-0800200c9a66",
+        "name": "magnesium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "338901a5-4c67-5d97-98ad-22136d7203e2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bc9-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "5b69d2fe-60ba-54ce-9dd6-55ee19943cf8",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "29055108-6556-11dd-ad8b-0800200c9a66",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "1f597ead-ae98-5959-8f74-dfa0e7a31f95",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bc7-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "3033edee-3b82-5d06-b6f5-bae46b905aea",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bc5-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "347bfb00-a48d-537c-89f2-0b038459fb2b",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bcd-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "27baa8cf-e6a8-5198-9534-6d956d450837",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bca-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "ca5ab498-afab-5234-b75a-5e47a0003c87",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "e31499a1-39e9-4621-a8af-5f45ff30a3d0",
+        "name": "manganese (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "97111802-7c4d-5588-8499-03831ff3d40e",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bca-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Manganese",
+        "code": "20980260-6753-5491-875c-c4ee1d89d58d",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9bcc-0050c2490048",
+        "name": "manganese",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "cd35aab5-e01d-5527-82cd-a0e27e9fc97b",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-95f8-0050c2490048",
+        "name": "mercury",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "29b57124-e15b-5f74-9fd9-564cc9e2d0a8",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "67360416-f544-4364-8e38-61d4c56d8f98",
+        "name": "mercury (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "daa367bc-0331-5471-885f-2a9dde484f61",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "069e79b9-c92a-4912-ba51-5375da5c45db",
+        "name": "mercury (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "3f173155-ff89-5bef-8013-247784c1c45d",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "42303f52-19fe-4086-9e52-5ad2160f22a8",
+        "name": "mercury (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "78b401a8-5783-5926-b246-300c6afdc16d",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "069e79b9-c92a-4912-ba51-5375da5c45db",
+        "name": "mercury (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Mercury",
+        "code": "42f0dbd1-48b3-5c4f-9c19-dc8848a87f5b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "36e8f97f-c030-4d46-9d7c-ed7acb9dfa9d",
+        "name": "mercury (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Methane, biogenic",
+        "code": "02de22da-1748-5b92-8214-a67e46dd8fd7",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a8eb-0050c2490048",
+        "name": "methane (biogenic)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Methane, dichloro-, HCC-30",
+        "code": "5f13571e-6856-53f5-beb9-cf8692134f8b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-961b-0050c2490048",
+        "name": "dichloromethane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Methane, fossil",
+        "code": "8b7bde70-5177-5c8a-bf77-856f74b3343d",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a8e6-0050c2490048",
+        "name": "methane (fossil)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Methane, monochloro-, R-40",
+        "code": "db0db010-d4ae-58ab-87f9-9bf5c1d1c799",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-967a-0050c2490048",
+        "name": "chloromethane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Methanol",
+        "code": "c1e68d36-13e7-53d1-bc3d-a1ccaa389ef9",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a938-0050c2490048",
+        "name": "methanol",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Methyl ethyl ketone",
+        "code": "903fe871-4d8b-57ca-987b-fb2a5f7b1b20",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-afca-0050c2490048",
+        "name": "methyl ethyl ketone",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "c21321ac-88db-55d8-bcf1-a78e9ce6920a",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "a834c32e-80b8-4737-babc-9a3c031272f3",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "4cdaa41e-fc4d-593d-ad30-24608558b5b1",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "95e68400-6ef1-44ee-8adc-0a468a094bb0",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "a8a40d52-306a-5555-aa40-aa321e8ecc40",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "69528fd2-9cbe-458c-93c4-7766a5dc8472",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "86cf5f8b-ab1b-521c-996b-f3402fb5809d",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "7c2f829f-92ee-481c-bcfc-958d6c80e5d6",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "a9d25286-6a6a-5521-8607-1804a0efbf61",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "19b259f2-12a6-4992-9208-9708ee0fbb80",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "84b8ee2b-7d00-5a8f-b4ed-29a1f66d4605",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "d9d07ffa-74c2-4b01-8e2c-b56912f8f176",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "2010d6db-b927-5b36-a787-88f7ddf8552e",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "19b259f2-12a6-4992-9208-9708ee0fbb80",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Molybdenum",
+        "code": "2899fe5b-ee96-55d3-9518-58d6abc4e91b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "21c88a6c-e8b2-4499-b817-107d72014e88",
+        "name": "molybdenum (vi)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Nickel",
+        "code": "d6408b1c-31ff-53d4-89ba-a9f813f78542",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96c6-0050c2490048",
+        "name": "nickel",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Nickel",
+        "code": "3c607274-5657-532a-b215-041125af5109",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96cf-0050c2490048",
+        "name": "nickel",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Nickel",
+        "code": "702615b5-5c58-5da6-a3fb-558237c0ebe2",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96cc-0050c2490048",
+        "name": "nickel",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "PAH, polycyclic aromatic hydrocarbons",
+        "code": "ae5998c5-718c-53c8-abb3-4ab46262945b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-980f-0050c2490048",
+        "name": "polycyclic aromatic hydrocarbons",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Pentane",
+        "code": "e1d8cea4-fe5a-580c-97e5-3f20c6081677",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-a031-0050c2490048",
+        "name": "pentane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Phenol",
+        "code": "80bb2631-8fa5-5dc4-9575-9c3cac63d734",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-975a-0050c2490048",
+        "name": "phenol",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Phenol, pentachloro-",
+        "code": "4f795c63-09c0-554c-b665-68eedb38d480",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-a099-0050c2490048",
+        "name": "pentachlorophenol",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Phosphorus",
+        "code": "71500e1f-ccca-5980-aa68-445c7a9455ae",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "3cdb5ab0-ab62-44d8-9d3a-52e6e228a581",
+        "name": "Phosphorus",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Propanal",
+        "code": "404652de-42af-53bd-b57c-0d25962a19ed",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-aae3-0050c2490048",
+        "name": "propanal",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Propane",
+        "code": "cab8cf5c-06f7-5ce0-8369-26f765fc5329",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9124-0050c2490048",
+        "name": "propane",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Propene",
+        "code": "cfc977d4-3f84-5430-9cd6-01ad8df2b253",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-ab40-0050c2490048",
+        "name": "propene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Propionic acid",
+        "code": "6d3722c6-7e27-5b4a-a17d-f5a995da2368",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-987d-0050c2490048",
+        "name": "propionic acid",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "10373c8c-5361-5b4f-a59d-8fc2914f9edc",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-98d3-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "ea7e624e-6828-59cd-ad9f-e8cbb428e6e9",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-98d4-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "78740cd6-ecc5-54fa-89e5-289942ad2494",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "stratosphere + troposphere"
+        ]
+      },
+      "target": {
+        "code": "2905ed4f-6556-11dd-ad8b-0800200c9a66",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to lower stratosphere and upper troposphere"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "c43d0394-2b7a-586a-acdb-2bdaa50b3800",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-abf3-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "b1e939d2-dfbe-51d4-a4b0-1eab0523f1db",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-98d5-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "35fbdb9f-6226-5ef4-b813-5ae2188e73d1",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-98d9-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "192892bc-447f-551a-a2bd-0113ac5dc773",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-98d5-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Selenium",
+        "code": "7d4fac59-357a-56df-af36-a74617311226",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-98d7-0050c2490048",
+        "name": "selenium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Silicon",
+        "code": "9a3e723b-66d0-569a-a27e-d74529fc9b2e",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "dd57e0e5-dc8d-4489-a752-4a756d5bb880",
+        "name": "Silicon",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Silver",
+        "code": "aef5e786-9125-53ed-93f5-abf4f5b97a8f",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "3e1f64f2-3877-4e6b-bf50-f5283c555bf8",
+        "name": "silver (i)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Silver",
+        "code": "665f1917-ed8f-5956-9ec5-12e66825054a",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "000aeb0b-bb8f-42c4-b421-87289e1026c4",
+        "name": "silver (i)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Silver",
+        "code": "88547301-68ee-590d-97d4-8a2a581a25e6",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "c6a9a382-3c30-434b-8cee-b45605ec2fec",
+        "name": "silver (i)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Silver",
+        "code": "ef3a1a76-2239-5cd7-8267-a46a303bdab3",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "d8152b45-d5ae-4929-9da2-88a358a50de7",
+        "name": "silver (i)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Strontium",
+        "code": "1642b9eb-81ea-527f-a5c4-2b0760bcae14",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4baf4568-331f-4fda-bff8-81f3ff5c9982",
+        "name": "strontium (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Styrene",
+        "code": "f67ed850-2c56-5739-a5d4-31f33ea21ba8",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9913-0050c2490048",
+        "name": "styrene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Sulfur hexafluoride",
+        "code": "6ff7efcc-719f-5d3f-8f4a-7bfb1a689ac8",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-96eb-0050c2490048",
+        "name": "sulphur hexafluoride",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Sulfuric acid",
+        "code": "491c9491-6993-5013-8660-f8a078cd49ba",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "d73b7194-595b-4ff5-9080-21f5a979059b",
+        "name": "sulphuric acid",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Thallium",
+        "code": "83279aa9-f712-5b7f-a232-93edf68be8e2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9965-0050c2490048",
+        "name": "thallium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Thallium",
+        "code": "23dca9d1-6c15-519a-bd14-181c052d00de",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9966-0050c2490048",
+        "name": "thallium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Thallium",
+        "code": "a09b2adc-20ac-569e-a85d-2f6ebc4eaeeb",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9963-0050c2490048",
+        "name": "thallium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Thallium",
+        "code": "95c92476-0828-5b89-ad96-341e3e5067cc",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9967-0050c2490048",
+        "name": "thallium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      },
+      "comment": "no CF-identical EF flow in the matching sub-compartment; target is 'Emissions to fresh water'"
+    },
+    {
+      "source": {
+        "name": "Thallium",
+        "code": "f24927a5-f630-58ab-83b3-51b5dac6d706",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9967-0050c2490048",
+        "name": "thallium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Thallium",
+        "code": "e3b2d08f-22fc-5cf3-90e8-25b1f0af56d1",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9969-0050c2490048",
+        "name": "thallium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "e83b0913-f8cd-52a8-ac70-3831d0efd1cb",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-998d-0050c2490048",
+        "name": "tin",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "28036155-4277-50c7-a145-b52de3818a81",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-998e-0050c2490048",
+        "name": "tin",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "8428104a-9253-5dba-a5e2-1236ad452f1b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-99bb-0050c2490048",
+        "name": "tin",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "f339df2d-18f9-5767-830e-8224f1e713dd",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9992-0050c2490048",
+        "name": "tin",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Titanium",
+        "code": "5e8fdfb3-4a8f-544d-aaf5-82f686b9dfeb",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9998-0050c2490048",
+        "name": "titanium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Titanium",
+        "code": "8350e9b2-9f90-5964-b1cb-6b8db1760dd6",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9999-0050c2490048",
+        "name": "titanium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Titanium",
+        "code": "1e7f0811-10c5-5b1d-a1c0-bf63095dc9bc",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9996-0050c2490048",
+        "name": "titanium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Titanium",
+        "code": "03c9b67f-e0e4-5774-8796-49ede18ee874",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9994-0050c2490048",
+        "name": "titanium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Toluene",
+        "code": "987ab584-ab08-5a96-becb-5de55a75e3b2",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-9bb8-0050c2490048",
+        "name": "toluene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Tungsten",
+        "code": "be36d72f-ad2a-590e-a1b9-7b55c149447c",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "29057833-6556-11dd-ad8b-0800200c9a66",
+        "name": "tungsten",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Vanadium",
+        "code": "624996a6-a0f7-5257-9b40-9f1c92ba3b7c",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "91d2a56f-e3f9-4a87-9149-cd496fb4370c",
+        "name": "vanadium (v)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Vanadium",
+        "code": "a3bd78ff-4752-5894-8755-bb6b8d23ab0b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "33351e62-3b57-4e04-a115-4452591bbb4b",
+        "name": "vanadium (v)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Vanadium",
+        "code": "66c70411-bd76-53a1-b4bb-fa4c05da6d6b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "810164cf-f2c2-4e2d-a5ee-6bbd007a3a38",
+        "name": "vanadium (v)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Vanadium",
+        "code": "0d5ce24b-92a2-581b-97d5-70ed14827bb3",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "5e6fbd97-f822-42c6-afd2-458c3d88db9f",
+        "name": "vanadium (v)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Xylene",
+        "code": "061a0f6f-46a1-5868-87df-91e666ebdd60",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-ad94-0050c2490048",
+        "name": "xylene (all isomers)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "Zinc",
+        "code": "aa24c18e-4a73-580f-a8e5-6969335f032c",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "02c45c4d-ff78-4d27-9cd0-31bb70f1a4b7",
+        "name": "zinc (ii)",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Zinc",
+        "code": "58210228-30bf-5c33-9826-ab26950efbb0",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94ea-0050c2490048",
+        "name": "zinc",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to non-agricultural soil"
+        ]
+      },
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+    },
+    {
+      "source": {
+        "name": "Zirconium",
+        "code": "11ecaacf-6187-5fb2-8424-7a8b20d0d152",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94f7-0050c2490048",
+        "name": "zirconium",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    },
+    {
+      "source": {
+        "name": "m-Xylene",
+        "code": "90a2799c-1991-5887-9ecc-11293ab23f9a",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96f3-0050c2490048",
+        "name": "m-xylene",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      }
+    }
+  ]
+}
