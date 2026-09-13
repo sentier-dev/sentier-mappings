@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere-inferred",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "replace": [
     {
       "source": {
@@ -2077,13 +2077,13 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9598-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-a7fc-0050c2490048",
         "name": "iron",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
       }
     },
@@ -3731,13 +3731,13 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9992-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-99b9-0050c2490048",
         "name": "tin",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
       }
     },
