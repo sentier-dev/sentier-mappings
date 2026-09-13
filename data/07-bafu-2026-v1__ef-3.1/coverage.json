@@ -1064,7 +1064,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -1078,7 +1078,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -1092,7 +1092,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -1106,7 +1106,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -1849,8 +1849,11 @@
       },
       "status": "mapped",
       "bridge": 7,
-      "tier": "alias",
-      "placement": "exact"
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -1916,7 +1919,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -2660,9 +2663,13 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Arsenic, ion' names an ion or oxidation state; not collapsed onto an EF species"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -2812,9 +2819,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has biological oxygen demand only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -2891,7 +2903,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -3144,7 +3156,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -3158,7 +3170,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -3172,7 +3184,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -3186,7 +3198,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -3444,7 +3456,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -3805,7 +3817,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -4184,7 +4196,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -4214,7 +4226,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -4430,7 +4442,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -4958,9 +4970,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has chemical oxygen demand only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -5315,7 +5332,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -5525,9 +5542,13 @@
           "ocean"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Calcium II' names an ion or oxidation state; not collapsed onto an EF species"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5539,9 +5560,13 @@
           "river"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Calcium II' names an ion or oxidation state; not collapsed onto an EF species"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5553,9 +5578,13 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Calcium II' names an ion or oxidation state; not collapsed onto an EF species"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5569,7 +5598,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -5648,7 +5677,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -5710,7 +5739,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -5724,7 +5753,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -5736,9 +5765,13 @@
           "low. pop."
         ]
       },
-      "status": "unmapped",
-      "reason": "ambiguous_substances",
-      "detail": "CAS 124-38-9 finds 3 EF flows with different factors for carbon dioxide (biogenic), carbon dioxide (fossil), carbon dioxide (land use change); the source CAS 124-38-9 does not single one out"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "carbon-oxide",
+      "placement": "exact",
+      "caveats": [
+        "unqualified carbon oxide taken as fossil (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5860,9 +5893,14 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "ambiguous_substances",
-      "detail": "CAS 124-38-9 finds 3 EF flows with different factors for carbon dioxide (biogenic-100yr), carbon dioxide (fossil), carbon dioxide (land use change); the source CAS 124-38-9 does not single one out"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "carbon-oxide",
+      "placement": "resource_branch_fallback",
+      "caveats": [
+        "BAFU files this resource under biotic; EF has carbon dioxide (biogenic) only as renewable material resources from air",
+        "CO2 uptake from air taken as biogenic (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5874,9 +5912,13 @@
           "in air"
         ]
       },
-      "status": "unmapped",
-      "reason": "ambiguous_substances",
-      "detail": "CAS 124-38-9 finds 3 EF flows with different factors for carbon dioxide (biogenic-100yr), carbon dioxide (fossil), carbon dioxide (land use change); the source CAS 124-38-9 does not single one out"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "carbon-oxide",
+      "placement": "exact",
+      "caveats": [
+        "CO2 uptake from air taken as biogenic (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5888,9 +5930,14 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "ambiguous_substances",
-      "detail": "CAS 124-38-9 finds 3 EF flows with different factors for carbon dioxide (biogenic-100yr), carbon dioxide (fossil), carbon dioxide (land use change); the source CAS 124-38-9 does not single one out"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "carbon-oxide",
+      "placement": "resource_branch_fallback",
+      "caveats": [
+        "BAFU files this resource under unspecified; EF has carbon dioxide (biogenic) only as renewable material resources from air",
+        "CO2 uptake from air taken as biogenic (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -5980,9 +6027,13 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "qualifier_missing",
-      "detail": "EF characterises carbon oxides only as (fossil), (biogenic) or (land use change)"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "carbon-oxide",
+      "placement": "exact",
+      "caveats": [
+        "unqualified carbon oxide taken as fossil (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -6095,7 +6146,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -6673,7 +6724,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -7090,7 +7141,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -7221,7 +7272,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -7914,7 +7965,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -7944,7 +7995,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -7958,7 +8009,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -7972,7 +8023,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -7986,7 +8037,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -8485,7 +8536,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -8717,9 +8768,13 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Copper ion' names an ion or oxidation state; EF target 'Copper' does not"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -9272,9 +9327,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has doc, dissolved organic carbon only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -9430,7 +9490,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10132,7 +10192,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -10185,7 +10245,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10255,7 +10315,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10315,9 +10375,14 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "context_unresolved",
-      "detail": "EF resource branch for an energy carrier is not recoverable from the source context code"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "resource_branch_fallback",
+      "characterised": false,
+      "caveats": [
+        "BAFU files this resource under biotic; EF has energy, geothermal, converted only as non-renewable element resources from ground"
+      ]
     },
     {
       "source": {
@@ -10329,9 +10394,11 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "context_unresolved",
-      "detail": "EF resource branch for an energy carrier is not recoverable from the source context code"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10345,7 +10412,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10359,7 +10426,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10373,7 +10440,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10385,9 +10452,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "context_unresolved",
-      "detail": "EF resource branch for an energy carrier is not recoverable from the source context code"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10401,7 +10470,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10415,7 +10484,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -10427,9 +10496,11 @@
           "in air"
         ]
       },
-      "status": "unmapped",
-      "reason": "context_unresolved",
-      "detail": "EF resource branch for an energy carrier is not recoverable from the source context code"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10441,9 +10512,11 @@
           "in water"
         ]
       },
-      "status": "unmapped",
-      "reason": "context_unresolved",
-      "detail": "EF resource branch for an energy carrier is not recoverable from the source context code"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10455,9 +10528,11 @@
           "in air"
         ]
       },
-      "status": "unmapped",
-      "reason": "context_unresolved",
-      "detail": "EF resource branch for an energy carrier is not recoverable from the source context code"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10471,7 +10546,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -11708,7 +11783,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -11751,7 +11826,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -11778,7 +11853,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -12347,7 +12422,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -12751,9 +12826,10 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "unit_mismatch",
-      "detail": "BAFU unit Nm3 vs EF reference unit megajoule for Natural Gas; no fixed conversion"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "cas",
+      "placement": "exact"
     },
     {
       "source": {
@@ -12765,9 +12841,10 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "unit_mismatch",
-      "detail": "BAFU unit m3 vs EF reference unit megajoule for Natural Gas; no fixed conversion"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "cas",
+      "placement": "exact"
     },
     {
       "source": {
@@ -13014,7 +13091,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -13028,7 +13105,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -13042,7 +13119,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -13056,7 +13133,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -13083,7 +13160,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -13097,7 +13174,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -13111,7 +13188,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -13125,7 +13202,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -13139,7 +13216,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -13153,7 +13230,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -13167,7 +13244,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -13181,7 +13258,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -13195,7 +13272,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -13209,7 +13286,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -13223,7 +13300,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -13237,7 +13314,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -13251,7 +13328,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -13265,7 +13342,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -13325,9 +13402,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has helium only in: renewable material resources from air"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in renewable material resources from air; placed there for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -15108,9 +15190,13 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Iron, ion' names an ion or oxidation state; not collapsed onto an EF species"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "ion",
+      "placement": "exact",
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -15311,7 +15397,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -15340,7 +15426,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -16382,7 +16468,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -16585,7 +16671,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -17409,7 +17495,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -17451,7 +17537,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -20195,9 +20281,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has nitrogen only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "synonym",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -21157,7 +21248,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -21201,7 +21292,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -21215,7 +21306,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -21229,7 +21320,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -21243,7 +21334,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -21348,7 +21439,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -21375,7 +21466,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -21833,7 +21924,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -21847,7 +21938,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -21861,7 +21952,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -21875,7 +21966,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -21941,7 +22032,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -22080,9 +22171,14 @@
           "river"
         ]
       },
-      "status": "unmapped",
-      "reason": "speciation",
-      "detail": "'Perchlorate, ion' names an ion or oxidation state; not collapsed onto an EF species"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "ion",
+      "placement": "exact",
+      "characterised": false,
+      "caveats": [
+        "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+      ]
     },
     {
       "source": {
@@ -22096,7 +22192,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -23360,9 +23456,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has potassium only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -23437,7 +23538,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -23665,7 +23766,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -23861,7 +23962,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -23890,7 +23991,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -24272,7 +24373,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -24325,7 +24426,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -24604,7 +24705,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -24618,7 +24719,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -24632,7 +24733,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -25512,7 +25613,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -25526,7 +25627,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -25621,9 +25722,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has scandium only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -25858,7 +25964,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -25872,7 +25978,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26657,7 +26763,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26671,7 +26777,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26742,7 +26848,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26756,7 +26862,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26854,7 +26960,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26868,7 +26974,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -26927,7 +27033,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -27040,7 +27146,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -27054,7 +27160,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -27480,9 +27586,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has sulfate ion only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "synonym",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -28250,9 +28361,14 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has total organic carbon only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -28314,7 +28430,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -28725,7 +28841,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -28752,7 +28868,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {
@@ -29151,7 +29267,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29165,7 +29281,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29179,7 +29295,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29193,7 +29309,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29207,7 +29323,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29221,7 +29337,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29235,7 +29351,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -29249,7 +29365,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -29263,7 +29379,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -29277,7 +29393,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -29291,7 +29407,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -29385,7 +29501,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -29399,7 +29515,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -29882,7 +29998,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -29896,7 +30012,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -30367,7 +30483,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -31087,7 +31203,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -31322,7 +31438,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -31417,7 +31533,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -31431,7 +31547,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -31702,7 +31818,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -31829,7 +31945,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -31843,7 +31959,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -31857,7 +31973,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -31871,7 +31987,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -31885,7 +32001,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -31899,7 +32015,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -31913,7 +32029,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -32638,7 +32754,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -32689,9 +32805,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has volume occupied, final repository for low-active radioactive waste only in: land occupation"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -32703,9 +32824,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has volume occupied, final repository for radioactive waste only in: land occupation"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -32717,9 +32843,14 @@
           "in water"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has volume occupied, reservoir only in: land occupation"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -32731,9 +32862,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has volume occupied, underground deposit only in: land occupation"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "name",
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -32747,7 +32883,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
     },
     {
       "source": {
@@ -32761,7 +32897,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -32775,7 +32911,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -32789,7 +32925,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
     },
     {
       "source": {
@@ -37331,9 +37467,13 @@
           "in water"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 7,
+      "tier": "region/alias",
+      "placement": "exact",
+      "caveats": [
+        "regional aggregate Europe in the source name; EF applies the global default factor"
+      ]
     },
     {
       "source": {
@@ -37449,9 +37589,11 @@
           "low. pop."
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37463,9 +37605,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37477,9 +37621,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37491,9 +37637,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37505,9 +37653,14 @@
           "land"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "resource_branch_fallback",
+      "characterised": false,
+      "caveats": [
+        "BAFU files this resource under land; EF has wood only as renewable material resources from biosphere"
+      ]
     },
     {
       "source": {
@@ -37519,9 +37672,14 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "resource_branch_fallback",
+      "characterised": false,
+      "caveats": [
+        "BAFU files this resource under unspecified; EF has wood only as renewable material resources from biosphere"
+      ]
     },
     {
       "source": {
@@ -37533,9 +37691,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "bridge": 8,
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -38431,7 +38591,7 @@
       },
       "status": "unmapped",
       "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
     },
     {
       "source": {

@@ -401,7 +401,8 @@
           "Emissions to water, unspecified (long-term)"
         ],
         "unit": "kilogram"
-      }
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
     },
     {
       "source": {
@@ -613,6 +614,28 @@
         ],
         "unit": "kilogram"
       }
+    },
+    {
+      "source": {
+        "name": "Arsenic, ion",
+        "code": "3fe823f5-1675-5d94-9d0d-6775e1b98e33",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91d7-0050c2490048",
+        "name": "Arsenic",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
     },
     {
       "source": {
@@ -1690,6 +1713,94 @@
     },
     {
       "source": {
+        "name": "Calcium II",
+        "code": "fd6d3c6f-5a3b-5cc1-97d5-e3492a436a4a",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9234-0050c2490048",
+        "name": "Calcium",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Calcium II",
+        "code": "aa4a4190-3482-5526-93f8-294c24dc73ba",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a296-0050c2490048",
+        "name": "Calcium",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Calcium II",
+        "code": "87a30ac1-5953-559e-957b-a55b30ac6934",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9233-0050c2490048",
+        "name": "Calcium",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Carbon dioxide",
+        "code": "66c85538-9a2e-524f-9329-8241bf5a6102",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9c13-0050c2490048",
+        "name": "Carbon Dioxide (fossil)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "unqualified carbon oxide taken as fossil (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Carbon dioxide, biogenic",
         "code": "50ff7f9b-fe26-5763-8bb2-e85d3a809171",
         "unit": "kg",
@@ -1750,6 +1861,94 @@
         ],
         "unit": "kilogram"
       }
+    },
+    {
+      "source": {
+        "name": "Carbon dioxide, in air",
+        "code": "24ce6579-2f30-5f97-a9ba-e3a8e06993b4",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "da174fac-e567-42d3-99b5-a688913dc88e",
+        "name": "carbon dioxide (biogenic)",
+        "context": [
+          "Resources",
+          "Resources from air",
+          "Renewable material resources from air"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "BAFU files this resource under biotic; EF has carbon dioxide (biogenic) only as renewable material resources from air; CO2 uptake from air taken as biogenic (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Carbon dioxide, in air",
+        "code": "66ee2f0a-748a-595d-bebe-5a96fe7f0103",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in air"
+        ]
+      },
+      "target": {
+        "code": "da174fac-e567-42d3-99b5-a688913dc88e",
+        "name": "carbon dioxide (biogenic)",
+        "context": [
+          "Resources",
+          "Resources from air",
+          "Renewable material resources from air"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "CO2 uptake from air taken as biogenic (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Carbon dioxide, in air",
+        "code": "d3fb352d-aef6-5254-ba17-b8d353bdcd72",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "da174fac-e567-42d3-99b5-a688913dc88e",
+        "name": "carbon dioxide (biogenic)",
+        "context": [
+          "Resources",
+          "Resources from air",
+          "Renewable material resources from air"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "BAFU files this resource under unspecified; EF has carbon dioxide (biogenic) only as renewable material resources from air; CO2 uptake from air taken as biogenic (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Carbon monoxide",
+        "code": "6c949501-c6d5-5038-96e6-480eebb94366",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-924e-0050c2490048",
+        "name": "Carbon Monoxide (fossil)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "unqualified carbon oxide taken as fossil (decision 2026-09-13)"
     },
     {
       "source": {
@@ -2600,6 +2799,28 @@
     },
     {
       "source": {
+        "name": "Copper ion",
+        "code": "73ceb01f-e4b7-5172-86a3-2b4d4a203a79",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a7a0-0050c2490048",
+        "name": "Copper",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Copper, Cu 0.38%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Pb 0.014%, in ore",
         "code": "3ee50920-b89f-549a-9fa8-15952a6cbb18",
         "unit": "kg",
@@ -3235,6 +3456,52 @@
     },
     {
       "source": {
+        "name": "Gas, mine, off-gas, process, coal mining/m3",
+        "code": "63b11182-ae3f-53c6-bf0d-340f4f807bae",
+        "unit": "Nm3",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a6fa-0050c2490048",
+        "name": "Natural Gas",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable energy resources from ground"
+        ],
+        "unit": "megajoule"
+      },
+      "conversion_factor": 38.3,
+      "comment": "energy content 38.3 MJ/Nm3 (net calorific value convention of the BAFU-2026 source inventory); coal-mine off-gas approximated as natural gas (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Gas, mine, off-gas, process, coal mining/m3",
+        "code": "456162ed-6264-5ce7-9604-203da6034b80",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a6fa-0050c2490048",
+        "name": "Natural Gas",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable energy resources from ground"
+        ],
+        "unit": "megajoule"
+      },
+      "conversion_factor": 38.3,
+      "comment": "energy content 38.3 MJ/m3 (net calorific value convention of the BAFU-2026 source inventory); coal-mine off-gas approximated as natural gas (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Gas, natural/m3",
         "code": "f05ce042-5432-58e1-8b39-6a9a290ec947",
         "unit": "Nm3",
@@ -3658,6 +3925,28 @@
         ],
         "unit": "kilogram"
       }
+    },
+    {
+      "source": {
+        "name": "Iron, ion",
+        "code": "680a619b-70e8-5af9-9d6c-38e760bd6adb",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9597-0050c2490048",
+        "name": "Iron",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
     },
     {
       "source": {
@@ -12412,6 +12701,28 @@
         "unit": "cubic meter"
       },
       "comment": "BAFU files this resource under unspecified; EF has water only as renewable material resources from water"
+    },
+    {
+      "source": {
+        "name": "Water, unspecified, Europe",
+        "code": "a84784c8-1727-501d-908e-b97c0942cb6f",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "in water"
+        ]
+      },
+      "target": {
+        "code": "419682fe-60fb-4b43-be89-bf2824b51104",
+        "name": "Water",
+        "context": [
+          "Resources",
+          "Resources from water",
+          "Renewable material resources from water"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "regional aggregate Europe in the source name; EF applies the global default factor"
     },
     {
       "source": {
