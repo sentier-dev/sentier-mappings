@@ -1,0 +1,18 @@
+{
+  "source": "ecoinvent-biosphere3",
+  "target": "eaternity-bafu-ext",
+  "title": "ecoinvent biosphere3 elementary flows → Eaternity BAFU-extension flows",
+  "target_proprietary": false,
+  "schema_version": "0.2.0",
+  "packages": [
+    {
+      "file": "biosphere.json",
+      "kind": "biosphere",
+      "order": 1,
+      "entries": 1371,
+      "description": "Contributed by Eaternity (PR #7). Target datasource is eaternity-bafu-ext: Eaternity's provisional BAFU-2026-based instance with sub-compartments collapsed and extension substances added, keyed by Eaternity's native codes (same code space as the eaternity-bafu-ext__ef-3.1 bridge's sources). It is not bafu-2026-v1: 1,185 of the 1,371 targets resolve by name, root compartment and unit to a BAFU-2026 v1 flow, the rest are Eaternity extension flows. The bafu-2026-v1 → ef-3.1 entries derivable from this bridge (via the retained biosphere3 sub-compartment and characterization-factor identity) are produced by sentier-importers into the bafu-2026-v1__ef-3.1 pair's biosphere-2-inferred package. 99 speciation-changing candidates are listed in the non-normative speciation_candidates.json.",
+      "generated_by": "contributed by Eaternity (PR #7)",
+      "sidecars": ["speciation_candidates.json"]
+    }
+  ]
+}

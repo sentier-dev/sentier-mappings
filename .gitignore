@@ -3,4 +3,10 @@
 Thumbs.db
 *.swp
 
+# Python test/tooling cruft
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
 docs/

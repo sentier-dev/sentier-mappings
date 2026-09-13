@@ -1,7 +1,7 @@
 {
   "name": "ecoinvent-biosphere3__eaternity-bafu-ext-biosphere",
   "version": "0.2.0",
-  "description": "ecoinvent biosphere3 elementary flows -> Eaternity BAFU-extension flows (Eaternity's BAFU-2026-based instance, see the rank-5 bridge for the datasource). Eaternity's instance collapses sub-compartments, so every target carries the root compartment only; the biosphere3 source sub-compartment is retained on every entry. Pairs were matched by Eaternity on name + root compartment + unit; entries carry a comment naming the match rule when it is not exact (biogenic-fossil-tag: 5, exact: 1274, qualifier-strip: 3, resource-suffix-strip: 80, spelling-variant: 6, water-resource-name: 3). Speciation-changing candidates are excluded and listed in speciation_candidates.json (non-normative). Validated by Eaternity on their production catalogs (88% of biosphere-exchange usage covered).",
+  "description": "ecoinvent biosphere3 elementary flows -> Eaternity BAFU-extension flows (Eaternity's BAFU-2026-based instance, see the eaternity-bafu-ext__ef-3.1 bridge for the datasource). Eaternity's instance collapses sub-compartments, so every target carries the root compartment only; the biosphere3 source sub-compartment is retained on every entry. Pairs were matched by Eaternity on name + root compartment + unit; entries carry a comment naming the match rule when it is not exact (biogenic-fossil-tag: 5, exact: 1274, qualifier-strip: 3, resource-suffix-strip: 80, spelling-variant: 6, water-resource-name: 3). Speciation-changing candidates are excluded and listed in speciation_candidates.json (non-normative). Validated by Eaternity on their production catalogs (88% of biosphere-exchange usage covered).",
   "replace": [
     {
       "source": {

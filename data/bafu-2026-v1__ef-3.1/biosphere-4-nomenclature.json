@@ -1632,6 +1632,23 @@
     },
     {
       "source": {
+        "name": "Energy, from hydro power",
+        "code": "e0ce257c-a7c2-5ffd-8f25-25a359ab89a6",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in water"
+        ]
+      },
+      "target": {
+        "code": "04202047-6556-11dd-ad8b-0800200c9a66",
+        "name": "Primary Energy From Hydro Power",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
+    },
+    {
+      "source": {
         "name": "Energy, geothermal, converted",
         "code": "4d23b0ea-5cd8-53f8-ad79-5513c7a77d3b",
         "unit": "MJ",
@@ -1951,6 +1968,314 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "bda82a54-b5ce-5c32-ad8a-dc6802685fa0",
+        "unit": "MJ",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9138-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "f9a97c0a-0e89-5656-a7ca-b8a990c10bdf",
+        "unit": "MJ",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9139-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "efed8e36-0e8d-5339-9d2c-db24e1e9e8c0",
+        "unit": "MJ",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9137-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "0b374863-8f9a-5bd5-84a3-4ce17391fa2a",
+        "unit": "MJ",
+        "context": [
+          "emissions to air",
+          "stratosphere + troposphere"
+        ]
+      },
+      "target": {
+        "code": "d86bec83-6555-11dd-ad8b-0800200c9a66",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to lower stratosphere and upper troposphere"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "bc271a64-0b19-5bc0-91fe-30a605cc354f",
+        "unit": "MJ",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9136-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "5f5ac411-0a05-5eba-b016-81bae22d6b6a",
+        "unit": "kWh",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9136-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kWh"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "a997440d-d50f-56da-b9c3-a672d2c63d2f",
+        "unit": "MJ",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "d86b9e85-6555-11dd-ad8b-0800200c9a66",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "bdf61dba-1137-508f-bf4a-912ab93203e4",
+        "unit": "MJ",
+        "context": [
+          "emissions to soil",
+          "industrial"
+        ]
+      },
+      "target": {
+        "code": "d86beca9-6555-11dd-ad8b-0800200c9a66",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has no non-agricultural soil flow for this substance; the unspecified context is used"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "449c0405-dcf6-59e4-86ce-00c744acbb11",
+        "unit": "MJ",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "d86beca9-6555-11dd-ad8b-0800200c9a66",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "30658714-2906-53ec-9d05-a5e1573bb494",
+        "unit": "MJ",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-913b-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "17465c4e-d00b-58dd-8189-60e0522e8863",
+        "unit": "MJ",
+        "context": [
+          "emissions to water",
+          "lake"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-913a-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "81829bf0-7493-59de-8e01-e9fd5e0ecb5a",
+        "unit": "MJ",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-913d-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "f55724af-6df3-5de1-93a4-5cd7e862168a",
+        "unit": "MJ",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-913a-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "4989dc1a-0414-5a78-a91a-f58972a6e887",
+        "unit": "MJ",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-913b-0050c2490048",
+        "name": "Waste Heat",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
     },
     {
       "source": {
@@ -3866,6 +4191,27 @@
     },
     {
       "source": {
+        "name": "Occupation, water courses, artificial",
+        "code": "9d2306ab-da81-5e18-87f4-ba28b1397a50",
+        "unit": "m2a",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "code": "36a62ab5-fc84-40e9-8cb2-9228cd523129",
+        "name": "Inland Water Bodies",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ],
+        "unit": "m2*a"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); nearest EF land-use class (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Oxygen",
         "code": "fff4d333-87a7-5161-8831-e7adec3f0eca",
         "unit": "kg",
@@ -3965,6 +4311,94 @@
       "target": {
         "code": "08a91e70-3ddc-11dd-9756-0050c2490048",
         "name": "Ozone",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Particulates, > 10 um",
+        "code": "2e093d3d-8b33-5197-9946-227e28816b4c",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94fe-0050c2490048",
+        "name": "Particles (> PM10)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Particulates, > 10 um",
+        "code": "4e627b6f-28c0-580d-bdb1-a4a70a0687ec",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94ff-0050c2490048",
+        "name": "Particles (> PM10)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Particulates, > 10 um",
+        "code": "f6bd1d7d-2ef8-54a5-92c6-46bc099e515b",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-94fd-0050c2490048",
+        "name": "Particles (> PM10)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Particulates, > 10 um",
+        "code": "471fd46f-a8cf-5b3d-8115-ab2a03c31379",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a70a-0050c2490048",
+        "name": "Particles (> PM10)",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -7914,6 +8348,27 @@
     },
     {
       "source": {
+        "name": "Transformation, from sea and ocean",
+        "code": "6938af1f-e57f-5e05-97c0-3f81ee012614",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "code": "1f31ed21-37a6-42cc-be50-2418b983a8db",
+        "name": "From Seabed",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ],
+        "unit": "m2"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); nearest EF land-use class (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Transformation, from seabed, unspecified",
         "code": "3e410f0f-24ea-5399-b912-1628ce1dd35d",
         "unit": "m2",
@@ -7935,6 +8390,27 @@
     },
     {
       "source": {
+        "name": "Transformation, to sea and ocean",
+        "code": "4fdc8f88-b5e9-5bd7-a841-fd8459abd47e",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "code": "16fb1995-7d4d-4e14-abde-99a0c113fb56",
+        "name": "To Seabed",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ],
+        "unit": "m2"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); nearest EF land-use class (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Transformation, to water bodies, artificial",
         "code": "bf437a2e-ae92-5ef9-ba1b-e990563e88fe",
         "unit": "m2",
@@ -7953,6 +8429,27 @@
         "unit": "m2"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); sub-class 'water bodies, artificial' collapsed onto EF class 'To Water Bodies'; EF has no flow for the sub-class"
+    },
+    {
+      "source": {
+        "name": "Transformation, to water courses, artificial",
+        "code": "6fbaadc9-72e6-5a28-86b3-7b1260dd12e8",
+        "unit": "m2",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "code": "f8bf10cb-b629-4d98-9aad-543d837a6f2e",
+        "name": "To Inland Water Bodies",
+        "context": [
+          "Land use",
+          "Land transformation"
+        ],
+        "unit": "m2"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); nearest EF land-use class (decision 2026-09-13)"
     },
     {
       "source": {

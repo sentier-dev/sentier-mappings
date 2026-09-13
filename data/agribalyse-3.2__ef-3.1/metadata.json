@@ -1,0 +1,16 @@
+{
+  "source": "agribalyse-3.2",
+  "target": "ef-3.1",
+  "title": "Agribalyse 3.2 elementary flows → EF 3.1 characterization flow keys",
+  "target_proprietary": false,
+  "schema_version": "0.2.0",
+  "packages": [
+    {
+      "file": "biosphere.json",
+      "kind": "biosphere",
+      "order": 1,
+      "entries": 1095,
+      "generated_by": "sentier-importers biosphere"
+    }
+  ]
+}

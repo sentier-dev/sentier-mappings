@@ -849,6 +849,28 @@
     },
     {
       "source": {
+        "name": "Benzene (as BTEX)",
+        "code": "66b06c76-9b4c-5b2a-8ac3-809c409b5d5b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-9cc9-0050c2490048",
+        "name": "Benzene",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "BTEX reported as benzene taken as benzene (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Benzene, 1,2,4-trimethyl-",
         "code": "df89aea5-2382-5552-9e1c-42d5a08062a1",
         "unit": "kg",
@@ -912,6 +934,28 @@
     },
     {
       "source": {
+        "name": "Benzene, chloro-",
+        "code": "691167c1-c450-544c-a67f-e18b9bed135b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river, long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a2e4-0050c2490048",
+        "name": "Chlorobenzene",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Benzene, dichloro-",
         "code": "694fd00c-d53d-57a3-aa0f-84c1ae1e28a7",
         "unit": "kg",
@@ -927,6 +971,69 @@
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Benzo(a)anthracene",
+        "code": "33a774dd-9bf8-5b5f-aa12-8447e987a116",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a2b0-0050c2490048",
+        "name": "BENZ(a)ANTHRACENE",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Benzo(a)anthracene",
+        "code": "6ff9cc0a-2850-5d5d-88e4-b96f23a5cfd1",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a2b8-0050c2490048",
+        "name": "BENZ(a)ANTHRACENE",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Benzo(a)anthracene",
+        "code": "887cc0e0-47ce-5929-9114-d7f5694dce14",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a2b4-0050c2490048",
+        "name": "BENZ(a)ANTHRACENE",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
         ],
         "unit": "kilogram"
       }
@@ -2204,6 +2311,49 @@
     },
     {
       "source": {
+        "name": "Chlormequat",
+        "code": "8f790f20-3c32-503e-b98e-7b095c6c79e2",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a61f-0050c2490048",
+        "name": "Chlormequat Chloride",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "commercial chloride form of the same active ingredient (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Chlorosilane, trimethyl-",
+        "code": "8644511c-601d-51ee-93b3-b41583533f2a",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "7ba77124-a0e2-4c8d-9f77-cc8d83c5916e",
+        "name": "Chlorotrimethylsilane",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
         "name": "Chromium",
         "code": "fd5a213c-4dfa-5e35-a7e2-17c4080f5ff8",
         "unit": "kg",
@@ -2454,6 +2604,28 @@
         ],
         "unit": "kilogram"
       }
+    },
+    {
+      "source": {
+        "name": "Chromium VI",
+        "code": "2ddc647f-111b-5285-8c9c-c905d7418cba",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-9c1d-0050c2490048",
+        "name": "Chromium(6+)",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13); EF has no ground water flow for this substance; the unspecified context is used"
     },
     {
       "source": {
@@ -3004,6 +3176,27 @@
       "target": {
         "code": "4d9a8790-3ddd-11dd-972a-0050c2490048",
         "name": "Eptam",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Disodium acid methane arsenate",
+        "code": "9dc17719-f683-5956-8e7c-cc553a61d71f",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "ccc31ebf-cda9-45b9-aa0e-45c828c974d2",
+        "name": "Disodium Methylarsonate",
         "context": [
           "Emissions",
           "Emissions to soil",
@@ -3728,6 +3921,27 @@
       "target": {
         "code": "fe0acd60-3ddc-11dd-a6be-0050c2490048",
         "name": "Hydrogen cyanide",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Hydrogen fluoride",
+        "code": "74b339a0-92b5-528e-9cfa-3f6a3ba08f13",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-aab3-0050c2490048",
+        "name": "fluorane",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -4712,6 +4926,50 @@
     {
       "source": {
         "name": "Methane, tetrachloro-, CFC-10",
+        "code": "da7f284d-69a0-551c-8ca7-15e73c83a898",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a92b-0050c2490048",
+        "name": "CFC-10",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF carries a second flow for this CAS with different factors (Carbon Tetrachloride); the flow named by the source's refrigerant code is used; it characterises every impact category the other does (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Methane, tetrachloro-, CFC-10",
+        "code": "4b415c26-9f91-52c2-ac41-3d3bf4a44254",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a929-0050c2490048",
+        "name": "CFC-10",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF carries a second flow for this CAS with different factors (Carbon Tetrachloride); the flow named by the source's refrigerant code is used; it characterises every impact category the other does (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Methane, tetrachloro-, CFC-10",
         "code": "f21dfded-301f-5388-ae95-409eaec4e573",
         "unit": "kg",
         "context": [
@@ -4729,6 +4987,28 @@
         ],
         "unit": "kilogram"
       }
+    },
+    {
+      "source": {
+        "name": "Methane, tetrachloro-, CFC-10",
+        "code": "f226d4b6-9abd-584c-b26c-3c48ee420472",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river, long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a92d-0050c2490048",
+        "name": "CFC-10",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)"
     },
     {
       "source": {
@@ -6267,6 +6547,49 @@
     },
     {
       "source": {
+        "name": "Primisulfuron",
+        "code": "b7ea32a0-97c5-5fed-ab47-b18902d32b61",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "c50331ca-1ee1-47f4-9cda-1d02f49fe96f",
+        "name": "Primisulfuron-methyl",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "methyl ester is the active ingredient as sold (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Propane, 1,1,1,3,3-pentafluoro-, HFC-245fa",
+        "code": "2950adaf-044c-5390-8e72-7745a2b7d27a",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "4925e4e2-fa55-4401-b263-7e0766956bf0",
+        "name": "1,1,1,3,3-pentafluoropropane",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
         "name": "Propane, 1,2-dichloro-",
         "code": "4506102e-3c20-570b-9c0d-ea4103a7b8aa",
         "unit": "kg",
@@ -6817,6 +7140,28 @@
     {
       "source": {
         "name": "Sodium",
+        "code": "0836bdc2-60e0-5191-8034-7a688414c1cb",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "a55bd8e1-725d-4f49-a864-22e95ea316a6",
+        "name": "sodium",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13); EF has no ground water flow for this substance; the unspecified context is used"
+    },
+    {
+      "source": {
+        "name": "Sodium",
         "code": "182497bc-d05f-51a5-b410-791b7bffca66",
         "unit": "kg",
         "context": [
@@ -6936,6 +7281,27 @@
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Sodium chloride",
+        "code": "38c86be0-9021-5288-b1b6-3b97402b5f1d",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "4c2fea71-c33e-4819-b549-8f577cfb0481",
+        "name": "sea water",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
         ],
         "unit": "kilogram"
       }
@@ -7258,6 +7624,73 @@
     },
     {
       "source": {
+        "name": "Thiazole, 2-(thiocyanatemethylthio)benzo-",
+        "code": "4ee4ae24-ed27-51f8-80aa-54e19e934de7",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-9c40-0050c2490048",
+        "name": "2-(Thiocyanomethylthio)benzothiazole",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "TiO2, 54% in ilmenite, 2.6% in crude ore",
+        "code": "53cad650-8160-5be4-9d72-b281bbd746d9",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "2906898f-6556-11dd-ad8b-0800200c9a66",
+        "name": "Titanium",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable element resources from ground"
+        ],
+        "unit": "kilogram"
+      },
+      "conversion_factor": 0.5995,
+      "comment": "amount is kg TiO2; 0.5995 is the titanium mass fraction of TiO2 (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "TiO2, 95% in rutile, 0.40% in crude ore",
+        "code": "03c629ae-d5f8-58a5-bfe4-fa678eb8cdf4",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "2906898f-6556-11dd-ad8b-0800200c9a66",
+        "name": "Titanium",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable element resources from ground"
+        ],
+        "unit": "kilogram"
+      },
+      "conversion_factor": 0.5995,
+      "comment": "amount is kg TiO2; 0.5995 is the titanium mass fraction of TiO2 (decision 2026-09-13)"
+    },
+    {
+      "source": {
         "name": "Tin",
         "code": "2cd82d2b-da2a-5388-a26f-4d24078a57f1",
         "unit": "kg",
@@ -7280,6 +7713,28 @@
     {
       "source": {
         "name": "Tin",
+        "code": "d65d02fc-c666-5f59-a540-158ce06bfe92",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9991-0050c2490048",
+        "name": "Tin atom",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "EF has no ground water flow for this substance; the unspecified context is used"
+    },
+    {
+      "source": {
+        "name": "Tin",
         "code": "1e261c93-5ae0-5fa2-9096-576a3d13f2b1",
         "unit": "kg",
         "context": [
@@ -7294,6 +7749,69 @@
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "91a99f13-4405-5789-a1b4-5df27d550ade",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9993-0050c2490048",
+        "name": "Tin atom",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "d3486d5f-c8b2-5d43-88fb-3addc12f44c5",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-998f-0050c2490048",
+        "name": "Tin atom",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Tin",
+        "code": "3c190fc7-c9ba-540b-8b67-253a87a1c4c9",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9991-0050c2490048",
+        "name": "Tin atom",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
         ],
         "unit": "kilogram"
       }
@@ -7464,6 +7982,48 @@
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Toluene, 2-chloro-",
+        "code": "ecf8a712-e368-58e3-bd88-694887e142ab",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-ac8f-0050c2490048",
+        "name": "O-chlorotoluene",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Toluene, 2-chloro-",
+        "code": "bdce9378-fb39-52d7-9510-9e907d7c4b99",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-ac91-0050c2490048",
+        "name": "O-chlorotoluene",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
         ],
         "unit": "kilogram"
       }
@@ -7824,6 +8384,50 @@
         "unit": "m2"
       },
       "comment": "BAFU files this land flow under resources / unspecified; placed on EF land use"
+    },
+    {
+      "source": {
+        "name": "Tributylstannane",
+        "code": "36855967-53b6-5ede-af61-7c1c09e86422",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a3b6-0050c2490048",
+        "name": "Tributyltin",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "tributyltin hydride taken as the tributyltin cation (decision 2026-09-13)"
+    },
+    {
+      "source": {
+        "name": "Tributylstannane",
+        "code": "f112d64e-d24b-5698-bd3f-92eb59f8d513",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a3b8-0050c2490048",
+        "name": "Tributyltin",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "tributyltin hydride taken as the tributyltin cation (decision 2026-09-13)"
     },
     {
       "source": {
