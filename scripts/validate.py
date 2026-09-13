@@ -42,7 +42,7 @@ _UNITS: dict[str, tuple[str, float]] = {
     "kg": ("mass", 1.0), "kilogram": ("mass", 1.0), "g": ("mass", 1e-3),
     "t": ("mass", 1e3), "ton": ("mass", 1e3), "tonne": ("mass", 1e3),
     "bq": ("activity", 1.0), "kbq": ("activity", 1e3), "kilo becquerel": ("activity", 1e3),
-    "m3": ("volume", 1.0), "cubic meter": ("volume", 1.0),
+    "m3": ("volume", 1.0), "cubic meter": ("volume", 1.0), "nm3": ("volume", 1.0),
     "l": ("volume", 1e-3), "litre": ("volume", 1e-3),
     "m2": ("area", 1.0), "square meter": ("area", 1.0),
     "m2a": ("area-time", 1.0), "m2*a": ("area-time", 1.0),
