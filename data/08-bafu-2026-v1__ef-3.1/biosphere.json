@@ -511,6 +511,28 @@
     {
       "source": {
         "name": "BOD5, Biological Oxygen Demand",
+        "code": "d87d4e8c-ad4c-5064-be2c-beea1cd572f0",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-97df-0050c2490048",
+        "name": "Biological Oxygen Demand",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "BOD5, Biological Oxygen Demand",
         "code": "7d8eca59-50a7-5a06-bee6-5d2526fd6403",
         "unit": "kg",
         "context": [
@@ -749,6 +771,28 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has no ground water flow for this substance; the unspecified context is used"
+    },
+    {
+      "source": {
+        "name": "COD, Chemical Oxygen Demand",
+        "code": "378f739b-4446-525c-afec-e475a0eca633",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-97ee-0050c2490048",
+        "name": "Chemical Oxygen Demand",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
     },
     {
       "source": {
@@ -1435,6 +1479,28 @@
     {
       "source": {
         "name": "DOC, Dissolved Organic Carbon",
+        "code": "48e8070d-0f6b-562c-bba3-476b0a117268",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "8d8b884f-41cf-44c3-ab79-07c5902e77e6",
+        "name": "DOC, Dissolved Organic Carbon",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "DOC, Dissolved Organic Carbon",
         "code": "45736fb8-0f70-516f-a5de-5b5b73c58982",
         "unit": "kg",
         "context": [
@@ -1563,6 +1629,108 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Energy, geothermal, converted",
+        "code": "4d23b0ea-5cd8-53f8-ad79-5513c7a77d3b",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "c0060563-96ea-4322-8305-61c39f2ad3cd",
+        "name": "Energy, Geothermal, Converted",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
+    },
+    {
+      "source": {
+        "name": "Energy, geothermal, converted",
+        "code": "283ca557-6622-5758-b3a0-7366c14c1129",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "c0060563-96ea-4322-8305-61c39f2ad3cd",
+        "name": "Energy, Geothermal, Converted",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
+    },
+    {
+      "source": {
+        "name": "Energy, gross calorific value, in biomass, primary forest",
+        "code": "52762ee3-f182-5571-ab05-d30caa5a5d71",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "1de8efff-89e0-47d9-be78-1192f6e1a20d",
+        "name": "Energy, Gross Calorific Value, In Biomass, Primary Forest",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
+    },
+    {
+      "source": {
+        "name": "Energy, kinetic (in wind), converted",
+        "code": "07b66244-8a9f-510d-9cb1-1bd53ac8e935",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in air"
+        ]
+      },
+      "target": {
+        "code": "0ab82f67-9e7e-417a-8de8-9801226a436f",
+        "name": "Energy, Kinetic (in Wind), Converted",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
+    },
+    {
+      "source": {
+        "name": "Energy, potential (in hydropower reservoir), converted",
+        "code": "0fdedbea-4e61-54cb-88d7-9ca15e65d632",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in water"
+        ]
+      },
+      "target": {
+        "code": "e89f564c-7250-4fee-b759-dc8b42fe62bf",
+        "name": "Energy, Potential (in Hydropower Reservoir), Converted",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
+    },
+    {
+      "source": {
+        "name": "Energy, solar, converted",
+        "code": "db134b96-a73f-5f7d-8199-37de0c15f081",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in air"
+        ]
+      },
+      "target": {
+        "code": "1c80d3da-b8c4-4275-a552-c96a709a11dd",
+        "name": "Energy, Solar, Converted",
+        "unit": "megajoule"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context not recoverable from the source context code"
     },
     {
       "source": {
@@ -1849,6 +2017,28 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Helium",
+        "code": "04984b41-5a04-5b16-bd6b-c5a260401f80",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-a657-0050c2490048",
+        "name": "Helium",
+        "context": [
+          "Resources",
+          "Resources from air",
+          "Renewable material resources from air"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF has this name only in renewable material resources from air; placed there for nomenclature alignment (no factor)"
     },
     {
       "source": {
@@ -3503,6 +3693,28 @@
     {
       "source": {
         "name": "Nitrogen, organic bound",
+        "code": "fb9c97d8-cc1b-53f4-ac19-7acbdfd5a12b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "0dd1dfef-db07-4e19-ba7b-ee8128fc96e1",
+        "name": "Nitrogen",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Nitrogen, organic bound",
         "code": "bd971741-8255-5efe-b699-5e8255b0e9b9",
         "unit": "kg",
         "context": [
@@ -3783,6 +3995,28 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Perchlorate, ion",
+        "code": "b7cab4ad-fe0a-548b-8b93-518874a8e91f",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river"
+        ]
+      },
+      "target": {
+        "code": "138dd813-613e-4e7f-91a9-c8b1df025705",
+        "name": "Perchlorate",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); ion-form source name mapped onto the EF element flow (decision 2026-09-13)"
     },
     {
       "source": {
@@ -4223,6 +4457,28 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has no ground water flow for this substance; the unspecified context is used"
+    },
+    {
+      "source": {
+        "name": "Potassium",
+        "code": "23ee1b9a-5d29-583c-881a-f4b5297f489d",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-97c4-0050c2490048",
+        "name": "Potassium",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
     },
     {
       "source": {
@@ -5789,6 +6045,28 @@
     {
       "source": {
         "name": "Scandium",
+        "code": "0e83e026-73c0-5b3c-a75c-3a0985c1d5e5",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-abea-0050c2490048",
+        "name": "Scandium",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Scandium",
         "code": "49d8c15a-8856-5292-b62a-1e4a20b95a61",
         "unit": "kg",
         "context": [
@@ -6317,6 +6595,28 @@
     {
       "source": {
         "name": "Sulfate",
+        "code": "4b02f470-652c-5f8d-94cb-b90c63fc55cd",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-ac5a-0050c2490048",
+        "name": "Sulfate Ion",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Sulfate",
         "code": "f3bc7c98-027c-5f0c-9602-407860f041fa",
         "unit": "kg",
         "context": [
@@ -6819,6 +7119,28 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has no ground water flow for this substance; the unspecified context is used"
+    },
+    {
+      "source": {
+        "name": "TOC, Total Organic Carbon",
+        "code": "1e39fd49-f07d-5177-aef9-60d7e89ec6d1",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "4d9a8790-3ddd-11dd-8e7e-0050c2490048",
+        "name": "Total Organic Carbon",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
     },
     {
       "source": {
@@ -7785,6 +8107,90 @@
         "unit": "kilogram"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Volume occupied, final repository for low-active radioactive waste",
+        "code": "5299ecb9-621b-5e98-9208-8198fec17328",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "1fc2328b-d860-4aa7-ac27-34aa1cce4f9d",
+        "name": "Volume Occupied, Final Repository For Low-active Radioactive Waste",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Volume occupied, final repository for radioactive waste",
+        "code": "bb7ae3f4-86e7-5404-9f3a-de835059cc0b",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "0fdfa11c-0397-4f46-b1cf-d9266d5a5a13",
+        "name": "Volume Occupied, Final Repository For Radioactive Waste",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Volume occupied, reservoir",
+        "code": "6b237d20-a22c-5092-b497-315ee047f1cd",
+        "unit": "m3y",
+        "context": [
+          "resources",
+          "in water"
+        ]
+      },
+      "target": {
+        "code": "1bd103da-4de0-4913-a45e-4dfaf79af96a",
+        "name": "Volume Occupied, Reservoir",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ],
+        "unit": "m3y"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
+    },
+    {
+      "source": {
+        "name": "Volume occupied, underground deposit",
+        "code": "28869052-4ba9-520e-9a15-757eac540f52",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "code": "da841aa2-7d85-4a6f-929c-7db64b4c4e59",
+        "name": "Volume Occupied, Underground Deposit",
+        "context": [
+          "Land use",
+          "Land occupation"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF has this name only in land occupation; placed there for nomenclature alignment (no factor)"
     },
     {
       "source": {
@@ -9201,6 +9607,160 @@
         ],
         "location": "ZA",
         "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Water/m3",
+        "code": "cc7bc4e1-3f8b-5e4b-a418-a55f550a0bdb",
+        "unit": "m3",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "code": "896d1d1e-2b87-4a83-b209-11a2ea997b49",
+        "name": "Water",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Wood, hard, standing",
+        "code": "b2a08037-4453-5697-b2db-dd40e07ad7aa",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
+        "name": "Wood",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Wood, primary forest, standing",
+        "code": "69669b7c-631c-5296-97f0-c85fbd40fbf2",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
+        "name": "Wood",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Wood, soft, standing",
+        "code": "029ca828-9347-53d0-9b6e-a2c91e30bbbe",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
+        "name": "Wood",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ],
+        "unit": "cubic meter"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
+    },
+    {
+      "source": {
+        "name": "Wood, unspecified, standing/kg",
+        "code": "05446841-2cf9-5b0e-bf07-bfcd2c71c703",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "land"
+        ]
+      },
+      "target": {
+        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
+        "name": "Wood",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); BAFU files this resource under land; placed on the inferred EF resource branch renewable material resources from biosphere (uncharacterised, context from the Brightway code)"
+    },
+    {
+      "source": {
+        "name": "Wood, unspecified, standing/kg",
+        "code": "d27cd4c7-81ae-5b69-b333-e60baf6f3886",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
+        "name": "Wood",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow); BAFU files this resource under unspecified; placed on the inferred EF resource branch renewable material resources from biosphere (uncharacterised, context from the Brightway code)"
+    },
+    {
+      "source": {
+        "name": "Wood, unspecified, standing/m3",
+        "code": "6f3f0478-ff43-579c-ad2a-d7a1ccd964c8",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
+        "name": "Wood",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ],
+        "unit": "cubic meter"
       },
       "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the source unit's EF spelling (EF states no reference unit for this flow)"
     },
