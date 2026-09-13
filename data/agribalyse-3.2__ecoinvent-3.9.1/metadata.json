@@ -2,9 +2,14 @@
   "source": "agribalyse-3.2",
   "target": "ecoinvent-3.9.1",
   "title": "Agribalyse 3.2 → ecoinvent 3.9.1 technosphere links",
-  "rank": 1,
-  "kinds": ["technosphere"],
   "target_proprietary": true,
-  "schema_version": "0.1.0",
-  "entry_counts": { "technosphere": 0 }
+  "schema_version": "0.2.0",
+  "packages": [
+    {
+      "file": "technosphere.json",
+      "kind": "technosphere",
+      "order": 1,
+      "entries": 0
+    }
+  ]
 }

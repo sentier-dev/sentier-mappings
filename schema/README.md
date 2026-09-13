@@ -7,7 +7,7 @@ opening a delivery PR — not runtime code. No mapping logic ships here.
 | file | describes |
 |---|---|
 | `randonneur-package.schema.json` | JSON Schema for a mapping package (our randonneur profile) |
-| `metadata.schema.json` | JSON Schema for each bridge's `metadata.json` |
+| `metadata.schema.json` | JSON Schema for each pair's `metadata.json` |
 
 ## randonneur version
 
@@ -19,9 +19,9 @@ recorded here.
 
 | kind | verb(s) | file | target encoding |
 |---|---|---|---|
-| foreground → background | `replace` | `technosphere.json` | `{database, code}` — opaque ecoinvent code only |
-| process → process | `replace` | `technosphere.json` | full open identifiers |
-| elementary flow ↔ CF | `replace` / `update` | `biosphere.json` | full open identifiers |
+| foreground → background | `replace` | `technosphere.json` (or its numbered form `technosphere-<n>-<slug>.json`) | `{database, code}` — opaque ecoinvent code only |
+| process → process | `replace` | `technosphere.json` (or its numbered form `technosphere-<n>-<slug>.json`) | full open identifiers |
+| elementary flow ↔ CF | `replace` / `update` | `biosphere.json` (or its numbered form `biosphere-<n>-<slug>.json`) | full open identifiers |
 
 - **`replace`** — rewrite a source edge's target to the mapped target.
 - **`update`** — adjust fields in place (e.g. unit normalization via
@@ -39,5 +39,12 @@ identifiers (Sentier processes, method flow keys) are open and stored in full.
 
 ## Precedence
 
-Bridges resolve in rank order — the `<NN>` prefix on each `data/<NN>-…/` folder
-sets precedence (lower wins when two bridges offer conflicting links).
+Precedence is per-pair, not global. A pair with several packages of one kind
+numbers them `<kind>-<n>-<slug>.json`, `n` from 1: that number is build order
+and precedence **within the pair only**, never a rank across unrelated pairs
+(different pairs never conflict, so no global tie-break is needed). Package
+`n` was built over what packages `1..n-1` left unmapped, so an earlier file
+wins on a shared source key; `scripts/validate.py` enforces that the packages
+of one pair never actually disagree, so the order records provenance and
+confidence more than it resolves live conflicts. `metadata.json`'s `packages`
+list carries this order explicitly, one entry per package.
