@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://data.sentier.dev/mappings/schema/randonneur-package",
   "title": "Sentier mappings randonneur package profile",
-  "description": "Profile of a randonneur datapackage as stored in data/<NN>-<source>__<target>/{technosphere,biosphere}.json. A self-describing mapping package.",
+  "description": "Profile of a randonneur datapackage as stored in data/<source>__<target>/ package files (technosphere.json, biosphere.json, or their numbered forms). A self-describing mapping package.",
   "type": "object",
   "required": ["name", "version"],
   "additionalProperties": true,

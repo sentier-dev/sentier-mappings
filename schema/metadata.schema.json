@@ -1,32 +1,51 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://data.sentier.dev/mappings/schema/metadata",
-  "title": "Sentier mappings bridge metadata",
-  "description": "Identity file (metadata.json) carried by each data/<NN>-<source>__<target>/ bridge folder.",
+  "title": "Sentier mappings pair metadata",
+  "description": "Identity file (metadata.json) carried by each data/<source>__<target>/ pair folder, listing its ordered package files.",
   "type": "object",
-  "required": ["source", "target", "title", "rank", "kinds", "target_proprietary", "schema_version"],
-  "additionalProperties": true,
+  "required": ["source", "target", "title", "target_proprietary", "schema_version", "packages"],
+  "additionalProperties": false,
   "properties": {
     "source": { "type": "string", "description": "Lower-kebab source datasource id, e.g. agribalyse-3.2." },
     "target": { "type": "string", "description": "Lower-kebab target datasource id, e.g. ecoinvent-3.9.1, ef-3.1, or a Sentier source." },
-    "title": { "type": "string", "description": "Human-readable bridge title." },
-    "rank": { "type": "integer", "minimum": 1, "description": "Resolution precedence; lower wins on conflict." },
-    "kinds": {
-      "type": "array",
-      "description": "Which package files are present in this bridge.",
-      "items": { "type": "string", "enum": ["technosphere", "biosphere"] },
-      "minItems": 1,
-      "uniqueItems": true
-    },
+    "title": { "type": "string", "description": "Human-readable pair title." },
     "target_proprietary": {
       "type": "boolean",
       "description": "true ⇒ targets are opaque codes only (ecoinvent); false ⇒ full open identifiers."
     },
-    "schema_version": { "type": "string", "description": "Mapping-schema version, e.g. 0.1.0." },
-    "entry_counts": {
-      "type": "object",
-      "description": "Per-kind entry counts.",
-      "additionalProperties": { "type": "integer", "minimum": 0 }
+    "schema_version": { "const": "0.2.0", "description": "Mapping-schema version; must be 0.2.0." },
+    "description": { "type": "string", "description": "Optional pair-level prose." },
+    "packages": {
+      "type": "array",
+      "description": "Ordered package files for this pair. Order is build order and precedence within the pair, never a global rank.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["file", "kind", "order", "entries"],
+        "additionalProperties": false,
+        "properties": {
+          "file": { "type": "string", "description": "Package filename, e.g. biosphere.json or biosphere-1-curated.json." },
+          "kind": { "type": "string", "enum": ["biosphere", "technosphere"] },
+          "order": { "type": "integer", "minimum": 1, "description": "Position in the packages list (1-based); for numbered filenames, equals the <n> in the filename." },
+          "entries": { "type": "integer", "minimum": 0, "description": "Number of entries in the package file. 0 is valid for a stub package whose file is not yet present." },
+          "title": { "type": "string", "description": "Short label distinguishing this package from the pair's others." },
+          "description": { "type": "string", "description": "Package-level prose." },
+          "generated_by": { "type": "string", "description": "sentier-importers source name (or contribution note) that produced this package." },
+          "sidecars": {
+            "type": "array",
+            "description": "Non-normative review/coverage files scoped to this package.",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "sidecars": {
+      "type": "array",
+      "description": "Non-normative review/coverage files scoped to the whole pair.",
+      "items": { "type": "string" },
+      "uniqueItems": true
     }
   }
 }
