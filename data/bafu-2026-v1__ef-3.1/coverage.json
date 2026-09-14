@@ -27,7 +27,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -42,7 +42,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -57,7 +57,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -1362,7 +1362,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -2819,14 +2819,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has biological oxygen demand only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -3300,9 +3295,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -3315,9 +3311,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "nomenclature_placement",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only in 'emissions to air, unspecified (long-term)', 'emissions to lower stratosphere and upper troposphere', 'emissions to non-urban air or from high stacks', 'emissions to urban air close to ground'; placed on 'emissions to air, unspecified (long-term)' for nomenclature alignment (no factor)"
+      ]
     },
     {
       "source": {
@@ -3330,9 +3330,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -3589,13 +3590,9 @@
           "river, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-3-matched",
-      "tier": "synonym",
-      "placement": "long_term_collapsed",
-      "caveats": [
-        "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has chlorobenzene only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -4514,10 +4511,7 @@
       "status": "mapped",
       "package": "biosphere-3-matched",
       "tier": "name",
-      "placement": "unspecified_fallback",
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "placement": "exact"
     },
     {
       "source": {
@@ -5001,14 +4995,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has chemical oxygen demand only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -6385,7 +6374,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -7317,7 +7306,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "alias",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -7838,14 +7827,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-3-matched",
-      "tier": "cas",
-      "placement": "long_term_collapsed",
-      "caveats": [
-        "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)",
-        "EF has no ground water flow for this substance; the unspecified context is used"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has chromium (vi) only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -9393,14 +9377,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "name",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has doc, dissolved organic carbon only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -10182,7 +10161,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "alias",
+      "placement": "exact"
     },
     {
       "source": {
@@ -11426,8 +11407,9 @@
           "river, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-1-curated"
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has vinyl chloride only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -12016,7 +11998,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -12255,7 +12237,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -12270,7 +12252,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -13404,14 +13386,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has waste heat only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -14210,7 +14187,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -14225,7 +14202,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -14279,7 +14256,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -15550,7 +15527,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -18253,13 +18230,9 @@
           "river, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-3-matched",
-      "tier": "cas",
-      "placement": "long_term_collapsed",
-      "caveats": [
-        "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has cfc-10 only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -18582,7 +18555,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -18833,7 +18806,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -18939,10 +18914,7 @@
       "status": "mapped",
       "package": "biosphere-3-matched",
       "tier": "name",
-      "placement": "exact",
-      "caveats": [
-        "2 EF flows with identical factors; chose Molybdenum (CAS 7439-98-7) over Molybdenum (CAS 16065-87-5)"
-      ]
+      "placement": "exact"
     },
     {
       "source": {
@@ -18983,10 +18955,7 @@
       "status": "mapped",
       "package": "biosphere-3-matched",
       "tier": "name",
-      "placement": "exact",
-      "caveats": [
-        "2 EF flows with identical factors; source CAS 7439-98-7 matches none, chose Molybdenum (CAS 16065-87-5) over molybdenum (CAS none)"
-      ]
+      "placement": "exact"
     },
     {
       "source": {
@@ -19042,10 +19011,7 @@
       "status": "mapped",
       "package": "biosphere-3-matched",
       "tier": "name",
-      "placement": "exact",
-      "caveats": [
-        "2 EF flows with identical factors; chose Molybdenum (CAS 7439-98-7) over Molybdenum (CAS 16065-87-5)"
-      ]
+      "placement": "exact"
     },
     {
       "source": {
@@ -19927,7 +19893,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -20001,7 +19969,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -20094,7 +20064,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -20442,14 +20414,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "synonym",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has nitrogen only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -22053,7 +22020,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "alias",
+      "placement": "exact"
     },
     {
       "source": {
@@ -22183,8 +22152,9 @@
           "low. pop., long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-1-curated"
+      "status": "unmapped",
+      "reason": "no_ef_flow",
+      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
     },
     {
       "source": {
@@ -22703,7 +22673,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -23640,14 +23612,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "name",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has potassium only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -25552,7 +25519,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -25565,7 +25534,9 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-1-curated"
+      "package": "biosphere-3-matched",
+      "tier": "name",
+      "placement": "exact"
     },
     {
       "source": {
@@ -25921,14 +25892,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "name",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has scandium only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -26773,9 +26739,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26788,9 +26755,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26803,9 +26771,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26818,9 +26787,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26833,9 +26803,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26848,9 +26819,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "unspecified_fallback",
+      "characterised": false,
+      "caveats": [
+        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
+      ]
     },
     {
       "source": {
@@ -26879,9 +26854,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
       "placement": "unspecified_fallback",
+      "characterised": false,
       "caveats": [
         "EF has no ground water flow for this substance; the unspecified context is used"
       ]
@@ -26896,14 +26872,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-3-matched",
-      "tier": "name",
-      "placement": "long_term_collapsed",
-      "caveats": [
-        "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)",
-        "EF has no ground water flow for this substance; the unspecified context is used"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has sodium only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -26916,9 +26887,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26931,9 +26903,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26946,9 +26919,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26961,9 +26935,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-3-matched",
+      "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "exact"
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27005,7 +26980,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "name",
+      "tier": "synonym",
       "placement": "exact"
     },
     {
@@ -27033,7 +27008,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -27048,7 +27023,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -27806,14 +27781,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "synonym",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has sulfate ion only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -28581,14 +28551,9 @@
           "groundwater, long-term"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to fresh water', 'emissions to sea water', 'emissions to water, unspecified'; placed on 'emissions to water, unspecified' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has total organic carbon only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
     },
     {
       "source": {
@@ -29778,7 +29743,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -29832,7 +29797,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "unspecified_fallback",
       "caveats": [
         "EF has no ground water flow for this substance; the unspecified context is used"
@@ -29865,7 +29830,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -29880,7 +29845,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {
@@ -29895,7 +29860,7 @@
       },
       "status": "mapped",
       "package": "biosphere-3-matched",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact"
     },
     {

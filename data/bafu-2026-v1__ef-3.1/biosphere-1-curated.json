@@ -1167,27 +1167,6 @@
     },
     {
       "source": {
-        "name": "Nitrate",
-        "code": "06c6e474-5fb0-5d54-83e0-adba07fdea3b",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater, long-term"
-        ]
-      },
-      "target": {
-        "name": "nitrate",
-        "code": "4d9a8790-3ddd-11dd-8d68-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      }
-    },
-    {
-      "source": {
         "name": "Chromium VI",
         "code": "a2126bd8-8449-5238-93a3-089bb9071c5e",
         "unit": "kg",
@@ -1220,27 +1199,6 @@
       "target": {
         "name": "nitrate",
         "code": "4d9a8790-3ddd-11dd-8d68-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      }
-    },
-    {
-      "source": {
-        "name": "Phosphate",
-        "code": "13672096-3309-5d0b-86e6-9b0d296f7cb8",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater, long-term"
-        ]
-      },
-      "target": {
-        "name": "phosphate",
-        "code": "08a91e70-3ddc-11dd-9787-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -14048,27 +14006,6 @@
     },
     {
       "source": {
-        "name": "Particulates, > 2.5 um, and < 10um",
-        "code": "0b6278d6-a422-55f1-947f-42d0ab75c414",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop., long-term"
-        ]
-      },
-      "target": {
-        "name": "particles (PM10)",
-        "code": "08a91e70-3ddc-11dd-91be-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
-        ]
-      }
-    },
-    {
-      "source": {
         "name": "Chlorosulfonic acid",
         "code": "0e7f3792-055c-56fd-a3e5-c06dfa373576",
         "unit": "kg",
@@ -16259,27 +16196,6 @@
     },
     {
       "source": {
-        "name": "Nitrite",
-        "code": "c27737b5-739a-5762-a5a1-3250b3527ed0",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater, long-term"
-        ]
-      },
-      "target": {
-        "name": "nitrite",
-        "code": "08a91e70-3ddc-11dd-96e0-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      }
-    },
-    {
-      "source": {
         "name": "Dipropylamine",
         "code": "ce7d9e74-050b-50f2-8669-f98a840f63d4",
         "unit": "kg",
@@ -16845,27 +16761,6 @@
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
-        ]
-      }
-    },
-    {
-      "source": {
-        "name": "Nitrate",
-        "code": "3073d7ea-6078-57f9-ad6e-6de3dddd1e71",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop., long-term"
-        ]
-      },
-      "target": {
-        "name": "nitrate",
-        "code": "08a91e70-3ddc-11dd-96d7-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
         ]
       }
     },
@@ -18168,28 +18063,6 @@
     },
     {
       "source": {
-        "name": "Radon-222",
-        "code": "0f2726cb-eef7-5c53-9688-47df4cc06b96",
-        "unit": "Bq",
-        "context": [
-          "emissions to air",
-          "low. pop., long-term"
-        ]
-      },
-      "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kBq",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "conversion_factor": 0.001
-    },
-    {
-      "source": {
         "name": "Benomyl",
         "code": "1adcbae9-2d63-5755-be7c-c6776e5f2c87",
         "unit": "kg",
@@ -18293,27 +18166,6 @@
         ]
       },
       "conversion_factor": 0.001
-    },
-    {
-      "source": {
-        "name": "Particulates, < 2.5 um",
-        "code": "e59212b7-091f-5921-81dd-1fe05a185bcf",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop., long-term"
-        ]
-      },
-      "target": {
-        "name": "particles (PM2.5)",
-        "code": "08a91e70-3ddc-11dd-9293-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
-        ]
-      }
     },
     {
       "source": {
@@ -19308,27 +19160,6 @@
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
-        ]
-      }
-    },
-    {
-      "source": {
-        "name": "Radon-222",
-        "code": "f2e03244-9424-54c2-91df-79beac00f85f",
-        "unit": "kBq",
-        "context": [
-          "emissions to air",
-          "low. pop., long-term"
-        ]
-      },
-      "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kBq",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
         ]
       }
     },
@@ -22879,48 +22710,6 @@
     },
     {
       "source": {
-        "name": "Dioxin, 2,3,7,8 Tetrachlorodibenzo-p-",
-        "code": "e9d78ad7-1c08-5f6e-94d3-f33054ab6692",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "river, long-term"
-        ]
-      },
-      "target": {
-        "name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
-        "code": "08a91e70-3ddc-11dd-92f5-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      }
-    },
-    {
-      "source": {
-        "name": "Ethene, chloro-",
-        "code": "6150315a-2c7d-5e27-a8b4-4e9adeefc923",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "river, long-term"
-        ]
-      },
-      "target": {
-        "name": "vinyl chloride",
-        "code": "fe0acd60-3ddc-11dd-a496-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      }
-    },
-    {
-      "source": {
         "name": "Cyclohexane",
         "code": "20e6846d-1ff0-50ac-9b8d-69c64ee5cb6c",
         "unit": "kg",
@@ -22974,27 +22763,6 @@
       "target": {
         "name": "pymetrozine",
         "code": "4d9a8790-3ddd-11dd-9a24-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to agricultural soil"
-        ]
-      }
-    },
-    {
-      "source": {
-        "name": "Metiram",
-        "code": "cedd754b-5f44-531b-bd40-43c05c2c4af0",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "agricultural"
-        ]
-      },
-      "target": {
-        "name": "zineb",
-        "code": "fe0acd60-3ddc-11dd-9fb9-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
