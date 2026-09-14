@@ -786,69 +786,6 @@
     },
     {
       "source": {
-        "name": "Benzal chloride",
-        "code": "ac5b285a-d2d0-5780-9be5-c346bfeff220",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "high. pop."
-        ]
-      },
-      "target": {
-        "code": "1ff1b4fa-b4ab-4ce5-8980-27299643c658",
-        "name": "Benzal chloride",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to urban air close to ground"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Benzal chloride",
-        "code": "68cc74dc-27cc-5148-a8c6-2fa9b4a609c6",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "target": {
-        "code": "c9fb7dda-8cf2-4de1-8804-1941c86c1957",
-        "name": "Benzal chloride",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Benzal chloride",
-        "code": "5a19d5fd-7247-5c10-9a96-7bb701c1d6f7",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "river"
-        ]
-      },
-      "target": {
-        "code": "35892465-9c2b-481d-8a4a-80e294483fa3",
-        "name": "Benzal chloride",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
         "name": "Benzene (as BTEX)",
         "code": "66b06c76-9b4c-5b2a-8ac3-809c409b5d5b",
         "unit": "kg",
@@ -931,28 +868,6 @@
         ],
         "unit": "kilogram"
       }
-    },
-    {
-      "source": {
-        "name": "Benzene, chloro-",
-        "code": "691167c1-c450-544c-a67f-e18b9bed135b",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "river, long-term"
-        ]
-      },
-      "target": {
-        "code": "fe0acd60-3ddc-11dd-a2e4-0050c2490048",
-        "name": "Chlorobenzene",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ],
-        "unit": "kilogram"
-      },
-      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)"
     },
     {
       "source": {
@@ -1217,16 +1132,15 @@
         ]
       },
       "target": {
-        "code": "3e4cdb4e-6556-11dd-ad8b-0800200c9a66",
-        "name": "bromide",
+        "code": "08a91e70-3ddc-11dd-931a-0050c2490048",
+        "name": "Bromide ion",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
-      },
-      "comment": "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
+      }
     },
     {
       "source": {
@@ -2607,28 +2521,6 @@
     },
     {
       "source": {
-        "name": "Chromium VI",
-        "code": "2ddc647f-111b-5285-8c9c-c905d7418cba",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater, long-term"
-        ]
-      },
-      "target": {
-        "code": "4d9a8790-3ddd-11dd-9c1d-0050c2490048",
-        "name": "Chromium(6+)",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13); EF has no ground water flow for this substance; the unspecified context is used"
-    },
-    {
-      "source": {
         "name": "Chromium, resource correction",
         "code": "c5141bf2-b939-570b-9f5d-50fa87f34d5f",
         "unit": "kg",
@@ -2669,8 +2561,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 9.9,
-      "comment": "energy content 9.9 MJ/kg (net calorific value convention of the BAFU-2026 source inventory)"
+      "conversion_factor": 9.41,
+      "comment": "energy content 9.41 MJ/kg (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14)"
     },
     {
       "source": {
@@ -2692,8 +2584,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 19.1,
-      "comment": "energy content 19.1 MJ/kg (net calorific value convention of the BAFU-2026 source inventory)"
+      "conversion_factor": 17.73,
+      "comment": "energy content 17.73 MJ/kg (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14)"
     },
     {
       "source": {
@@ -3165,6 +3057,27 @@
     },
     {
       "source": {
+        "name": "Dioxin, 2,3,7,8 Tetrachlorodibenzo-p-",
+        "code": "e9d78ad7-1c08-5f6e-94d3-f33054ab6692",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-92f6-0050c2490048",
+        "name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
         "name": "Dipropylthiocarbamic acid S-ethyl ester",
         "code": "146999ab-dd14-5964-9d33-3e35e71d66df",
         "unit": "kg",
@@ -3512,7 +3425,7 @@
       },
       "target": {
         "code": "08a91e70-3ddc-11dd-995a-0050c2490048",
-        "name": "Trans-1,2-Dichloroethylene",
+        "name": "1,2-dichloroethylene",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -3667,8 +3580,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 38.3,
-      "comment": "energy content 38.3 MJ/Nm3 (net calorific value convention of the BAFU-2026 source inventory); coal-mine off-gas approximated as natural gas (decision 2026-09-13)"
+      "conversion_factor": 35.98,
+      "comment": "energy content 35.98 MJ/Nm3 (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14); coal-mine off-gas approximated as natural gas (decision 2026-09-13)"
     },
     {
       "source": {
@@ -3690,8 +3603,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 38.3,
-      "comment": "energy content 38.3 MJ/m3 (net calorific value convention of the BAFU-2026 source inventory); coal-mine off-gas approximated as natural gas (decision 2026-09-13)"
+      "conversion_factor": 35.98,
+      "comment": "energy content 35.98 MJ/m3 (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14); coal-mine off-gas approximated as natural gas (decision 2026-09-13)"
     },
     {
       "source": {
@@ -3713,8 +3626,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 38.3,
-      "comment": "energy content 38.3 MJ/Nm3 (net calorific value convention of the BAFU-2026 source inventory)"
+      "conversion_factor": 35.98,
+      "comment": "energy content 35.98 MJ/Nm3 (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14)"
     },
     {
       "source": {
@@ -3736,8 +3649,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 38.3,
-      "comment": "energy content 38.3 MJ/m3 (net calorific value convention of the BAFU-2026 source inventory)"
+      "conversion_factor": 35.98,
+      "comment": "energy content 35.98 MJ/m3 (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14)"
     },
     {
       "source": {
@@ -4991,28 +4904,6 @@
     {
       "source": {
         "name": "Methane, tetrachloro-, CFC-10",
-        "code": "f226d4b6-9abd-584c-b26c-3c48ee420472",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "river, long-term"
-        ]
-      },
-      "target": {
-        "code": "fe0acd60-3ddc-11dd-a92d-0050c2490048",
-        "name": "CFC-10",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ],
-        "unit": "kilogram"
-      },
-      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13)"
-    },
-    {
-      "source": {
-        "name": "Methane, tetrachloro-, CFC-10",
         "code": "d6192346-e609-5365-bbb0-0b14af7e5e0a",
         "unit": "kg",
         "context": [
@@ -5138,6 +5029,27 @@
     },
     {
       "source": {
+        "name": "Metiram",
+        "code": "cedd754b-5f44-531b-bd40-43c05c2c4af0",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "agricultural"
+        ]
+      },
+      "target": {
+        "code": "d9870081-955d-4395-90b3-105da0195477",
+        "name": "Metiram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to agricultural soil"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
         "name": "Molybdenum",
         "code": "7e2e11b4-4a7a-5421-85f7-d1834c8a9843",
         "unit": "kg",
@@ -5155,8 +5067,7 @@
           "Emissions to air, unspecified (long-term)"
         ],
         "unit": "kilogram"
-      },
-      "comment": "2 EF flows with identical factors; chose Molybdenum (CAS 7439-98-7) over Molybdenum (CAS 16065-87-5)"
+      }
     },
     {
       "source": {
@@ -5169,16 +5080,15 @@
         ]
       },
       "target": {
-        "code": "03315020-65f5-40ba-a250-001c7a52278e",
-        "name": "Molybdenum",
+        "code": "fe0acd60-3ddc-11dd-ac32-0050c2490048",
+        "name": "molybdenum",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
-      },
-      "comment": "2 EF flows with identical factors; source CAS 7439-98-7 matches none, chose Molybdenum (CAS 16065-87-5) over molybdenum (CAS none)"
+      }
     },
     {
       "source": {
@@ -5220,8 +5130,7 @@
           "Emissions to fresh water"
         ],
         "unit": "kilogram"
-      },
-      "comment": "2 EF flows with identical factors; chose Molybdenum (CAS 7439-98-7) over Molybdenum (CAS 16065-87-5)"
+      }
     },
     {
       "source": {
@@ -5564,6 +5473,48 @@
     },
     {
       "source": {
+        "name": "Nitrate",
+        "code": "3073d7ea-6078-57f9-ad6e-6de3dddd1e71",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96d8-0050c2490048",
+        "name": "Nitrate",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Nitrate",
+        "code": "06c6e474-5fb0-5d54-83e0-adba07fdea3b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-aa30-0050c2490048",
+        "name": "Nitrate",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
         "name": "Nitric acid",
         "code": "079ca59d-22b3-528c-a31e-bbbcab3e7e3f",
         "unit": "kg",
@@ -5579,6 +5530,27 @@
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Nitrite",
+        "code": "c27737b5-739a-5762-a5a1-3250b3527ed0",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-96e1-0050c2490048",
+        "name": "Nitrite",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
         ],
         "unit": "kilogram"
       }
@@ -6027,8 +5999,8 @@
         ],
         "unit": "megajoule"
       },
-      "conversion_factor": 45.8,
-      "comment": "energy content 45.8 MJ/kg (net calorific value convention of the BAFU-2026 source inventory)"
+      "conversion_factor": 43.4,
+      "comment": "energy content 43.4 MJ/kg (net calorific value inferred from BAFU's published EF 3.1 resource-use scores, regression R2 1.0, decision 2026-09-14)"
     },
     {
       "source": {
@@ -6163,6 +6135,27 @@
     {
       "source": {
         "name": "Particulates, < 2.5 um",
+        "code": "e59212b7-091f-5921-81dd-1fe05a185bcf",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9294-0050c2490048",
+        "name": "Particles (PM2.5)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Particulates, < 2.5 um",
         "code": "5a49aee9-0cf5-591a-b889-0dda38c63967",
         "unit": "kg",
         "context": [
@@ -6239,7 +6232,7 @@
       },
       "target": {
         "code": "cb8212a3-62e9-446a-b8b1-62f4a59b5897",
-        "name": "8-(N-Indolyl)-2,6-dimethyl-7-octen-2-ol",
+        "name": "gasoline",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -6349,6 +6342,27 @@
           "Emissions",
           "Emissions to soil",
           "Emissions to non-agricultural soil"
+        ],
+        "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Phosphate",
+        "code": "13672096-3309-5d0b-86e6-9b0d296f7cb8",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-9788-0050c2490048",
+        "name": "Phosphate",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
         ],
         "unit": "kilogram"
       }
@@ -6649,6 +6663,49 @@
           "Emissions to agricultural soil"
         ],
         "unit": "kilogram"
+      }
+    },
+    {
+      "source": {
+        "name": "Radon-222",
+        "code": "0f2726cb-eef7-5c53-9688-47df4cc06b96",
+        "unit": "Bq",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-abb1-0050c2490048",
+        "name": "Radon-222",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kBq"
+      },
+      "conversion_factor": 0.001
+    },
+    {
+      "source": {
+        "name": "Radon-222",
+        "code": "f2e03244-9424-54c2-91df-79beac00f85f",
+        "unit": "kBq",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "fe0acd60-3ddc-11dd-abb1-0050c2490048",
+        "name": "Radon-222",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kBq"
       }
     },
     {
@@ -6991,260 +7048,6 @@
     },
     {
       "source": {
-        "name": "Sodium",
-        "code": "376924cf-f368-5e1e-8388-4751d131b3f4",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "high. pop."
-        ]
-      },
-      "target": {
-        "code": "2c9ab60b-d4a6-4c9e-b119-941b16f83c0d",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to urban air close to ground"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "32192eab-c085-54d0-8b3c-fb18a986c224",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop."
-        ]
-      },
-      "target": {
-        "code": "57402dc3-4ffe-431b-92fd-906446deddbc",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "8b50a287-749f-5e24-990d-4b42cdf27d67",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop., long-term"
-        ]
-      },
-      "target": {
-        "code": "59336456-0a80-423d-b2b3-486164f079af",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "7a4ab498-673d-5f50-ad42-506581421942",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "target": {
-        "code": "65748bd5-0478-4251-a734-03c9f76f6773",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "383bea45-4a3e-509f-9a55-b65d70f405cb",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "agricultural"
-        ]
-      },
-      "target": {
-        "code": "98c4342b-dc30-4506-8486-7ddebb7b1ecc",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to agricultural soil"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "e5eb8add-62b7-514a-9a51-3dc6a90cf8ba",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "industrial"
-        ]
-      },
-      "target": {
-        "code": "e1eedc1a-661c-4ded-98b3-b183f30f24db",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to non-agricultural soil"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "9414db5b-dc13-5078-a7c7-8888d01abdf7",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater"
-        ]
-      },
-      "target": {
-        "code": "a55bd8e1-725d-4f49-a864-22e95ea316a6",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "comment": "EF has no ground water flow for this substance; the unspecified context is used"
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "0836bdc2-60e0-5191-8034-7a688414c1cb",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater, long-term"
-        ]
-      },
-      "target": {
-        "code": "a55bd8e1-725d-4f49-a864-22e95ea316a6",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "comment": "EF has no long-term leaf for this substance; the immediate-emission flow is used (decision 2026-09-13); EF has no ground water flow for this substance; the unspecified context is used"
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "182497bc-d05f-51a5-b410-791b7bffca66",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "lake"
-        ]
-      },
-      "target": {
-        "code": "b4a6020b-cf96-4524-a17f-157b04a85c91",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "8efede74-4e60-5ab0-8163-fea7db9afc43",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "ocean"
-        ]
-      },
-      "target": {
-        "code": "eb554fe8-e065-4efd-8eb6-8b01d16b299b",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to sea water"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "3eb6ef12-1635-577b-9fef-56319414ae95",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "river"
-        ]
-      },
-      "target": {
-        "code": "b4a6020b-cf96-4524-a17f-157b04a85c91",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
-        "code": "4d65338c-16c9-53c1-a552-9d8b422d7835",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "target": {
-        "code": "a55bd8e1-725d-4f49-a864-22e95ea316a6",
-        "name": "sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      }
-    },
-    {
-      "source": {
         "name": "Sodium carbonate",
         "code": "9b801dc5-ac41-54e4-9ed3-ca8ca003ebd8",
         "unit": "kg",
@@ -7276,7 +7079,7 @@
       },
       "target": {
         "code": "6ac6aa34-734e-4128-b6a0-ed90dfa233f7",
-        "name": "sea water",
+        "name": "sodium chloride",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -7297,7 +7100,7 @@
       },
       "target": {
         "code": "4c2fea71-c33e-4819-b549-8f577cfb0481",
-        "name": "sea water",
+        "name": "sodium chloride",
         "context": [
           "Emissions",
           "Emissions to water",
