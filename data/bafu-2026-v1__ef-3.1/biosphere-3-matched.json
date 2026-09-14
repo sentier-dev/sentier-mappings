@@ -6176,6 +6176,28 @@
     },
     {
       "source": {
+        "name": "Particulates, > 2.5 um, and < 10um",
+        "code": "0b6278d6-a422-55f1-947f-42d0ab75c414",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop., long-term"
+        ]
+      },
+      "target": {
+        "code": "08a91e70-3ddc-11dd-91bf-0050c2490048",
+        "name": "Particles (PM10)",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified (long-term)"
+        ],
+        "unit": "kilogram"
+      },
+      "comment": "coarse fraction (2.5 to 10 um) characterised at EF's PM10 factor, the curated package's convention (decision 2026-09-14)"
+    },
+    {
+      "source": {
         "name": "Peat",
         "code": "4c441a2f-aa7b-57f2-b4fc-2ec9f93d0573",
         "unit": "kg",

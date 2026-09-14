@@ -22152,9 +22152,13 @@
           "low. pop., long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "status": "mapped",
+      "package": "biosphere-3-matched",
+      "tier": "alias",
+      "placement": "exact",
+      "caveats": [
+        "coarse fraction (2.5 to 10 um) characterised at EF's PM10 factor, the curated package's convention (decision 2026-09-14)"
+      ]
     },
     {
       "source": {
