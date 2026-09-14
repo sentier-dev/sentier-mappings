@@ -3154,9 +3154,14 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -3168,9 +3173,14 @@
           "in air"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -3182,9 +3192,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -3196,9 +3211,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -5686,9 +5706,14 @@
           "high. pop."
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to agricultural soil, emissions to non-agricultural soil, emissions to soil, unspecified, non-renewable element resources from ground; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -5748,9 +5773,14 @@
           "groundwater"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to agricultural soil, emissions to non-agricultural soil, emissions to soil, unspecified, non-renewable element resources from ground; the source is a emission to water, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -8014,9 +8044,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -8028,9 +8063,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -8555,9 +8595,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -9509,9 +9554,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -10265,9 +10315,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -11848,9 +11903,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -12444,9 +12504,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -13113,9 +13178,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -13127,9 +13197,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -15454,9 +15529,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -15483,9 +15563,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -16525,9 +16610,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -21513,9 +21603,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -22274,9 +22369,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -24513,9 +24613,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -25700,9 +25805,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -26051,9 +26161,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -26065,9 +26180,14 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -27126,9 +27246,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -32882,9 +33007,14 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -37735,11 +37865,9 @@
           "biotic"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "exact",
-      "characterised": false
+      "status": "unmapped",
+      "reason": "unit_mismatch",
+      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
     },
     {
       "source": {
@@ -37751,11 +37879,9 @@
           "biotic"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "exact",
-      "characterised": false
+      "status": "unmapped",
+      "reason": "unit_mismatch",
+      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
     },
     {
       "source": {
@@ -37767,11 +37893,9 @@
           "biotic"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "exact",
-      "characterised": false
+      "status": "unmapped",
+      "reason": "unit_mismatch",
+      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
     },
     {
       "source": {
@@ -37821,11 +37945,9 @@
           "biotic"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "exact",
-      "characterised": false
+      "status": "unmapped",
+      "reason": "unit_mismatch",
+      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
     },
     {
       "source": {
