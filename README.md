@@ -1,78 +1,93 @@
 # sentier-mappings
 
-Cross-source **mappings** for the Sentier platform — the bridges that link
-inventory, methods, and background databases at calculation time. A
-cross-cutting **Data Layer** repo: it holds loadable artifacts only, no
-fetch/parse/calculate code.
+```mermaid
+flowchart LR
+    imp[sentier-importers] -->|PR| map[sentier-mappings]
+    con[Contributors] -->|PR| map
+    inv[sentier-inventory] -->|source ids| map
+    map -->|resolve| met[sentier-methods]
+    map -->|"resolve, code only"| eco[ecoinvent]
+    map -->|fetch| bw[sentier-brightway]
+```
 
-- **Fed by:** `sentier-importers` (PR / Push) and the Application Layer.
-- **Read by:** `sentier-platform` (resolved link tables at calc time).
-- **Format:** [randonneur](https://github.com/brightway-lca/randonneur) JSON
-  datapackages — the Brightway data-migration format.
+Cross-source bridges for the Sentier platform, stored as
+[randonneur](https://github.com/brightway-lca/randonneur) JSON packages.
 
-Keeping mappings in their own repo means a new inventory source or method can be
-added without touching either side of a bridge, and upstream churn (renamed
-flows, renamed processes) is absorbed in one isolated place.
+## What it is
+
+- A Data Layer repo: loadable artifacts only, no fetch, parse, or calculate code.
+- Bridges link inventory source ids to method flow keys and to ecoinvent codes.
+- Written in by `sentier-importers` and by contributors, always via PR.
+- Read by `sentier-brightway`, which fetches a pinned ref of `data/` at build time.
+- The why lives in [sentier.dev](https://github.com/sentier-dev/sentier.dev).
+
+## Install
+
+Nothing to install. The validator needs `jsonschema[format]` and `pytest`; `uv run` fetches them.
+
+## Use
+
+Validate every pair against the schemas (what CI runs):
+
+```bash
+uv run --with-requirements scripts/requirements.txt python scripts/validate.py
+```
+
+Run the validator's own tests:
+
+```bash
+uv run --with-requirements scripts/requirements.txt pytest -q tests
+```
 
 ## Layout
 
 ```
-schema/   # randonneur version pin + conventions + JSON Schemas (the contract)
-data/     # randonneur packages, one folder per source→target pair
+schema/     JSON Schemas for packages and metadata.json, plus conventions
+data/       one folder per source__target pair
+scripts/    validate.py, the CI validator, and its requirements.txt
+tests/      pytest suite for validate.py
 ```
-
-## The three mapping kinds
-
-| Kind | Bridge spans | File | Target encoding |
-|---|---|---|---|
-| **Foreground → background** | inventory source → ecoinvent | `technosphere.json` (or its numbered form `technosphere-<n>-<slug>.json`) | `{database, code}` — opaque code **only** |
-| **Process → process** | inventory source → inventory source (Sentier) | `technosphere.json` (or its numbered form `technosphere-<n>-<slug>.json`) | full open identifiers |
-| **Elementary flow ↔ CF** | inventory flows → method flow keys | `biosphere.json` (or its numbered form `biosphere-<n>-<slug>.json`) | full open identifiers |
-
-## No proprietary ecoinvent data
-
-Where a bridge targets ecoinvent, the target carries **only** the Brightway
-activity `code` (an opaque, stable pointer) plus a `database` tag — never
-`name`, `reference product`, `location`, amounts, or flows. A licensed ecoinvent
-holder resolves the code locally at link time. Such bridges set
-`"target_proprietary": true` in their `metadata.json`. All non-ecoinvent
-identifiers (Sentier processes, method flow keys) are open and stored in full.
 
 ## Data
 
-Organized **one folder per source→target pair**:
+| Pair | Kind | Packages | Entries |
+|---|---|---|---|
+| `agribalyse-3.2__ecoinvent-3.9.1` | foreground to background | stub, `target_proprietary: true` | 0 |
+| `agribalyse-3.2__ef-3.1` | elementary flow to CF | `biosphere.json` | 1,095 |
+| `bafu-2026-v1__ef-3.1` | elementary flow to CF | `biosphere-1-curated` to `biosphere-4-nomenclature` | 2,566 |
+| `eaternity-bafu-ext__ef-3.1` | elementary flow to CF | `biosphere.json` | 19,275 |
+| `ecoinvent-biosphere3__eaternity-bafu-ext` | flow to flow | `biosphere.json` | 1,371 |
 
-```
-data/
-  agribalyse-3.2__ecoinvent-3.9.1/   # foreground→background
-  agribalyse-3.2__ef-3.1/            # elementary flow↔CF
-  bafu-2026-v1__ef-3.1/              # elementary flow↔CF, four ordered packages (worked example below)
-```
+- Folder name: `data/<source>__<target>/`, lower-kebab, version-suffixed ids, no rank prefix.
+- One package per kind: `<kind>.json`. Several of one kind: `<kind>-<n>-<slug>.json`, `n` from 1.
+- `n` is build order and precedence within the pair only. An earlier file wins on a shared source key.
+- The validator guarantees the packages of one pair never disagree on a source key.
+- `metadata.json` lists the packages in order plus any sidecars (non-normative review or coverage files).
 
-Convention: `data/<source>__<target>/`, where `<source>` and `<target>` are
-lower-kebab, version-suffixed datasource ids. A pair with one package per kind
-names it `<kind>.json`; a pair with several packages of one kind (built up over
-time, e.g. `bafu-2026-v1__ef-3.1`) numbers them `<kind>-<n>-<slug>.json`, `n`
-from 1. That number is **build order and precedence within the pair only**,
-never a global rank across unrelated pairs: package `n` was built over what
-packages `1..n-1` left unmapped, so a consumer applies them in that order (an
-earlier file wins on the same source key), and the validator guarantees the
-files of one pair never actually conflict. `bafu-2026-v1__ef-3.1` holds
-`biosphere-1-curated.json` (hand-reviewed), `biosphere-2-inferred.json` (built
-over what curated lacks), `biosphere-3-matched.json` (built over what curated
-and inferred lack), and `biosphere-4-nomenclature.json` (built over what all
-three lack), plus a pair-level `coverage.json` sidecar and per-package review
-sidecars. Each pair folder holds one `metadata.json` identity file listing its
-packages in order; package payloads are pushed by `sentier-importers`, and a
-not-yet-populated pair ships `.gitkeep` + a `metadata.json` stub with a
-0-entry package only.
+| Kind | Bridge spans | File | Target encoding |
+|---|---|---|---|
+| Foreground to background | inventory source to ecoinvent | `technosphere.json` | `{database, code}`, opaque code only |
+| Process to process | inventory source to inventory source | `technosphere.json` | full open identifiers |
+| Elementary flow to CF | inventory flows to method flow keys | `biosphere.json` | full open identifiers |
+
+No proprietary ecoinvent data:
+
+- A bridge that targets ecoinvent sets `target_proprietary: true` in its `metadata.json`.
+- Its targets carry only `database` and `code`.
+- Never `name`, `reference product`, `location`, amounts, or flows.
+- A licensed ecoinvent holder resolves the code locally at link time.
+- `scripts/validate.py` enforces this on every PR.
 
 ## Schema
 
-`schema/` is the contract `sentier-importers` validates against before opening a
-delivery PR — a data artifact, not runtime code. It pins the randonneur version,
-documents the conventions, and ships JSON Schemas for the package profile and for
-`metadata.json`. See [schema/](./schema/).
+- `metadata.schema.json`: pair identity and the ordered `packages` list, `schema_version` 0.2.0.
+- `randonneur-package.schema.json`: the randonneur package profile.
+- Verbs, precedence, and conventions: [schema/README.md](./schema/README.md).
+
+## Contributing
+
+- Open a PR against `main`. CI runs the validator and its tests on every PR.
+- Put new data in a pair folder whose `metadata.json` lists every package and sidecar.
 
 ## License
 
