@@ -1,0 +1,18 @@
+{
+  "source": "ecoinvent-3.11-biosphere",
+  "target": "ef-3.1",
+  "title": "ecoinvent 3.11 elementary flows → EF 3.1 elementary flows",
+  "target_proprietary": false,
+  "schema_version": "0.2.0",
+  "description": "Brightway's published biosphere mapping from ecoinvent to EF 3.1, reshaped to this repo's entry form. Upstream: ecoinvent-3.11-biosphere-EF-3.1-biosphere 1.0.0 in brightway-lca/randonneur_data (commit 0c9693b), licensed CC-BY-4.0, by Chris Mutel with the UNEP Economy Division GLAD mapping taskforce. Source codes are ecoinvent elementary exchange UUIDs (the code of a Brightway biosphere node) and nothing else: no ecoinvent name, context or unit is stored, the same opaque-code rule this repo applies to every ecoinvent identifier. Target codes are EF 3.1 flow UUIDs with the JRC name, context path and unit. Identifier spaces: the Sentier term of a target is https://vocab.sentier.dev/flows/<code>; Brightway's vocabulary names the same EF flow https://vocab.brightway.one/ef/3.1/flow/<code> and https://vocab.brightway.dev/elementary-flows/<code> (same UUID, so no package is needed for those), and names the ecoinvent flow https://vocab.brightway.one/ecoinvent/3.12/flow/<source code>.",
+  "packages": [
+    {
+      "file": "biosphere.json",
+      "kind": "biosphere",
+      "order": 1,
+      "entries": 9238,
+      "description": "Every upstream entry, one per ecoinvent flow (9,238 flows onto 8,465 EF flows). The comment keeps the upstream match rule when there is one. Ten entries change unit and carry the upstream conversion_factor (fossil and nuclear energy resources in kg or Sm3 to MJ, sea water m3 to kg, three obsolete arable occupations m2 to m2*a at 1.0); their comment names both units. History: sentier-vocab carried these 9,238 ecoinvent flows as exact_match on its EF 3.1 terms until 2026-11-09 (sentier-vocab PR #35), taken from the harmonised flow list behind the vocabulary. 7,899 pointed at the EF flow given here. The other 1,339 pointed at a different EF flow, because the harmonised list does not keep the upstream target; this package follows the upstream mapping and marks those entries 'target has no sentier-vocab term'. In 944 of them the two EF flows do not carry the same EF 3.1 factors in sentier-methods (230 are long-term emissions), in 395 they do. Regenerate: python -m sentier_importers run ecoinvent-ef-biosphere --deliver-local ~/dds/sentier-mappings, with a fresh --cache-dir.",
+      "generated_by": "sentier-importers ecoinvent-ef-biosphere"
+    }
+  ]
+}
