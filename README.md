@@ -56,6 +56,7 @@ tests/      pytest suite for validate.py
 | `agribalyse-3.2__ef-3.1` | elementary flow to CF | `biosphere.json` | 1,095 |
 | `bafu-2026-v1__ef-3.1` | elementary flow to CF | `biosphere-1-curated` to `biosphere-4-nomenclature` | 2,566 |
 | `eaternity-bafu-ext__ef-3.1` | elementary flow to CF | `biosphere.json` | 19,275 |
+| `ecoinvent-3.11-biosphere__ef-3.1` | elementary flow to CF | `biosphere.json`, source codes only | 9,238 |
 | `ecoinvent-biosphere3__eaternity-bafu-ext` | flow to flow | `biosphere.json` | 1,371 |
 
 - Folder name: `data/<source>__<target>/`, lower-kebab, version-suffixed ids, no rank prefix.
