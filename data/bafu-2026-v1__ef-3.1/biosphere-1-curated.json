@@ -6223,7 +6223,7 @@
           "Emissions to urban air close to ground"
         ]
       },
-      "comment": "chlorine (CAS 7782-50-5) in urban air close to ground; earlier versions pointed at 2-hydroxybenzonitrile (CAS 611-20-1), a different substance"
+      "comment": "chlorine (CAS 7782-50-5) in urban air close to ground; earlier versions pointed at 2-hydroxybenzonitrile (CAS 611-20-1), a different substance: the de-bridging matched on factor identity to its unspecified-air flow, which shares the freshwater ecotoxicity factor of chlorine in urban air (121.35 CTUe/kg)"
     },
     {
       "source": {
