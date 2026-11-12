@@ -6214,8 +6214,8 @@
         ]
       },
       "target": {
-        "name": "2-hydroxybenzonitrile",
-        "code": "dddc7e8a-3c37-4419-ab2f-0b1b9e45b6ce",
+        "name": "chlorine",
+        "code": "4d9a8790-3ddd-11dd-9b47-0050c2490048",
         "unit": "kg",
         "context": [
           "Emissions",
@@ -6223,7 +6223,7 @@
           "Emissions to urban air close to ground"
         ]
       },
-      "comment": "target re-pointed to the EF resolved context; CF differs from the previous unspecified-context flow"
+      "comment": "chlorine (CAS 7782-50-5) in urban air close to ground; earlier versions pointed at 2-hydroxybenzonitrile (CAS 611-20-1), a different substance"
     },
     {
       "source": {
