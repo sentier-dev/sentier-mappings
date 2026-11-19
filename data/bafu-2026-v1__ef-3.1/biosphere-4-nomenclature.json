@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere-nomenclature",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "replace": [
     {
       "source": {
@@ -4456,15 +4456,15 @@
         ]
       },
       "target": {
-        "code": "e78d81bf-4ad2-4f9b-b8f5-e94c9359a793",
-        "name": "Seabed",
+        "code": "21ebdac2-4d7a-4645-a50a-46a7c8d5c328",
+        "name": "Seabed, Marine Infrastructure",
         "context": [
           "Land use",
           "Land occupation"
         ],
         "unit": "m2*a"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); sub-class 'seabed, infrastructure' collapsed onto EF class 'Seabed'; EF has no flow for the sub-class"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); sub-class 'seabed, infrastructure' collapsed onto EF class 'Seabed'; EF has no flow for the sub-class; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -6734,11 +6734,11 @@
         ]
       },
       "target": {
-        "code": "172a3daa-6556-11dd-ad8b-0800200c9a66",
-        "name": "Sand",
+        "code": "0d7a3ad3-6556-11dd-ad8b-0800200c9a66",
+        "name": "Silica",
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14); target aligned with brightway-flows 1.1.0 (neither flow carries a factor); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
     },
     {
       "source": {
@@ -8458,7 +8458,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9981-0050c2490048",
+        "code": "38b2bfa6-50e8-4eee-973f-0e3e64ffa630",
         "name": "Thorium",
         "context": [
           "Emissions",
@@ -8467,7 +8467,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow)"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -8480,16 +8480,11 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9982-0050c2490048",
+        "code": "f67eb2c9-7c5f-4198-8384-e3af423eeafe",
         "name": "Thorium",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {

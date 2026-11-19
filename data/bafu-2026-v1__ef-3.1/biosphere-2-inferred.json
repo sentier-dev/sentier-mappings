@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere-inferred",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "replace": [
     {
       "source": {
@@ -632,8 +632,8 @@
         ]
       },
       "target": {
-        "code": "e77711ad-ae7f-4c6e-9bfd-75a15aadbd5d",
-        "name": "barium (ii)",
+        "code": "fe0acd60-3ddc-11dd-a802-0050c2490048",
+        "name": "Barium",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -641,7 +641,7 @@
           "Emissions to urban air close to ground"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -654,8 +654,8 @@
         ]
       },
       "target": {
-        "code": "d8815744-3a16-4af5-a726-2ef269fab8f8",
-        "name": "barium (ii)",
+        "code": "fe0acd60-3ddc-11dd-a803-0050c2490048",
+        "name": "barium",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -663,7 +663,7 @@
           "Emissions to non-urban air or from high stacks"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -676,8 +676,8 @@
         ]
       },
       "target": {
-        "code": "a92b3c3e-2aa6-4cf1-be1d-b9d745087477",
-        "name": "barium (ii)",
+        "code": "fe0acd60-3ddc-11dd-a800-0050c2490048",
+        "name": "Barium",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -685,7 +685,7 @@
           "Emissions to air, unspecified"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -698,8 +698,8 @@
         ]
       },
       "target": {
-        "code": "a07b6e7e-f541-4018-a8e2-1a76a9c66460",
-        "name": "barium (ii)",
+        "code": "fe0acd60-3ddc-11dd-a7fe-0050c2490048",
+        "name": "Barium",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -707,7 +707,7 @@
           "Emissions to agricultural soil"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -808,8 +808,8 @@
         ]
       },
       "target": {
-        "code": "c7126c80-8176-4c45-950a-da40aa9ebc18",
-        "name": "barium (ii)",
+        "code": "fe0acd60-3ddc-11dd-a806-0050c2490048",
+        "name": "Barium",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -817,7 +817,7 @@
           "Emissions to water, unspecified"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -935,15 +935,16 @@
         ]
       },
       "target": {
-        "code": "47c3144b-122d-4c8c-b3ab-9480c25dc1f3",
-        "name": "beryllium (ii)",
+        "code": "4d9a8790-3ddd-11dd-9d8d-0050c2490048",
+        "name": "Beryllium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -956,15 +957,16 @@
         ]
       },
       "target": {
-        "code": "4b722511-fd9e-41b4-8ccf-3e2689198baa",
-        "name": "beryllium (ii)",
+        "code": "4d9a8790-3ddd-11dd-9d8e-0050c2490048",
+        "name": "Beryllium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -977,15 +979,16 @@
         ]
       },
       "target": {
-        "code": "24e2089e-56ed-4198-8f18-7fd96901543a",
-        "name": "beryllium (ii)",
+        "code": "4d9a8790-3ddd-11dd-9d8b-0050c2490048",
+        "name": "Beryllium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -1041,15 +1044,16 @@
         ]
       },
       "target": {
-        "code": "df1822f8-579e-484f-96f7-279ee2109f6d",
-        "name": "beryllium (ii)",
+        "code": "fe0acd60-3ddc-11dd-a791-0050c2490048",
+        "name": "Beryllium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -1146,15 +1150,16 @@
         ]
       },
       "target": {
-        "code": "076eb3e5-1d9f-47a0-b156-2cd9e6d60d5c",
-        "name": "cadmium (ii)",
+        "code": "08a91e70-3ddc-11dd-9672-0050c2490048",
+        "name": "Cadmium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -1362,15 +1367,16 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9f72-0050c2490048",
-        "name": "chromium",
+        "code": "fe0acd60-3ddc-11dd-a70d-0050c2490048",
+        "name": "Chromium(6+)",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -1573,15 +1579,16 @@
         ]
       },
       "target": {
-        "code": "e65500c3-380d-4eca-ab90-fc15d0ccdccc",
-        "name": "copper (ii)",
+        "code": "fe0acd60-3ddc-11dd-a79e-0050c2490048",
+        "name": "Copper",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2140,15 +2147,16 @@
         ]
       },
       "target": {
-        "code": "f7ac221c-e254-4741-b3d8-edc06d36b0a0",
-        "name": "lead (ii)",
+        "code": "fe0acd60-3ddc-11dd-a97d-0050c2490048",
+        "name": "Lead",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2204,15 +2212,16 @@
         ]
       },
       "target": {
-        "code": "00b640e9-fde9-4c5c-9e04-af2429535dfa",
-        "name": "lead (ii)",
+        "code": "4d9a8790-3ddd-11dd-91e4-0050c2490048",
+        "name": "Lead",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2246,15 +2255,16 @@
         ]
       },
       "target": {
-        "code": "4a763efe-793f-49d4-82c1-20ae97db1b2a",
-        "name": "lead (ii)",
+        "code": "4d9a8790-3ddd-11dd-91e2-0050c2490048",
+        "name": "Lead",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2351,15 +2361,16 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9bc7-0050c2490048",
-        "name": "manganese",
+        "code": "8926e6d1-baea-45f1-a70d-552790f493eb",
+        "name": "Manganese(2+)",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2436,15 +2447,16 @@
         ]
       },
       "target": {
-        "code": "e31499a1-39e9-4621-a8af-5f45ff30a3d0",
-        "name": "manganese (ii)",
+        "code": "fe0acd60-3ddc-11dd-af15-0050c2490048",
+        "name": "Manganese",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2563,15 +2575,16 @@
         ]
       },
       "target": {
-        "code": "42303f52-19fe-4086-9e52-5ad2160f22a8",
-        "name": "mercury (ii)",
+        "code": "fe0acd60-3ddc-11dd-a8cc-0050c2490048",
+        "name": "Mercury",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2605,15 +2618,16 @@
         ]
       },
       "target": {
-        "code": "36e8f97f-c030-4d46-9d7c-ed7acb9dfa9d",
-        "name": "mercury (ii)",
+        "code": "fe0acd60-3ddc-11dd-a8ca-0050c2490048",
+        "name": "Mercury",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2752,15 +2766,16 @@
         ]
       },
       "target": {
-        "code": "a834c32e-80b8-4737-babc-9a3c031272f3",
-        "name": "molybdenum (vi)",
+        "code": "fe0acd60-3ddc-11dd-a75f-0050c2490048",
+        "name": "Molybdenum",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2773,15 +2788,16 @@
         ]
       },
       "target": {
-        "code": "95e68400-6ef1-44ee-8adc-0a468a094bb0",
-        "name": "molybdenum (vi)",
+        "code": "fe0acd60-3ddc-11dd-a760-0050c2490048",
+        "name": "Molybdenum",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2794,15 +2810,16 @@
         ]
       },
       "target": {
-        "code": "69528fd2-9cbe-458c-93c4-7766a5dc8472",
-        "name": "molybdenum (vi)",
+        "code": "fe0acd60-3ddc-11dd-a75d-0050c2490048",
+        "name": "Molybdenum",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2815,15 +2832,16 @@
         ]
       },
       "target": {
-        "code": "7c2f829f-92ee-481c-bcfc-958d6c80e5d6",
-        "name": "molybdenum (vi)",
+        "code": "fe0acd60-3ddc-11dd-a75b-0050c2490048",
+        "name": "Molybdenum",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2858,15 +2876,16 @@
         ]
       },
       "target": {
-        "code": "d9d07ffa-74c2-4b01-8e2c-b56912f8f176",
-        "name": "molybdenum (vi)",
+        "code": "fe0acd60-3ddc-11dd-ac33-0050c2490048",
+        "name": "Molybdenum",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2900,15 +2919,16 @@
         ]
       },
       "target": {
-        "code": "21c88a6c-e8b2-4499-b817-107d72014e88",
-        "name": "molybdenum (vi)",
+        "code": "fe0acd60-3ddc-11dd-ac31-0050c2490048",
+        "name": "Molybdenum",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3373,15 +3393,16 @@
         ]
       },
       "target": {
-        "code": "3e1f64f2-3877-4e6b-bf50-f5283c555bf8",
-        "name": "silver (i)",
+        "code": "fe0acd60-3ddc-11dd-abf8-0050c2490048",
+        "name": "Silver",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3394,15 +3415,16 @@
         ]
       },
       "target": {
-        "code": "000aeb0b-bb8f-42c4-b421-87289e1026c4",
-        "name": "silver (i)",
+        "code": "fe0acd60-3ddc-11dd-abf9-0050c2490048",
+        "name": "Silver",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3415,15 +3437,16 @@
         ]
       },
       "target": {
-        "code": "c6a9a382-3c30-434b-8cee-b45605ec2fec",
-        "name": "silver (i)",
+        "code": "fe0acd60-3ddc-11dd-abf6-0050c2490048",
+        "name": "Silver",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3436,15 +3459,16 @@
         ]
       },
       "target": {
-        "code": "d8152b45-d5ae-4929-9da2-88a358a50de7",
-        "name": "silver (i)",
+        "code": "fe0acd60-3ddc-11dd-9f60-0050c2490048",
+        "name": "Silver",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3457,15 +3481,16 @@
         ]
       },
       "target": {
-        "code": "4baf4568-331f-4fda-bff8-81f3ff5c9982",
-        "name": "strontium (ii)",
+        "code": "8aa8fdaf-632a-4b21-8a5c-3b8cf3b2ed27",
+        "name": "Strontium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to non-urban air high stack"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3983,8 +4008,8 @@
         ]
       },
       "target": {
-        "code": "02c45c4d-ff78-4d27-9cd0-31bb70f1a4b7",
-        "name": "zinc (ii)",
+        "code": "4d9a8790-3ddd-11dd-96a9-0050c2490048",
+        "name": "Zinc",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -3992,7 +4017,7 @@
           "Emissions to agricultural soil"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
