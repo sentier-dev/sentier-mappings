@@ -2817,7 +2817,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -2892,9 +2895,11 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "synonym",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -3147,11 +3152,11 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
+      "tier": "name",
+      "placement": "resource_branch_fallback",
       "characterised": false,
       "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+        "BAFU files this resource under biotic; EF has basalt only as non-renewable material resources from ground"
       ]
     },
     {
@@ -3166,11 +3171,11 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
+      "tier": "name",
+      "placement": "nomenclature_placement",
       "characterised": false,
       "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+        "EF has this name only in non-renewable material resources from ground; placed there for nomenclature alignment (no factor)"
       ]
     },
     {
@@ -3185,12 +3190,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -3204,12 +3206,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -4243,7 +4242,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "synonym",
+      "placement": "exact",
+      "characterised": false,
+      "caveats": [
+        "2 EF flows with identical factors; source CAS 71377-02-1 matches none, chose Borax (B4Na2O7.10H2O) (CAS 12447-40-4) over Borax (B4Na2O7.10H2O) (CAS 12447-40-4)"
+      ]
     },
     {
       "source": {
@@ -4985,7 +4990,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -5605,7 +5613,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "synonym",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -5688,7 +5699,7 @@
       "placement": "name_only",
       "characterised": false,
       "caveats": [
-        "EF has this name only as emissions to agricultural soil, emissions to non-agricultural soil, emissions to soil, unspecified, non-renewable element resources from ground; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+        "EF has this name only as emissions to agricultural soil, emissions to non-agricultural soil, emissions to soil, unspecified, non-renewable element resources from ground, non-renewable material resources from ground, other emissions to industrial soil; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
       ]
     },
     {
@@ -5755,7 +5766,7 @@
       "placement": "name_only",
       "characterised": false,
       "caveats": [
-        "EF has this name only as emissions to agricultural soil, emissions to non-agricultural soil, emissions to soil, unspecified, non-renewable element resources from ground; the source is a emission to water, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+        "EF has this name only as emissions to agricultural soil, emissions to non-agricultural soil, emissions to soil, unspecified, non-renewable element resources from ground, non-renewable material resources from ground, other emissions to industrial soil; the source is a emission to water, so the EF context is omitted (name alignment only, decision 2026-09-14)"
       ]
     },
     {
@@ -7983,9 +7994,11 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "synonym",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -8015,12 +8028,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -8034,12 +8044,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -8565,12 +8572,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -9362,7 +9366,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -9518,12 +9525,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10281,12 +10285,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -10424,7 +10425,7 @@
       "placement": "resource_branch_fallback",
       "characterised": false,
       "caveats": [
-        "BAFU files this resource under biotic; EF has energy, geothermal, converted only as non-renewable element resources from ground"
+        "BAFU files this resource under biotic; EF has energy, geothermal, converted only as renewable energy resources from ground"
       ]
     },
     {
@@ -11861,12 +11862,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -12462,12 +12460,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -13136,12 +13131,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -13155,12 +13147,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -13327,11 +13316,8 @@
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
       "tier": "alias",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -13360,7 +13346,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -13490,7 +13479,7 @@
       "placement": "nomenclature_placement",
       "characterised": false,
       "caveats": [
-        "EF has this name only in renewable material resources from air; placed there for nomenclature alignment (no factor)"
+        "EF has this name only in renewable element resources from air; placed there for nomenclature alignment (no factor)"
       ]
     },
     {
@@ -15480,12 +15469,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -15514,12 +15500,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -16561,12 +16544,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -16768,7 +16748,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -19893,11 +19876,8 @@
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -20173,12 +20153,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "tier": "synonym",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -20385,7 +20362,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -21540,12 +21520,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -22313,12 +22290,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -23533,11 +23507,8 @@
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -23585,7 +23556,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -23659,7 +23633,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -24551,12 +24528,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -25747,12 +25721,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -25765,7 +25736,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "cas",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -25861,7 +25835,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26096,12 +26073,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26115,11 +26089,11 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
+      "tier": "name",
+      "placement": "resource_branch_fallback",
       "characterised": false,
       "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+        "BAFU files this resource under unspecified; EF has shale only as non-renewable material resources from ground"
       ]
     },
     {
@@ -26788,11 +26762,8 @@
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
       "tier": "name",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -26840,7 +26811,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27003,7 +26977,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27016,7 +26993,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27113,7 +27093,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27126,7 +27109,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27185,12 +27171,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27691,12 +27674,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "synonym",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27710,7 +27690,7 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact",
       "characterised": false
     },
@@ -27726,7 +27706,7 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "unspecified_fallback",
       "characterised": false,
       "caveats": [
@@ -27744,7 +27724,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "synonym",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -27806,7 +27789,7 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "synonym",
+      "tier": "name",
       "placement": "exact",
       "characterised": false
     },
@@ -27836,11 +27819,8 @@
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
       "tier": "synonym",
-      "placement": "unspecified_fallback",
-      "characterised": false,
-      "caveats": [
-        "EF has no non-agricultural soil flow for this substance; the unspecified context is used"
-      ]
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -28513,7 +28493,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "alias",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -28574,7 +28557,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -29411,7 +29397,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to non-agricultural soil, emissions to water, unspecified; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -29424,7 +29416,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to non-agricultural soil, emissions to water, unspecified; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -29437,7 +29435,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to non-agricultural soil, emissions to water, unspecified; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -29450,7 +29454,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to non-agricultural soil, emissions to water, unspecified; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -29463,7 +29473,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to non-agricultural soil, emissions to water, unspecified; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -29476,7 +29492,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name-only",
+      "placement": "name_only",
+      "characterised": false,
+      "caveats": [
+        "EF has this name only as emissions to non-agricultural soil, emissions to water, unspecified; the source is a emission to air, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      ]
     },
     {
       "source": {
@@ -29488,9 +29510,14 @@
           "groundwater"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "unspecified_fallback",
+      "characterised": false,
+      "caveats": [
+        "EF has no ground water flow for this substance; the unspecified context is used"
+      ]
     },
     {
       "source": {
@@ -29503,7 +29530,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "unspecified_fallback",
+      "characterised": false,
+      "caveats": [
+        "EF has no sea water flow for this substance; the unspecified context is used"
+      ]
     },
     {
       "source": {
@@ -29516,7 +29549,13 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "unspecified_fallback",
+      "characterised": false,
+      "caveats": [
+        "EF has no sea water flow for this substance; the unspecified context is used"
+      ]
     },
     {
       "source": {
@@ -29528,9 +29567,14 @@
           "river"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "unspecified_fallback",
+      "characterised": false,
+      "caveats": [
+        "EF has no fresh water flow for this substance; the unspecified context is used"
+      ]
     },
     {
       "source": {
@@ -29542,9 +29586,14 @@
           "river"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "unspecified_fallback",
+      "characterised": false,
+      "caveats": [
+        "EF has no fresh water flow for this substance; the unspecified context is used"
+      ]
     },
     {
       "source": {
@@ -32050,8 +32099,8 @@
         ]
       },
       "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has uranium-238 only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified (long-term)"
+      "reason": "unit_mismatch",
+      "detail": "BAFU unit kg vs EF reference unit kBq for Uranium Alpha, Uranium-238; no fixed conversion"
     },
     {
       "source": {
@@ -32115,7 +32164,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32128,7 +32180,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32140,9 +32195,11 @@
           "lake"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32154,9 +32211,11 @@
           "lake"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32168,9 +32227,11 @@
           "river"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32182,9 +32243,11 @@
           "river"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32197,7 +32260,10 @@
         ]
       },
       "status": "mapped",
-      "package": "biosphere-5-brightway-flows"
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -32922,12 +32988,9 @@
       },
       "status": "mapped",
       "package": "biosphere-4-nomenclature",
-      "tier": "name-only",
-      "placement": "name_only",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
-      ]
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37779,7 +37842,7 @@
       },
       "status": "unmapped",
       "reason": "unit_mismatch",
-      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
+      "detail": "BAFU unit m3 vs EF reference unit megajoule for Wood; no fixed conversion"
     },
     {
       "source": {
@@ -37791,9 +37854,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "unit_mismatch",
-      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37805,9 +37870,11 @@
           "biotic"
         ]
       },
-      "status": "unmapped",
-      "reason": "unit_mismatch",
-      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
+      "status": "mapped",
+      "package": "biosphere-4-nomenclature",
+      "tier": "name",
+      "placement": "exact",
+      "characterised": false
     },
     {
       "source": {
@@ -37819,14 +37886,9 @@
           "land"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "resource_branch_fallback",
-      "characterised": false,
-      "caveats": [
-        "BAFU files this resource under land; EF has wood only as renewable material resources from biosphere"
-      ]
+      "status": "unmapped",
+      "reason": "unit_mismatch",
+      "detail": "BAFU unit kg vs EF reference unit megajoule for Wood; no fixed conversion"
     },
     {
       "source": {
@@ -37838,14 +37900,9 @@
           "unspecified"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "alias",
-      "placement": "resource_branch_fallback",
-      "characterised": false,
-      "caveats": [
-        "BAFU files this resource under unspecified; EF has wood only as renewable material resources from biosphere"
-      ]
+      "status": "unmapped",
+      "reason": "unit_mismatch",
+      "detail": "BAFU unit kg vs EF reference unit megajoule for Wood; no fixed conversion"
     },
     {
       "source": {
@@ -37859,7 +37916,7 @@
       },
       "status": "unmapped",
       "reason": "unit_mismatch",
-      "detail": "EF Wood is counted by mass; no density convention converts m3 (decision 2026-09-14)"
+      "detail": "BAFU unit m3 vs EF reference unit megajoule for Wood; no fixed conversion"
     },
     {
       "source": {

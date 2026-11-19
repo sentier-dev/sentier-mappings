@@ -1765,9 +1765,19 @@
           "in ground"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "08a91e70-3ddc-11dd-97dc-0050c2490048",
+        "name": "Barium Sulfate",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ],
+        "unit": "kilogram"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "4c728a3989926a1dbee3afb442f46e5b36c23740",
         "match": "exactMatch",
@@ -2543,7 +2553,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97df-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97e0-0050c2490048",
         "name": "Biological Oxygen Demand",
         "context": [
           "Emissions",
@@ -3391,7 +3401,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-944a-0050c2490048",
+        "code": "294fb5ab-7678-42de-a975-c791aca248c4",
         "name": "Carbon",
         "unit": "kilogram"
       },
@@ -3417,7 +3427,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-944a-0050c2490048",
+        "code": "294fb5ab-7678-42de-a975-c791aca248c4",
         "name": "Carbon",
         "unit": "kilogram"
       },
@@ -4878,9 +4888,19 @@
           "in ground"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "fe0acd60-3ddc-11dd-a7ba-0050c2490048",
+        "name": "Asbestos (white)",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ],
+        "unit": "kilogram"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "bdb2fe29cb6cbe1a2948112ec50cdb39c3ef439a",
         "match": "exactMatch",
@@ -5201,7 +5221,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97ee-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97ef-0050c2490048",
         "name": "Chemical Oxygen Demand",
         "context": [
           "Emissions",
@@ -6164,6 +6184,11 @@
       "ours": {
         "code": "04202047-6556-11dd-ad8b-0800200c9a66",
         "name": "Primary Energy From Hydro Power",
+        "context": [
+          "Resources",
+          "Resources from water",
+          "Renewable energy resources from water"
+        ],
         "unit": "megajoule"
       },
       "kind": "theirs_not_usable",
@@ -7005,7 +7030,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "a1533bda-9f08-40e1-a1a3-996e7635a7af",
+        "code": "c79de745-4bba-47af-a97a-3442ef4086e5",
         "name": "Formate",
         "context": [
           "Emissions",
@@ -7227,7 +7252,7 @@
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "megajoule"
       },
@@ -8524,7 +8549,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-95d5-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9812-0050c2490048",
         "name": "Lead-210",
         "context": [
           "Emissions",
@@ -8555,7 +8580,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-95d5-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9812-0050c2490048",
         "name": "Lead-210",
         "context": [
           "Emissions",
@@ -10059,7 +10084,7 @@
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
       },
@@ -10240,12 +10265,12 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-9806-0050c2490048",
-        "name": "Nitrogen",
+        "code": "fe0acd60-3ddc-11dd-aad9-0050c2490048",
+        "name": "Dinitrogen",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
       },
@@ -12289,7 +12314,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97c0-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97c1-0050c2490048",
         "name": "Polonium-210",
         "context": [
           "Emissions",
@@ -12320,7 +12345,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97c0-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97c1-0050c2490048",
         "name": "Polonium-210",
         "context": [
           "Emissions",
@@ -12475,12 +12500,12 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "2905780f-6556-11dd-ad8b-0800200c9a66",
+        "code": "fe0acd60-3ddc-11dd-a958-0050c2490048",
         "name": "Potassium",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
       },
@@ -12506,7 +12531,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97c4-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97c5-0050c2490048",
         "name": "Potassium",
         "context": [
           "Emissions",
@@ -12568,7 +12593,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97cd-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97ce-0050c2490048",
         "name": "Potassium-40",
         "context": [
           "Emissions",
@@ -12599,7 +12624,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-97cd-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97ce-0050c2490048",
         "name": "Potassium-40",
         "context": [
           "Emissions",
@@ -13644,7 +13669,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "fe0acd60-3ddc-11dd-abea-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-abeb-0050c2490048",
         "name": "Scandium",
         "context": [
           "Emissions",
@@ -14091,7 +14116,7 @@
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
       },
@@ -14117,7 +14142,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-9506-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9507-0050c2490048",
         "name": "Sodium",
         "context": [
           "Emissions",
@@ -14728,12 +14753,12 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "1f30d646-6556-11dd-ad8b-0800200c9a66",
-        "name": "Sulfate Ion",
+        "code": "4d9a8790-3ddd-11dd-97f3-0050c2490048",
+        "name": "Sulfate",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
       },
@@ -14759,8 +14784,8 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "fe0acd60-3ddc-11dd-ac5a-0050c2490048",
-        "name": "Sulfate Ion",
+        "code": "fe0acd60-3ddc-11dd-ac5b-0050c2490048",
+        "name": "Sulfate",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -14852,12 +14877,12 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "3e4c8d4d-6556-11dd-ad8b-0800200c9a66",
-        "name": "Sulfide ion",
+        "code": "fe0acd60-3ddc-11dd-a6fb-0050c2490048",
+        "name": "Sulfide(2-)",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to soil, unspecified"
+          "Emissions to non-agricultural soil"
         ],
         "unit": "kilogram"
       },
@@ -14883,8 +14908,8 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "4d9a8790-3ddd-11dd-9067-0050c2490048",
-        "name": "Sulfide ion",
+        "code": "4d9a8790-3ddd-11dd-9068-0050c2490048",
+        "name": "Sulfide(2-)",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -15679,7 +15704,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-9973-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9974-0050c2490048",
         "name": "Thorium-228",
         "context": [
           "Emissions",
@@ -15710,7 +15735,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "08a91e70-3ddc-11dd-9973-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9974-0050c2490048",
         "name": "Thorium-228",
         "context": [
           "Emissions",
@@ -15925,9 +15950,19 @@
           "groundwater"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "08a91e70-3ddc-11dd-9985-0050c2490048",
+        "name": "Thorium-232",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "9d294788a2948b796dab83298dd71c9e9a26a45a",
         "match": "closeMatch",
@@ -15946,9 +15981,19 @@
           "river"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "08a91e70-3ddc-11dd-9985-0050c2490048",
+        "name": "Thorium-232",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "1fff912b5bc883f160edd13da3f0656f0924b441",
         "match": "broadMatch",
@@ -15967,9 +16012,19 @@
           "river"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "08a91e70-3ddc-11dd-9985-0050c2490048",
+        "name": "Thorium-232",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "1fff912b5bc883f160edd13da3f0656f0924b441",
         "match": "closeMatch",
@@ -16207,7 +16262,7 @@
       },
       "package": "biosphere-4-nomenclature",
       "ours": {
-        "code": "4d9a8790-3ddd-11dd-8e7e-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-8e7f-0050c2490048",
         "name": "Total Organic Carbon",
         "context": [
           "Emissions",
@@ -18118,9 +18173,19 @@
           "lake"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "9123b7f6-70fd-46d9-a5a0-6f02a7cad7a7",
+        "name": "Uranium Alpha",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "2339403d0ae6ef3898525c122872aa64ae58793d",
         "match": "broadMatch",
@@ -18139,9 +18204,19 @@
           "lake"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "9123b7f6-70fd-46d9-a5a0-6f02a7cad7a7",
+        "name": "Uranium Alpha",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "2339403d0ae6ef3898525c122872aa64ae58793d",
         "match": "closeMatch",
@@ -18160,9 +18235,19 @@
           "river"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "9123b7f6-70fd-46d9-a5a0-6f02a7cad7a7",
+        "name": "Uranium Alpha",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "627ebdafac925873ca0e3c2cf2a44c6532e97df1",
         "match": "broadMatch",
@@ -18181,9 +18266,19 @@
           "river"
         ]
       },
-      "kind": "new_link_withheld",
+      "package": "biosphere-4-nomenclature",
+      "ours": {
+        "code": "9123b7f6-70fd-46d9-a5a0-6f02a7cad7a7",
+        "name": "Uranium Alpha",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to fresh water"
+        ],
+        "unit": "kBq"
+      },
+      "kind": "theirs_not_usable",
       "reason": "no_ef_target",
-      "ours": null,
       "brightway_flows": {
         "code": "627ebdafac925873ca0e3c2cf2a44c6532e97df1",
         "match": "closeMatch",
@@ -20920,48 +21015,6 @@
     },
     {
       "source": {
-        "name": "Wood, primary forest, standing",
-        "code": "69669b7c-631c-5296-97f0-c85fbd40fbf2",
-        "unit": "m3",
-        "context": [
-          "resources",
-          "biotic"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_indexed",
-      "ours": null,
-      "brightway_flows": {
-        "code": "c70982c9-e239-4642-8162-33d985c517fe",
-        "match": "closeMatch",
-        "name": "Wood, Primary Forest, Standing",
-        "context": "reso-biot",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Wood, soft, standing",
-        "code": "029ca828-9347-53d0-9b6e-a2c91e30bbbe",
-        "unit": "m3",
-        "context": [
-          "resources",
-          "biotic"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_indexed",
-      "ours": null,
-      "brightway_flows": {
-        "code": "34724ae6-a108-4f17-8b12-5b188a0c4200",
-        "match": "closeMatch",
-        "name": "Wood, Soft, Standing",
-        "context": "reso-biot",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Wood, unspecified, standing/kg",
         "code": "05446841-2cf9-5b0e-bf07-bfcd2c71c703",
         "unit": "kg",
@@ -20970,19 +21023,9 @@
           "land"
         ]
       },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
-        "name": "Wood",
-        "context": [
-          "Resources",
-          "Resources from biosphere",
-          "Renewable material resources from biosphere"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
+      "kind": "new_link_withheld",
       "reason": "no_ef_target",
+      "ours": null,
       "brightway_flows": {
         "code": "9561528d2697ffb1d488b47e6a48ce78abb30589",
         "match": "closeMatch",
@@ -21001,19 +21044,9 @@
           "unspecified"
         ]
       },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "3e4d9eab-6556-11dd-ad8b-0800200c9a66",
-        "name": "Wood",
-        "context": [
-          "Resources",
-          "Resources from biosphere",
-          "Renewable material resources from biosphere"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
+      "kind": "new_link_withheld",
       "reason": "no_ef_target",
+      "ours": null,
       "brightway_flows": {
         "code": "9561528d2697ffb1d488b47e6a48ce78abb30589",
         "match": "closeMatch",

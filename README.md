@@ -54,7 +54,7 @@ tests/      pytest suite for validate.py
 |---|---|---|---|
 | `agribalyse-3.2__ecoinvent-3.9.1` | foreground to background | stub, `target_proprietary: true` | 0 |
 | `agribalyse-3.2__ef-3.1` | elementary flow to CF | `biosphere-1-brightway-flows`, `biosphere-2-curated` | 4,813 |
-| `bafu-2026-v1__ef-3.1` | elementary flow to CF | `biosphere-1-curated` to `biosphere-5-brightway-flows` | 2,617 |
+| `bafu-2026-v1__ef-3.1` | elementary flow to CF | `biosphere-1-curated` to `biosphere-5-brightway-flows` | 2,626 |
 | `eaternity-bafu-ext__ef-3.1` | elementary flow to CF | `biosphere.json` | 19,275 |
 | `ecoinvent-3.11-biosphere__ef-3.1` | elementary flow to CF | `biosphere.json`, source codes only | 9,238 |
 | `ecoinvent-biosphere3__eaternity-bafu-ext` | flow to flow | `biosphere.json` | 1,371 |
