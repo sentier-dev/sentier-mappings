@@ -697,27 +697,6 @@
     },
     {
       "source": {
-        "name": "Acidity, unspecified",
-        "code": "85985080-3d13-56a0-a61c-3a30775bfb84",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-abca-0050c2490048",
-        "match": "closeMatch",
-        "name": "Acid (as H+)",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Acrylate",
         "code": "7f1b490e-4f69-5414-8674-c4fd5bd3a6f3",
         "unit": "kg",
@@ -1121,27 +1100,6 @@
         "name": "Ammonium",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Anhydrite",
-        "code": "48298c73-ed91-50bb-9582-efe987d93d8d",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-97f8-0050c2490048",
-        "match": "closeMatch",
-        "name": "Calcium Sulfate",
-        "context": "reso-grou",
-        "in_ef": true
       }
     },
     {
@@ -2082,19 +2040,9 @@
           "unspecified"
         ]
       },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "5b7bbb32-35b4-4761-b8a9-cd811a71488b",
-        "name": "Benzal Chloride",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
+      "kind": "new_link_withheld",
       "reason": "no_ef_target",
+      "ours": null,
       "brightway_flows": {
         "code": "1cc1a6e4606fe42ce0df4424c35b904e317ec20f",
         "match": "closeMatch",
@@ -2680,37 +2628,6 @@
         "name": "Biological Oxygen Demand",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "BOD5, Biological Oxygen Demand",
-        "code": "0fe07bf6-885e-599f-a11a-3519964309a7",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-97df-0050c2490048",
-        "name": "Biological Oxygen Demand",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-97e0-0050c2490048",
-        "match": "closeMatch",
-        "name": "Biological Oxygen Demand",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -3408,27 +3325,6 @@
     },
     {
       "source": {
-        "name": "Calcium chloride",
-        "code": "2e3b5038-3752-5248-9917-fd1ac722fe9b",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-97ec-0050c2490048",
-        "match": "closeMatch",
-        "name": "Calcium Dichloride",
-        "context": "reso-grou",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Calcium II",
         "code": "fd6d3c6f-5a3b-5cc1-97d5-e3492a436a4a",
         "unit": "kg",
@@ -3581,37 +3477,6 @@
         "name": "Carbon",
         "context": "envi-air-grle-ur10pesq",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Carbon",
-        "code": "4f0058e1-2afa-5589-a52d-080833697c4b",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-944a-0050c2490048",
-        "name": "Carbon",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to soil, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "294fb5ab-7678-42de-a975-c791aca248c4",
-        "match": "closeMatch",
-        "name": "Carbon",
-        "context": "envi-grou-unkn",
-        "in_ef": true
       }
     },
     {
@@ -5538,37 +5403,6 @@
     },
     {
       "source": {
-        "name": "COD, Chemical Oxygen Demand",
-        "code": "74594000-e733-529e-a486-ab6763c1d708",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-97ee-0050c2490048",
-        "name": "Chemical Oxygen Demand",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-97ef-0050c2490048",
-        "match": "closeMatch",
-        "name": "Chemical Oxygen Demand",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Copper",
         "code": "d307bf19-5bdc-5abc-84e1-98aab68f1e7f",
         "unit": "kg",
@@ -6649,37 +6483,6 @@
         "name": "DOC, Dissolved Organic Carbon",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "DOC, Dissolved Organic Carbon",
-        "code": "02cf9b0d-3872-5cdf-8bbf-ea42e3d78891",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "8d8b884f-41cf-44c3-ab79-07c5902e77e6",
-        "name": "DOC, Dissolved Organic Carbon",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "fbc7fd32-09e9-4686-a616-031b21d097e8",
-        "match": "closeMatch",
-        "name": "DOC, Dissolved Organic Carbon",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -7878,37 +7681,6 @@
     {
       "source": {
         "name": "Heat, waste",
-        "code": "449c0405-dcf6-59e4-86ce-00c744acbb11",
-        "unit": "MJ",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "d86beca9-6555-11dd-ad8b-0800200c9a66",
-        "name": "Waste Heat",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to soil, unspecified"
-        ],
-        "unit": "megajoule"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "d86c3aa4-6555-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Waste Heat",
-        "context": "envi-grou-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Heat, waste",
         "code": "17465c4e-d00b-58dd-8189-60e0522e8863",
         "unit": "MJ",
         "context": [
@@ -7966,37 +7738,6 @@
         "name": "Waste Heat",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Heat, waste",
-        "code": "4989dc1a-0414-5a78-a91a-f58972a6e887",
-        "unit": "MJ",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-913b-0050c2490048",
-        "name": "Waste Heat",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "megajoule"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-913c-0050c2490048",
-        "match": "closeMatch",
-        "name": "Waste Heat",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -8121,37 +7862,6 @@
         "name": "Hydrocarbons, Aliphatic, Unsaturated",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Hydrocarbons, aliphatic, unsaturated",
-        "code": "2e9ab545-df80-570d-ad0d-261f21d0b17f",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "745c7481-c64b-4eac-8e36-9f9c02c81b13",
-        "name": "Hydrocarbons, Aliphatic, Unsaturated",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "a9c015f7-e00a-403e-91c1-2bf4516bd352",
-        "match": "closeMatch",
-        "name": "Hydrocarbons, Aliphatic, Unsaturated",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -9645,68 +9355,6 @@
     },
     {
       "source": {
-        "name": "Lead-210",
-        "code": "08395586-e79d-5ab3-abcb-ebda87afb983",
-        "unit": "Bq",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-95d5-0050c2490048",
-        "name": "Lead-210",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kBq"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-9812-0050c2490048",
-        "match": "closeMatch",
-        "name": "Lead-210",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Lead-210",
-        "code": "f37447c9-910c-5137-9113-e63b01cd38f7",
-        "unit": "kBq",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-95d5-0050c2490048",
-        "name": "Lead-210",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kBq"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-9812-0050c2490048",
-        "match": "closeMatch",
-        "name": "Lead-210",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Lithium",
         "code": "db56c033-2382-54f3-9f67-02408d5bfdb4",
         "unit": "kg",
@@ -9957,27 +9605,6 @@
         "name": "Magnesium",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Magnesium chloride",
-        "code": "efbd7c8e-70ad-5da9-938e-27370e241cde",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-acd8-0050c2490048",
-        "match": "closeMatch",
-        "name": "Magnesium Chloride",
-        "context": "reso-grou",
-        "in_ef": true
       }
     },
     {
@@ -11363,37 +10990,6 @@
     {
       "source": {
         "name": "Nitrate",
-        "code": "5db49504-e3ea-588b-acaf-4627f1a31e0a",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "32ccfaa4-6556-11dd-ad8b-0800200c9a66",
-        "name": "Nitrate",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to soil, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "32ccfaa5-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Nitrate",
-        "context": "envi-grou-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Nitrate",
         "code": "58864345-aa34-5e29-8638-ccc92f94735c",
         "unit": "kg",
         "context": [
@@ -11663,34 +11259,16 @@
         ],
         "unit": "kilogram"
       },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
+      "kind": "score_changing_retarget",
+      "factors": "theirs_zero",
+      "methods": [
+        "ef-3.1:eutrophication-marine"
+      ],
       "brightway_flows": {
         "code": "fe0acd60-3ddc-11dd-aad8-0050c2490048",
         "match": "closeMatch",
         "name": "Dinitrogen",
         "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Nitrogen, organic bound",
-        "code": "fb9c97d8-cc1b-53f4-ac19-7acbdfd5a12b",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "groundwater, long-term"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "5774987a-3f61-475d-b697-f1670aafdbc4",
-        "match": "closeMatch",
-        "name": "Nitrogen, Organic Bound",
-        "context": "envi-wate-lote",
         "in_ef": true
       }
     },
@@ -12709,27 +12287,6 @@
         "name": "Oils, Non-fossil",
         "context": "envi-grou-indu",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Oils, biogenic",
-        "code": "5b02868c-c771-53ec-93a5-099e4bbb735f",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "709c6e05-67b2-4fcc-906e-e49950eaeea9",
-        "match": "closeMatch",
-        "name": "Oils, Non-fossil",
-        "context": "envi-grou-unkn",
-        "in_ef": true
       }
     },
     {
@@ -13961,58 +13518,6 @@
     },
     {
       "source": {
-        "name": "Potassium",
-        "code": "1521665c-3ba5-50b6-97bb-a80ca3b8ade5",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-97c4-0050c2490048",
-        "name": "Potassium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-97c5-0050c2490048",
-        "match": "closeMatch",
-        "name": "Potassium",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Potassium chloride",
-        "code": "c44faae6-9c4a-57c0-91f2-dd66ac4e7ec5",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "041ff934-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Potassium Chloride",
-        "context": "reso-grou",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Potassium-40",
         "code": "38fe7c69-02d0-5a53-aec5-cbce8f58bba5",
         "unit": "Bq",
@@ -15002,68 +14507,6 @@
     },
     {
       "source": {
-        "name": "Radium-228",
-        "code": "5d3d4187-d16b-5e00-93fa-4f6f1b743f6b",
-        "unit": "Bq",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "fe0acd60-3ddc-11dd-aba8-0050c2490048",
-        "name": "Radium-228",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kBq"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-aba9-0050c2490048",
-        "match": "closeMatch",
-        "name": "Radium-228",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Radium-228",
-        "code": "becc450c-9b1c-5549-8397-ee95996ba27d",
-        "unit": "kBq",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "fe0acd60-3ddc-11dd-aba8-0050c2490048",
-        "name": "Radium-228",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kBq"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-aba9-0050c2490048",
-        "match": "closeMatch",
-        "name": "Radium-228",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Rubidium",
         "code": "8615cd57-30cb-55b5-be15-cbe94157b346",
         "unit": "kg",
@@ -15660,37 +15103,6 @@
     {
       "source": {
         "name": "Sodium",
-        "code": "affd1da4-0c1d-53ac-a87a-d6fd5abe9440",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-9418-0050c2490048",
-        "name": "Sodium",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to soil, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a70f-0050c2490048",
-        "match": "closeMatch",
-        "name": "Sodium",
-        "context": "envi-grou-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium",
         "code": "9414db5b-dc13-5078-a7c7-8888d01abdf7",
         "unit": "kg",
         "context": [
@@ -15783,37 +15195,6 @@
     },
     {
       "source": {
-        "name": "Sodium",
-        "code": "4d65338c-16c9-53c1-a552-9d8b422d7835",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "08a91e70-3ddc-11dd-9506-0050c2490048",
-        "name": "Sodium",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-9507-0050c2490048",
-        "match": "closeMatch",
-        "name": "Sodium",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Sodium bromide",
         "code": "3e3a15b8-9b99-511d-9c9b-7d881ac0233b",
         "unit": "kg",
@@ -15856,48 +15237,6 @@
     },
     {
       "source": {
-        "name": "Sodium chloride",
-        "code": "07726738-f88b-520d-8090-c5deedf98ac9",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "172ad9fa-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Sodium Chloride",
-        "context": "reso-grou",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium chloride",
-        "code": "7773d914-85ca-593e-802c-f72a75dfb5d2",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in water"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "172ad9fb-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Sodium Chloride",
-        "context": "reso-wate",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Sodium formate",
         "code": "58ceb8be-409d-5917-8ff8-bc7dad6aa91d",
         "unit": "kg",
@@ -15925,48 +15264,6 @@
         "name": "Sodium Formate",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium nitrate",
-        "code": "3b98bf8a-3b2d-5bcd-a73b-d6e0a541b804",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "172b010c-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Sodium Nitrate",
-        "context": "reso-grou",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Sodium sulfate",
-        "code": "31c25d60-0ebc-5192-889f-2fc93210476f",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "172b0119-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Sodium sulfate",
-        "context": "reso-grou",
-        "in_ef": true
       }
     },
     {
@@ -16448,37 +15745,6 @@
     {
       "source": {
         "name": "Sulfate",
-        "code": "9ae7e688-4da6-5bb7-81b8-8c0b7d741778",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "1f30d646-6556-11dd-ad8b-0800200c9a66",
-        "name": "Sulfate Ion",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to soil, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "32cd218b-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Sulfate",
-        "context": "envi-grou-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Sulfate",
         "code": "ac099883-7788-5cbe-b282-38097608f3c7",
         "unit": "kg",
         "context": [
@@ -16567,37 +15833,6 @@
         "name": "Sulfate",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Sulfate",
-        "code": "3bbfd904-9cea-5f51-a374-8dfa0ba927b6",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "fe0acd60-3ddc-11dd-ac5a-0050c2490048",
-        "name": "Sulfate Ion",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-ac5b-0050c2490048",
-        "match": "closeMatch",
-        "name": "Sulfate",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -16726,37 +15961,6 @@
     },
     {
       "source": {
-        "name": "Sulfide",
-        "code": "5707dbac-d5cc-5304-9ada-723fee77e99e",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "4d9a8790-3ddd-11dd-9067-0050c2490048",
-        "name": "Sulfide ion",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-9068-0050c2490048",
-        "match": "closeMatch",
-        "name": "Sulfide(2-)",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Sulfite",
         "code": "10c8e833-dcbd-56d7-8654-3a073a6ef079",
         "unit": "kg",
@@ -16784,37 +15988,6 @@
         "name": "Sulfite",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Sulfite",
-        "code": "8c645b1c-264f-5bc7-b67f-bb2f2f9fa195",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "4d9a8790-3ddd-11dd-96ee-0050c2490048",
-        "name": "Sulfite",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-96ef-0050c2490048",
-        "match": "closeMatch",
-        "name": "Sulfite",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -17156,27 +16329,6 @@
         "name": "Tert-butylamine",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Talc",
-        "code": "7b230420-ecc7-5ec1-aee3-5a0259e526e8",
-        "unit": "kg",
-        "context": [
-          "resources",
-          "in ground"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "1f314b74-6556-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Talc",
-        "context": "reso-grou",
-        "in_ef": true
       }
     },
     {
@@ -18041,37 +17193,6 @@
     {
       "source": {
         "name": "TOC, Total Organic Carbon",
-        "code": "96adf3a8-23b6-5b78-b3ad-7bce7fd3fdbb",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "d86beca3-6555-11dd-ad8b-0800200c9a66",
-        "name": "Total Organic Carbon",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to soil, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "d86c13c8-6555-11dd-ad8b-0800200c9a66",
-        "match": "closeMatch",
-        "name": "Total Organic Carbon",
-        "context": "envi-grou-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "TOC, Total Organic Carbon",
         "code": "245e441d-b76e-55b2-9a7d-a14c7ca33e1d",
         "unit": "kg",
         "context": [
@@ -18129,37 +17250,6 @@
         "name": "Total Organic Carbon",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "TOC, Total Organic Carbon",
-        "code": "59a68242-e29b-5b5d-adc3-5e6fde8c0873",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "4d9a8790-3ddd-11dd-8e7e-0050c2490048",
-        "name": "Total Organic Carbon",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "theirs_not_usable",
-      "reason": "target_not_in_vocab",
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8e7f-0050c2490048",
-        "match": "closeMatch",
-        "name": "Total Organic Carbon",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -20156,48 +19246,6 @@
     {
       "source": {
         "name": "Uranium alpha",
-        "code": "021bda22-8dc0-5bb0-8703-31fdcbce9d0b",
-        "unit": "Bq",
-        "context": [
-          "emissions to air",
-          "low. pop."
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "d3b6f4ae-7ab1-4527-b0cb-597347ef307b",
-        "match": "closeMatch",
-        "name": "Uranium Alpha",
-        "context": "envi-air-mest15me-ru10pesq",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Uranium alpha",
-        "code": "e6a6a26f-f095-5dce-98c4-fcab0572594f",
-        "unit": "kBq",
-        "context": [
-          "emissions to air",
-          "low. pop."
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "d3b6f4ae-7ab1-4527-b0cb-597347ef307b",
-        "match": "closeMatch",
-        "name": "Uranium Alpha",
-        "context": "envi-air-mest15me-ru10pesq",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Uranium alpha",
         "code": "3cbfedbb-ee48-5170-a2fb-39a85c3e3d4f",
         "unit": "Bq",
         "context": [
@@ -20277,27 +19325,6 @@
         "name": "Uranium Alpha",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Uranium alpha",
-        "code": "50c8e098-3daa-535f-8085-56c28d54b9fd",
-        "unit": "kBq",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "039af71c-470c-4841-9ba4-8f1744353637",
-        "match": "closeMatch",
-        "name": "Uranium Alpha",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -24426,27 +23453,6 @@
         "name": "Sea water",
         "context": "reso-wate",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Water, salt, sole",
-        "code": "1fe404bb-1759-572b-886e-722861447862",
-        "unit": "m3",
-        "context": [
-          "resources",
-          "in water"
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "target_not_in_vocab",
-      "ours": null,
-      "brightway_flows": {
-        "code": "37295016-4d20-4bbc-8bf8-b344933d8980",
-        "match": "closeMatch",
-        "name": "Brine",
-        "context": "reso-wate",
-        "in_ef": true
       }
     },
     {

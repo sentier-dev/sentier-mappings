@@ -1103,9 +1103,8 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -1916,9 +1915,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -3308,14 +3306,9 @@
           "unspecified"
         ]
       },
-      "status": "mapped",
-      "package": "biosphere-4-nomenclature",
-      "tier": "name",
-      "placement": "nomenclature_placement",
-      "characterised": false,
-      "caveats": [
-        "EF has this name only in 'emissions to air, unspecified (long-term)', 'emissions to lower stratosphere and upper troposphere', 'emissions to non-urban air or from high stacks', 'emissions to urban air close to ground'; placed on 'emissions to air, unspecified (long-term)' for nomenclature alignment (no factor)"
-      ]
+      "status": "unmapped",
+      "reason": "sub_compartment_absent",
+      "detail": "EF has benzal chloride only in: emissions to air, unspecified (long-term), emissions to lower stratosphere and upper troposphere, emissions to non-urban air or from high stacks, emissions to urban air close to ground"
     },
     {
       "source": {
@@ -5611,9 +5604,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -16776,9 +16768,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -20394,9 +20385,8 @@
           "groundwater, long-term"
         ]
       },
-      "status": "unmapped",
-      "reason": "sub_compartment_absent",
-      "detail": "EF has nitrogen only in: emissions to fresh water, emissions to sea water, emissions to water, unspecified"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -21445,9 +21435,8 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the soil compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -23670,9 +23659,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -27015,9 +27003,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -27029,9 +27016,8 @@
           "in water"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -27127,9 +27113,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -27141,9 +27126,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -28590,9 +28574,8 @@
           "in ground"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the resource compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -32132,9 +32115,8 @@
           "low. pop."
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -32146,9 +32128,8 @@
           "low. pop."
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the air compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -32216,9 +32197,8 @@
           "unspecified"
         ]
       },
-      "status": "unmapped",
-      "reason": "no_ef_flow",
-      "detail": "no EF 3.1 flow, with or without a factor, matches by name, synonym, qualifier, carbon-oxide, ion-strip, land-use class, ore composite, alias, region-stripped name or CAS in the water compartment"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
@@ -36343,9 +36323,8 @@
           "in water"
         ]
       },
-      "status": "unmapped",
-      "reason": "non_freshwater",
-      "detail": "EF water use characterises freshwater deprivation only"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {
