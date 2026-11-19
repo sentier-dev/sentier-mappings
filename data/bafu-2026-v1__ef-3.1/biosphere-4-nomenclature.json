@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere-nomenclature",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "replace": [
     {
       "source": {
@@ -570,7 +570,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-97df-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97e0-0050c2490048",
         "name": "Biological Oxygen Demand",
         "context": [
           "Emissions",
@@ -579,7 +579,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -764,28 +764,6 @@
     {
       "source": {
         "name": "Benzal chloride",
-        "code": "68cc74dc-27cc-5148-a8c6-2fa9b4a609c6",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "target": {
-        "code": "5b7bbb32-35b4-4761-b8a9-cd811a71488b",
-        "name": "Benzal Chloride",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
-        ],
-        "unit": "kilogram"
-      },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; EF has this name only in 'emissions to air, unspecified (long-term)', 'emissions to lower stratosphere and upper troposphere', 'emissions to non-urban air or from high stacks', 'emissions to urban air close to ground'; placed on 'emissions to air, unspecified (long-term)' for nomenclature alignment (no factor)"
-    },
-    {
-      "source": {
-        "name": "Benzal chloride",
         "code": "5a19d5fd-7247-5c10-9a96-7bb701c1d6f7",
         "unit": "kg",
         "context": [
@@ -948,7 +926,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-97ee-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97ef-0050c2490048",
         "name": "Chemical Oxygen Demand",
         "context": [
           "Emissions",
@@ -957,7 +935,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -1031,7 +1009,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-944a-0050c2490048",
+        "code": "294fb5ab-7678-42de-a975-c791aca248c4",
         "name": "Carbon",
         "context": [
           "Emissions",
@@ -1040,7 +1018,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -1744,7 +1722,7 @@
         ]
       },
       "target": {
-        "code": "8d8b884f-41cf-44c3-ab79-07c5902e77e6",
+        "code": "fbc7fd32-09e9-4686-a616-031b21d097e8",
         "name": "DOC, Dissolved Organic Carbon",
         "context": [
           "Emissions",
@@ -1753,7 +1731,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -2428,7 +2406,7 @@
         ]
       },
       "target": {
-        "code": "d86beca9-6555-11dd-ad8b-0800200c9a66",
+        "code": "d86c3aa4-6555-11dd-ad8b-0800200c9a66",
         "name": "Waste Heat",
         "context": [
           "Emissions",
@@ -2437,7 +2415,7 @@
         ],
         "unit": "megajoule"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -2516,7 +2494,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-913b-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-913c-0050c2490048",
         "name": "Waste Heat",
         "context": [
           "Emissions",
@@ -2525,7 +2503,7 @@
         ],
         "unit": "megajoule"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -2912,7 +2890,7 @@
         ]
       },
       "target": {
-        "code": "745c7481-c64b-4eac-8e36-9f9c02c81b13",
+        "code": "a9c015f7-e00a-403e-91c1-2bf4516bd352",
         "name": "Hydrocarbons, Aliphatic, Unsaturated",
         "context": [
           "Emissions",
@@ -2921,7 +2899,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -3883,7 +3861,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-95d5-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9812-0050c2490048",
         "name": "Lead-210",
         "context": [
           "Emissions",
@@ -3893,7 +3871,7 @@
         "unit": "kBq"
       },
       "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -3906,7 +3884,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-95d5-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9812-0050c2490048",
         "name": "Lead-210",
         "context": [
           "Emissions",
@@ -3915,7 +3893,7 @@
         ],
         "unit": "kBq"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -4235,7 +4213,7 @@
         ]
       },
       "target": {
-        "code": "32ccfaa4-6556-11dd-ad8b-0800200c9a66",
+        "code": "32ccfaa5-6556-11dd-ad8b-0800200c9a66",
         "name": "Nitrate",
         "context": [
           "Emissions",
@@ -4244,7 +4222,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -4456,15 +4434,15 @@
         ]
       },
       "target": {
-        "code": "e78d81bf-4ad2-4f9b-b8f5-e94c9359a793",
-        "name": "Seabed",
+        "code": "21ebdac2-4d7a-4645-a50a-46a7c8d5c328",
+        "name": "Seabed, Marine Infrastructure",
         "context": [
           "Land use",
           "Land occupation"
         ],
         "unit": "m2*a"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); sub-class 'seabed, infrastructure' collapsed onto EF class 'Seabed'; EF has no flow for the sub-class"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); sub-class 'seabed, infrastructure' collapsed onto EF class 'Seabed'; EF has no flow for the sub-class; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -4734,8 +4712,8 @@
         ]
       },
       "target": {
-        "code": "4d9a8790-3ddd-11dd-9062-0050c2490048",
-        "name": "Perfluoropentane",
+        "code": "a19c0cee-e251-11e6-bf01-fe55135034f3",
+        "name": "PFC-41-12",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4743,7 +4721,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow)"
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: our target is an EF flow that Brightway Flows 1.1.0 records as merged into theirs; theirs is the live flow)"
     },
     {
       "source": {
@@ -5283,7 +5261,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-97c4-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-97c5-0050c2490048",
         "name": "Potassium",
         "context": [
           "Emissions",
@@ -5292,7 +5270,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -6354,7 +6332,7 @@
         ]
       },
       "target": {
-        "code": "fe0acd60-3ddc-11dd-aba8-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-aba9-0050c2490048",
         "name": "Radium-228",
         "context": [
           "Emissions",
@@ -6364,7 +6342,7 @@
         "unit": "kBq"
       },
       "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -6377,7 +6355,7 @@
         ]
       },
       "target": {
-        "code": "fe0acd60-3ddc-11dd-aba8-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-aba9-0050c2490048",
         "name": "Radium-228",
         "context": [
           "Emissions",
@@ -6386,7 +6364,7 @@
         ],
         "unit": "kBq"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -6734,11 +6712,11 @@
         ]
       },
       "target": {
-        "code": "172a3daa-6556-11dd-ad8b-0800200c9a66",
-        "name": "Sand",
+        "code": "0d7a3ad3-6556-11dd-ad8b-0800200c9a66",
+        "name": "Silica",
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14)"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF has this name only as emissions to soil, unspecified; the source is a resource extraction, so the EF context is omitted (name alignment only, decision 2026-09-14); target aligned with brightway-flows 1.1.0 (neither flow carries a factor); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
     },
     {
       "source": {
@@ -7138,7 +7116,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9418-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-a70f-0050c2490048",
         "name": "Sodium",
         "context": [
           "Emissions",
@@ -7147,7 +7125,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -7248,7 +7226,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9506-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9507-0050c2490048",
         "name": "Sodium",
         "context": [
           "Emissions",
@@ -7257,7 +7235,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -7641,8 +7619,8 @@
         ]
       },
       "target": {
-        "code": "1f30d646-6556-11dd-ad8b-0800200c9a66",
-        "name": "Sulfate Ion",
+        "code": "32cd218b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Sulfate",
         "context": [
           "Emissions",
           "Emissions to soil",
@@ -7650,7 +7628,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -7751,8 +7729,8 @@
         ]
       },
       "target": {
-        "code": "fe0acd60-3ddc-11dd-ac5a-0050c2490048",
-        "name": "Sulfate Ion",
+        "code": "fe0acd60-3ddc-11dd-ac5b-0050c2490048",
+        "name": "Sulfate",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7760,7 +7738,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -7883,8 +7861,8 @@
         ]
       },
       "target": {
-        "code": "4d9a8790-3ddd-11dd-9067-0050c2490048",
-        "name": "Sulfide ion",
+        "code": "4d9a8790-3ddd-11dd-9068-0050c2490048",
+        "name": "Sulfide(2-)",
         "context": [
           "Emissions",
           "Emissions to water",
@@ -7892,7 +7870,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -7927,7 +7905,7 @@
         ]
       },
       "target": {
-        "code": "4d9a8790-3ddd-11dd-96ee-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-96ef-0050c2490048",
         "name": "Sulfite",
         "context": [
           "Emissions",
@@ -7936,7 +7914,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -8147,7 +8125,7 @@
         ]
       },
       "target": {
-        "code": "d86beca3-6555-11dd-ad8b-0800200c9a66",
+        "code": "d86c13c8-6555-11dd-ad8b-0800200c9a66",
         "name": "Total Organic Carbon",
         "context": [
           "Emissions",
@@ -8156,7 +8134,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -8235,7 +8213,7 @@
         ]
       },
       "target": {
-        "code": "4d9a8790-3ddd-11dd-8e7e-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-8e7f-0050c2490048",
         "name": "Total Organic Carbon",
         "context": [
           "Emissions",
@@ -8244,7 +8222,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -8458,7 +8436,7 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9981-0050c2490048",
+        "code": "38b2bfa6-50e8-4eee-973f-0e3e64ffa630",
         "name": "Thorium",
         "context": [
           "Emissions",
@@ -8467,7 +8445,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow)"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -8480,16 +8458,11 @@
         ]
       },
       "target": {
-        "code": "08a91e70-3ddc-11dd-9982-0050c2490048",
+        "code": "f67eb2c9-7c5f-4198-8384-e3af423eeafe",
         "name": "Thorium",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; target aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9334,17 +9307,16 @@
         ]
       },
       "target": {
-        "code": "3960d174-95af-41ac-a7f3-a946cd237245",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac06-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ],
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9357,17 +9329,11 @@
         ]
       },
       "target": {
-        "code": "896d1d1e-2b87-4a83-b209-11a2ea997b49",
-        "name": "Water",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ],
-        "unit": "cubic meter"
+        "code": "fe0acd60-3ddc-11dd-ac07-0050c2490048",
+        "name": "Water Vapour",
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
     },
     {
       "source": {
@@ -9380,17 +9346,16 @@
         ]
       },
       "target": {
-        "code": "5cfda72a-b91b-4f7c-a8d4-1f8265d8cd4c",
-        "name": "Water",
+        "code": "2905ed3b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to lower stratosphere and upper troposphere"
         ],
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9403,17 +9368,16 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9449,18 +9413,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "AT",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9473,18 +9436,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "AU",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9520,18 +9482,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "BA",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9544,18 +9505,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "BE",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9568,18 +9528,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "BR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9592,18 +9551,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "CA",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9616,18 +9574,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "CH",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9640,18 +9597,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "CL",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9664,18 +9620,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "CN",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9688,18 +9643,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "CS",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9712,18 +9666,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "CZ",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9736,18 +9689,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "DE",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9760,18 +9712,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "DK",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9784,18 +9735,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "ES",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9808,17 +9758,16 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); regional aggregate Europe in the source name; EF applies the global default factor; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9831,18 +9780,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "FI",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9855,18 +9803,12 @@
         ]
       },
       "target": {
-        "code": "896d1d1e-2b87-4a83-b209-11a2ea997b49",
-        "name": "Water",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ],
+        "code": "fe0acd60-3ddc-11dd-ac07-0050c2490048",
+        "name": "Water Vapour",
         "location": "FR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor); EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
     },
     {
       "source": {
@@ -9879,18 +9821,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "FR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9903,18 +9844,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "GB",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9950,18 +9890,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "GR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9974,18 +9913,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "HR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -9998,18 +9936,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "HU",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10022,18 +9959,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "IE",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10046,18 +9982,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "IL",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10070,18 +10005,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "IN",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10094,18 +10028,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "IS",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10118,18 +10051,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "IT",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10142,18 +10074,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "JP",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10166,18 +10097,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "KE",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10190,18 +10120,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "KR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10237,18 +10166,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "LU",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10261,18 +10189,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "MK",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10285,18 +10212,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "MX",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10332,18 +10258,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "MY",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10356,18 +10281,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "MZ",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10380,18 +10304,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "NL",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10404,18 +10327,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "NO",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10451,18 +10373,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "NZ",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10475,17 +10396,16 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); regional aggregate OECD in the source name; EF applies the global default factor; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10498,18 +10418,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "PE",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10522,18 +10441,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "PL",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10546,18 +10464,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "PT",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10570,17 +10487,16 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); regional aggregate RER in the source name; EF applies the global default factor; amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10616,18 +10532,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "SE",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10640,18 +10555,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "SI",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10664,18 +10578,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "SK",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10688,18 +10601,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "TH",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10712,18 +10624,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "TR",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10736,18 +10647,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "US",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {
@@ -10783,18 +10693,17 @@
         ]
       },
       "target": {
-        "code": "0342f5e5-b53e-4cec-9e67-fb197f24fff0",
-        "name": "Water",
+        "code": "fe0acd60-3ddc-11dd-ac04-0050c2490048",
+        "name": "Water Vapour",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ],
         "location": "ZA",
-        "unit": "cubic meter"
+        "unit": "kilogram"
       },
-      "conversion_factor": 0.001,
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow); amount rescaled by 0.001"
+      "comment": "uncharacterised in EF 3.1: no factor in any method; target and unit aligned with brightway-flows 1.1.0 (neither flow carries a factor)"
     },
     {
       "source": {

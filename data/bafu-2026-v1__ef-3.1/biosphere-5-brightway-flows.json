@@ -1,0 +1,1070 @@
+{
+  "name": "bafu-2026-v1__ef-3.1-biosphere-brightway-flows",
+  "version": "0.1.0",
+  "replace": [
+    {
+      "source": {
+        "name": "Acidity, unspecified",
+        "code": "c51a5f4b-bb19-5bd4-9202-fcf73ea6baf8",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Acid (as H+)",
+        "code": "29066274-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Acidity, unspecified",
+        "code": "85985080-3d13-56a0-a61c-3a30775bfb84",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Acid (as H+)",
+        "code": "fe0acd60-3ddc-11dd-abca-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Anhydrite",
+        "code": "48298c73-ed91-50bb-9582-efe987d93d8d",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Calcium Sulfate",
+        "code": "08a91e70-3ddc-11dd-97f8-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Benzene, chloro-",
+        "code": "691167c1-c450-544c-a67f-e18b9bed135b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river, long-term"
+        ]
+      },
+      "target": {
+        "name": "chlorobenzene",
+        "code": "fe0acd60-3ddc-11dd-a2e5-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; all factors are zero in EF 3.1"
+    },
+    {
+      "source": {
+        "name": "BOD5, Biological Oxygen Demand",
+        "code": "d87d4e8c-ad4c-5064-be2c-beea1cd572f0",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Biological Oxygen Demand",
+        "code": "08a91e70-3ddc-11dd-97df-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Borax",
+        "code": "bf1910c2-30c9-596e-b3c9-f806dd048d85",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Borax (B4Na2O7.10H2O)",
+        "code": "08a91e70-3ddc-11dd-97eb-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Calcium chloride",
+        "code": "2e3b5038-3752-5248-9917-fd1ac722fe9b",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Calcium Dichloride",
+        "code": "08a91e70-3ddc-11dd-97ec-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Carbon, organic, in soil or biomass stock",
+        "code": "f8776064-74a7-5ba4-ad93-24f2853f8b25",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Carbon",
+        "code": "26f9293f-8c18-4f3b-a334-e57a8ecda895",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Chromium VI",
+        "code": "2ddc647f-111b-5285-8c9c-c905d7418cba",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "chromium (vi)",
+        "code": "4d9a8790-3ddd-11dd-8fd8-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; all factors are zero in EF 3.1"
+    },
+    {
+      "source": {
+        "name": "Clay, bentonite",
+        "code": "029449ea-6c14-5241-8b02-842432f54080",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Bentonite",
+        "code": "08a91e70-3ddc-11dd-9634-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "COD, Chemical Oxygen Demand",
+        "code": "378f739b-4446-525c-afec-e475a0eca633",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Chemical Oxygen Demand",
+        "code": "08a91e70-3ddc-11dd-97ee-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "DOC, Dissolved Organic Carbon",
+        "code": "48e8070d-0f6b-562c-bba3-476b0a117268",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "DOC, Dissolved Organic Carbon",
+        "code": "8d8b884f-41cf-44c3-ab79-07c5902e77e6",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Energy, gross calorific value, in biomass",
+        "code": "f19120fb-a8c4-5dd6-a00a-8339d3f6b43f",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "name": "Biomass",
+        "code": "fe0acd60-3ddc-11dd-a6fd-0050c2490048",
+        "unit": "megajoule",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Energy, gross calorific value, in biomass",
+        "code": "d2d3a74c-a97c-5b30-98e0-7f288fc3e2db",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in air"
+        ]
+      },
+      "target": {
+        "name": "Biomass",
+        "code": "fe0acd60-3ddc-11dd-a6fd-0050c2490048",
+        "unit": "megajoule",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Energy, gross calorific value, in biomass",
+        "code": "5290cab7-61dc-5b49-ad1a-b2ed83c839cf",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Biomass",
+        "code": "fe0acd60-3ddc-11dd-a6fd-0050c2490048",
+        "unit": "megajoule",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Energy, gross calorific value, in biomass, resource correction",
+        "code": "89fa69f5-be61-5243-bb74-c3d342ccae60",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "biotic"
+        ]
+      },
+      "target": {
+        "name": "Biomass",
+        "code": "fe0acd60-3ddc-11dd-a6fd-0050c2490048",
+        "unit": "megajoule",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Energy, gross calorific value, in biomass, resource correction",
+        "code": "afd7683a-d353-5706-9706-28410e18d6ae",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Biomass",
+        "code": "fe0acd60-3ddc-11dd-a6fd-0050c2490048",
+        "unit": "megajoule",
+        "context": [
+          "Resources",
+          "Resources from biosphere",
+          "Renewable material resources from biosphere"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Energy, waste heat, air",
+        "code": "c27dfeb0-4500-5b11-a2f8-eded3a61e5ef",
+        "unit": "MJ",
+        "context": [
+          "resources",
+          "in air"
+        ]
+      },
+      "target": {
+        "name": "Waste Heat",
+        "code": "08a91e70-3ddc-11dd-9136-0050c2490048",
+        "unit": "megajoule",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Ethane, 1,1,1-trichloro-, HCFC-140",
+        "code": "64409968-2b46-51ca-9762-6bd13b323f85",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "name": "HCFC-140",
+        "code": "4d9a8790-3ddd-11dd-925c-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; reviewed 2026-11-19: same substance (CAS 71-55-6) on the matching air compartment; we had withheld it as ambiguous"
+    },
+    {
+      "source": {
+        "name": "Ethane, 1,1-dichloro-",
+        "code": "ded92570-f0d3-5718-a270-dd5e30dbac2c",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "1,1-dichloroethane",
+        "code": "6de33424-d082-4ef2-8cd8-b17078b12eb8",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; all factors are zero in EF 3.1"
+    },
+    {
+      "source": {
+        "name": "Ethene, chloro-",
+        "code": "6150315a-2c7d-5e27-a8b4-4e9adeefc923",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river, long-term"
+        ]
+      },
+      "target": {
+        "name": "vinyl chloride",
+        "code": "fe0acd60-3ddc-11dd-a497-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; all factors are zero in EF 3.1"
+    },
+    {
+      "source": {
+        "name": "Gravel, resource correction",
+        "code": "a5e783a6-6a14-5ec9-84c8-ab1a1cfc85e4",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Gravel",
+        "code": "fe0acd60-3ddc-11dd-aa36-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Heat, waste",
+        "code": "30658714-2906-53ec-9d05-a5e1573bb494",
+        "unit": "MJ",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Waste Heat",
+        "code": "08a91e70-3ddc-11dd-913b-0050c2490048",
+        "unit": "megajoule"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Magnesium chloride",
+        "code": "efbd7c8e-70ad-5da9-938e-27370e241cde",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Magnesium Chloride",
+        "code": "fe0acd60-3ddc-11dd-acd8-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Methane, tetrachloro-, CFC-10",
+        "code": "f226d4b6-9abd-584c-b26c-3c48ee420472",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "river, long-term"
+        ]
+      },
+      "target": {
+        "name": "CFC-10",
+        "code": "fe0acd60-3ddc-11dd-a92e-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; all factors are zero in EF 3.1"
+    },
+    {
+      "source": {
+        "name": "Nitrogen, organic bound",
+        "code": "fb9c97d8-cc1b-53f4-ac19-7acbdfd5a12b",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Nitrogen, Organic Bound",
+        "code": "5774987a-3f61-475d-b697-f1670aafdbc4",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified (long-term)"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Oils, biogenic",
+        "code": "5b02868c-c771-53ec-93a5-099e4bbb735f",
+        "unit": "kg",
+        "context": [
+          "emissions to soil",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Oils, Non-fossil",
+        "code": "709c6e05-67b2-4fcc-906e-e49950eaeea9",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to soil",
+          "Emissions to soil, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Potassium",
+        "code": "23ee1b9a-5d29-583c-881a-f4b5297f489d",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Potassium",
+        "code": "08a91e70-3ddc-11dd-97c4-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Potassium chloride",
+        "code": "c44faae6-9c4a-57c0-91f2-dd66ac4e7ec5",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Potassium Chloride",
+        "code": "041ff934-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Pumice",
+        "code": "7098d9da-e8fd-5803-829b-8d3beba35bb9",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Natural Pumice",
+        "code": "08a91e70-3ddc-11dd-96c3-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Sand, resource correction",
+        "code": "1e1f21cc-8fdf-5298-8373-2ace1a5000a4",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Silica",
+        "code": "0d7a3ad3-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Scandium",
+        "code": "0e83e026-73c0-5b3c-a75c-3a0985c1d5e5",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Scandium",
+        "code": "fe0acd60-3ddc-11dd-abea-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Sodium",
+        "code": "0836bdc2-60e0-5191-8034-7a688414c1cb",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Sodium",
+        "code": "08a91e70-3ddc-11dd-9506-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Sodium chloride",
+        "code": "07726738-f88b-520d-8090-c5deedf98ac9",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Sodium Chloride",
+        "code": "172ad9fa-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Sodium chloride",
+        "code": "7773d914-85ca-593e-802c-f72a75dfb5d2",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in water"
+        ]
+      },
+      "target": {
+        "name": "Sodium Chloride",
+        "code": "172ad9fb-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from water",
+          "Non-renewable material resources from water"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Sodium nitrate",
+        "code": "3b98bf8a-3b2d-5bcd-a73b-d6e0a541b804",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Sodium Nitrate",
+        "code": "172b010c-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Sodium sulfate",
+        "code": "31c25d60-0ebc-5192-889f-2fc93210476f",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Sodium sulfate",
+        "code": "172b0119-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Sulfate",
+        "code": "4b02f470-652c-5f8d-94cb-b90c63fc55cd",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Sulfate Ion",
+        "code": "fe0acd60-3ddc-11dd-ac5a-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Talc",
+        "code": "7b230420-ecc7-5ec1-aee3-5a0259e526e8",
+        "unit": "kg",
+        "context": [
+          "resources",
+          "in ground"
+        ]
+      },
+      "target": {
+        "name": "Talc",
+        "code": "1f314b74-6556-11dd-ad8b-0800200c9a66",
+        "unit": "kilogram",
+        "context": [
+          "Resources",
+          "Resources from ground",
+          "Non-renewable material resources from ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "91c0a0db-a3bb-5c04-87fd-9060166d7a94",
+        "unit": "Bq",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-9981-0050c2490048",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      },
+      "conversion_factor": 0.001,
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; amount rescaled by 0.001 (unit-table)"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "ca720499-40b6-53a5-9381-e9987e72049b",
+        "unit": "kBq",
+        "context": [
+          "emissions to air",
+          "high. pop."
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-9981-0050c2490048",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to urban air close to ground"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "fedad7fc-2f30-5c36-91ba-7e9ee3047e0b",
+        "unit": "Bq",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-9982-0050c2490048",
+        "unit": "kBq"
+      },
+      "conversion_factor": 0.001,
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain; amount rescaled by 0.001 (unit-table)"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "e88c43d9-9cdb-5666-9ee5-800736d372bc",
+        "unit": "kBq",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-9982-0050c2490048",
+        "unit": "kBq"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "207136ce-5579-5188-9a73-422dbefd8959",
+        "unit": "Bq",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-997f-0050c2490048",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "conversion_factor": 0.001,
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; amount rescaled by 0.001 (unit-table)"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "6025c2fc-6ecb-5b35-b2e4-7f84b6b9e113",
+        "unit": "kBq",
+        "context": [
+          "emissions to air",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-997f-0050c2490048",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to air, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "3a7c8626-25b8-5420-8fff-5d5c693f4675",
+        "unit": "Bq",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-9987-0050c2490048",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      },
+      "conversion_factor": 0.001,
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; amount rescaled by 0.001 (unit-table)"
+    },
+    {
+      "source": {
+        "name": "Thorium-232",
+        "code": "67aacf00-e161-5ce0-85b0-c94421b1b82f",
+        "unit": "kBq",
+        "context": [
+          "emissions to water",
+          "ocean"
+        ]
+      },
+      "target": {
+        "name": "Thorium",
+        "code": "08a91e70-3ddc-11dd-9987-0050c2490048",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to sea water"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "TOC, Total Organic Carbon",
+        "code": "1e39fd49-f07d-5177-aef9-60d7e89ec6d1",
+        "unit": "kg",
+        "context": [
+          "emissions to water",
+          "groundwater, long-term"
+        ]
+      },
+      "target": {
+        "name": "Total Organic Carbon",
+        "code": "4d9a8790-3ddd-11dd-8e7e-0050c2490048",
+        "unit": "kilogram"
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; EF context inferred from the Brightway context code, branch/sub-compartment uncertain"
+    },
+    {
+      "source": {
+        "name": "Uranium alpha",
+        "code": "021bda22-8dc0-5bb0-8703-31fdcbce9d0b",
+        "unit": "Bq",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "name": "Uranium Alpha",
+        "code": "d3b6f4ae-7ab1-4527-b0cb-597347ef307b",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "conversion_factor": 0.001,
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method; amount rescaled by 0.001 (unit-table)"
+    },
+    {
+      "source": {
+        "name": "Uranium alpha",
+        "code": "e6a6a26f-f095-5dce-98c4-fcab0572594f",
+        "unit": "kBq",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "name": "Uranium Alpha",
+        "code": "d3b6f4ae-7ab1-4527-b0cb-597347ef307b",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Uranium alpha",
+        "code": "50c8e098-3daa-535f-8085-56c28d54b9fd",
+        "unit": "kBq",
+        "context": [
+          "emissions to water",
+          "unspecified"
+        ]
+      },
+      "target": {
+        "name": "Uranium Alpha",
+        "code": "039af71c-470c-4841-9ba4-8f1744353637",
+        "unit": "kBq",
+        "context": [
+          "Emissions",
+          "Emissions to water",
+          "Emissions to water, unspecified"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    },
+    {
+      "source": {
+        "name": "Water, salt, sole",
+        "code": "1fe404bb-1759-572b-886e-722861447862",
+        "unit": "m3",
+        "context": [
+          "resources",
+          "in water"
+        ]
+      },
+      "target": {
+        "name": "Brine",
+        "code": "37295016-4d20-4bbc-8bf8-b344933d8980",
+        "unit": "cubic meter",
+        "context": [
+          "Resources",
+          "Resources from water",
+          "Renewable material resources from water"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; uncharacterised in EF 3.1: no factor in any method"
+    }
+  ]
+}

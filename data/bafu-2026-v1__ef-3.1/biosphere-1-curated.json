@@ -1,6 +1,6 @@
 {
   "name": "bafu-2026-v1__ef-3.1-biosphere",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "replace": [
     {
       "source": {
@@ -225,15 +225,16 @@
         ]
       },
       "target": {
-        "name": "nickel",
-        "code": "08a91e70-3ddc-11dd-96ca-0050c2490048",
+        "name": "Nickel(2+)",
+        "code": "78818145-c913-4de4-ab91-953b1333cd75",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -330,15 +331,16 @@
         ]
       },
       "target": {
-        "name": "lead",
-        "code": "4d9a8790-3ddd-11dd-91de-0050c2490048",
+        "name": "Lead(2+)",
+        "code": "b01ef1c9-3904-446e-98ae-8a6a9ad407fd",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -372,8 +374,8 @@
         ]
       },
       "target": {
-        "name": "zinc",
-        "code": "08a91e70-3ddc-11dd-94e5-0050c2490048",
+        "name": "Zinc(2+)",
+        "code": "26c4d73c-92c3-4f08-a8d1-62f99bbb7676",
         "unit": "kilogram",
         "context": [
           "Emissions",
@@ -381,7 +383,7 @@
           "Emissions to urban air close to ground"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -648,15 +650,16 @@
         ]
       },
       "target": {
-        "name": "chromium",
-        "code": "08a91e70-3ddc-11dd-9ace-0050c2490048",
+        "name": "Chromium(6+)",
+        "code": "fe0acd60-3ddc-11dd-a70c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -1302,15 +1305,16 @@
         ]
       },
       "target": {
-        "name": "Carbon dioxide (land use change)",
-        "code": "1bf31577-1939-49f0-9606-9c7b8fd3021c",
+        "name": "Carbon Dioxide (land Use Change)",
+        "code": "a03c5c88-dfaa-4a2a-9a5d-b6cfc55c5cd2",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -1428,15 +1432,16 @@
         ]
       },
       "target": {
-        "name": "Halon-1211",
-        "code": "04202055-6556-11dd-ad8b-0800200c9a66",
+        "name": "Bromochlorodifluoromethane",
+        "code": "fe0acd60-3ddc-11dd-a8fb-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2484,15 +2489,16 @@
         ]
       },
       "target": {
-        "name": "cesium-134",
-        "code": "2906b08b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Cesium-134",
+        "code": "4d9a8790-3ddd-11dd-9b2c-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2505,15 +2511,16 @@
         ]
       },
       "target": {
-        "name": "cesium-137",
-        "code": "29063b6d-6556-11dd-ad8b-0800200c9a66",
+        "name": "Cesium-137",
+        "code": "4d9a8790-3ddd-11dd-9b37-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2526,15 +2533,16 @@
         ]
       },
       "target": {
-        "name": "chlorine dioxide",
-        "code": "09674987-c48d-4f45-8e11-6b3daa7991f1",
+        "name": "Chlorine Dioxide",
+        "code": "c378beea-5bf3-4385-a602-fbc79ac93204",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -2610,15 +2618,16 @@
         ]
       },
       "target": {
-        "name": "cobalt-58",
-        "code": "08a91e70-3ddc-11dd-9697-0050c2490048",
+        "name": "Cobalt-58",
+        "code": "fe0acd60-3ddc-11dd-a4f7-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -2694,15 +2703,16 @@
         ]
       },
       "target": {
-        "name": "dimethyl formamide",
-        "code": "d86cafd1-6555-11dd-ad8b-0800200c9a66",
+        "name": "Dimethyl Formamide",
+        "code": "fe0acd60-3ddc-11dd-acdb-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -2779,15 +2789,16 @@
         ]
       },
       "target": {
-        "name": "trichloroethane",
-        "code": "3fc3a8d7-a7bd-4b7c-8545-52bc5a261e9a",
+        "name": "Trichloroethane",
+        "code": "946840f9-710b-4be7-9446-0e3aabe80372",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -2864,16 +2875,16 @@
         ]
       },
       "target": {
-        "name": "HCFC-124",
-        "code": "3e4d77a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Hcfc 124",
+        "code": "fe0acd60-3ddc-11dd-ab9c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3327,15 +3338,16 @@
         ]
       },
       "target": {
-        "name": "iodine-129",
-        "code": "32cd48a7-6556-11dd-ad8b-0800200c9a66",
+        "name": "Iodine-129",
+        "code": "fe0acd60-3ddc-11dd-a7c3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3348,15 +3360,16 @@
         ]
       },
       "target": {
-        "name": "iodine-131",
-        "code": "29063b69-6556-11dd-ad8b-0800200c9a66",
+        "name": "Iodine-131",
+        "code": "fe0acd60-3ddc-11dd-a7ec-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3454,15 +3467,16 @@
         ]
       },
       "target": {
-        "name": "Halon-1211",
-        "code": "04202055-6556-11dd-ad8b-0800200c9a66",
+        "name": "Bromochlorodifluoromethane",
+        "code": "fe0acd60-3ddc-11dd-a8f8-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3475,15 +3489,16 @@
         ]
       },
       "target": {
-        "name": "Halon-1301",
-        "code": "e2fa8f92-6555-11dd-ad8b-0800200c9a66",
+        "name": "Bromotrifluoromethane",
+        "code": "fe0acd60-3ddc-11dd-a909-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -3898,15 +3913,16 @@
         ]
       },
       "target": {
-        "name": "Nitrogen oxides",
-        "code": "2f89fbbd-e428-4de1-8c33-9dd66e53310c",
+        "name": "Nitrogen Oxides",
+        "code": "f79d0f8f-2b0e-49cb-bed0-b1ea0fbd8625",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, unspecified (long-term)"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4278,15 +4294,16 @@
         ]
       },
       "target": {
-        "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
+        "name": "Radium-226",
+        "code": "fe0acd60-3ddc-11dd-aba6-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4299,15 +4316,16 @@
         ]
       },
       "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Radon-222",
+        "code": "fe0acd60-3ddc-11dd-abb0-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4467,15 +4485,16 @@
         ]
       },
       "target": {
-        "name": "uranium-234",
-        "code": "2906899d-6556-11dd-ad8b-0800200c9a66",
+        "name": "Uranium-234",
+        "code": "4d9a8790-3ddd-11dd-8daf-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4615,14 +4634,15 @@
       },
       "target": {
         "name": "americium-241",
-        "code": "fe0acd60-3ddc-11dd-acd4-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-acd6-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4657,14 +4677,15 @@
       },
       "target": {
         "name": "antimony-124",
-        "code": "4d9a8790-3ddd-11dd-977f-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9781-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4677,15 +4698,16 @@
         ]
       },
       "target": {
-        "name": "antimony-125",
-        "code": "32cc855e-6556-11dd-ad8b-0800200c9a66",
+        "name": "Antimony-125",
+        "code": "32ccac7e-6556-11dd-ad8b-0800200c9a66",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4845,15 +4867,16 @@
         ]
       },
       "target": {
-        "name": "boron",
-        "code": "08a91e70-3ddc-11dd-a0fb-0050c2490048",
+        "name": "Boron",
+        "code": "08a91e70-3ddc-11dd-a0fd-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4866,15 +4889,16 @@
         ]
       },
       "target": {
-        "name": "bromate",
-        "code": "08a91e70-3ddc-11dd-a0ff-0050c2490048",
+        "name": "Bromate",
+        "code": "4d9a8790-3ddd-11dd-8ddf-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4888,14 +4912,15 @@
       },
       "target": {
         "name": "carbon-14",
-        "code": "08a91e70-3ddc-11dd-925b-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-925d-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4909,14 +4934,15 @@
       },
       "target": {
         "name": "cesium-134",
-        "code": "4d9a8790-3ddd-11dd-9b30-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9b32-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4930,14 +4956,15 @@
       },
       "target": {
         "name": "cesium-137",
-        "code": "4d9a8790-3ddd-11dd-9b3b-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-9b3d-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -4971,16 +4998,16 @@
         ]
       },
       "target": {
-        "name": "chlorine",
-        "code": "4d9a8790-3ddd-11dd-9b49-0050c2490048",
+        "name": "Chlorine",
+        "code": "4d9a8790-3ddd-11dd-9b4b-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5014,15 +5041,16 @@
         ]
       },
       "target": {
-        "name": "chromium",
-        "code": "08a91e70-3ddc-11dd-9f75-0050c2490048",
+        "name": "Chromium(6+)",
+        "code": "4d9a8790-3ddd-11dd-9c1d-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5058,14 +5086,15 @@
       },
       "target": {
         "name": "cobalt-58",
-        "code": "08a91e70-3ddc-11dd-969a-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-969c-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5079,14 +5108,15 @@
       },
       "target": {
         "name": "cobalt-60",
-        "code": "fe0acd60-3ddc-11dd-a79a-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-a79c-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5141,15 +5171,16 @@
         ]
       },
       "target": {
-        "name": "dimethylamine",
-        "code": "08a91e70-3ddc-11dd-9ea6-0050c2490048",
+        "name": "Dimethylamine",
+        "code": "08a91e70-3ddc-11dd-9ea8-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5372,15 +5403,16 @@
         ]
       },
       "target": {
-        "name": "Oils, unspecified",
-        "code": "f0eb7560-7e0c-4205-ac9b-7a572dde4a42",
+        "name": "Hydrocarbons (unspecified)",
+        "code": "fe0acd60-3ddc-11dd-aaa8-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5393,15 +5425,16 @@
         ]
       },
       "target": {
-        "name": "hydrogen sulfide",
-        "code": "08a91e70-3ddc-11dd-94ad-0050c2490048",
+        "name": "Hydrogen Sulfide",
+        "code": "08a91e70-3ddc-11dd-94af-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5415,14 +5448,15 @@
       },
       "target": {
         "name": "hydrogen-3",
-        "code": "08a91e70-3ddc-11dd-94b6-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-94b8-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5436,14 +5470,15 @@
       },
       "target": {
         "name": "iodine-129",
-        "code": "fe0acd60-3ddc-11dd-a7e8-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-a7ea-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5478,14 +5513,15 @@
       },
       "target": {
         "name": "manganese-54",
-        "code": "fe0acd60-3ddc-11dd-9e61-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-9e63-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5498,15 +5534,16 @@
         ]
       },
       "target": {
-        "name": "dichloromethane",
-        "code": "fe0acd60-3ddc-11dd-9efb-0050c2490048",
+        "name": "Methylene Chloride",
+        "code": "086aceab-7365-4d5c-b9c8-cc81610a72fc",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: our target is an EF flow that Brightway Flows 1.1.0 records as merged into theirs; theirs is the live flow)"
     },
     {
       "source": {
@@ -5583,14 +5620,15 @@
       },
       "target": {
         "name": "nitrate",
-        "code": "4d9a8790-3ddd-11dd-8d68-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-aa31-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5604,14 +5642,15 @@
       },
       "target": {
         "name": "nitrite",
-        "code": "08a91e70-3ddc-11dd-96e0-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-96e2-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5753,14 +5792,15 @@
       },
       "target": {
         "name": "phosphate",
-        "code": "08a91e70-3ddc-11dd-9787-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9789-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5837,14 +5877,15 @@
       },
       "target": {
         "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-98c1-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5921,14 +5962,15 @@
       },
       "target": {
         "name": "uranium-234",
-        "code": "fe0acd60-3ddc-11dd-ae3f-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-ae41-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5942,14 +5984,15 @@
       },
       "target": {
         "name": "uranium-235",
-        "code": "08a91e70-3ddc-11dd-9c40-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-9c42-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -5963,14 +6006,15 @@
       },
       "target": {
         "name": "uranium-238",
-        "code": "4d9a8790-3ddd-11dd-8db4-0050c2490048",
+        "code": "4d9a8790-3ddd-11dd-8db6-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -6004,15 +6048,16 @@
         ]
       },
       "target": {
-        "name": "methyl cyclopentane",
-        "code": "e2fb79fc-6555-11dd-ad8b-0800200c9a66",
+        "name": "Volatile Organic Compound",
+        "code": "fe0acd60-3ddc-11dd-ae9c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -6300,15 +6345,16 @@
         ]
       },
       "target": {
-        "name": "uranium-234",
-        "code": "2906899d-6556-11dd-ad8b-0800200c9a66",
+        "name": "Uranium-234",
+        "code": "4d9a8790-3ddd-11dd-8db2-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -6342,15 +6388,16 @@
         ]
       },
       "target": {
-        "name": "polonium-210",
-        "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
+        "name": "Polonium-210",
+        "code": "08a91e70-3ddc-11dd-97be-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -6385,15 +6432,16 @@
         ]
       },
       "target": {
-        "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
+        "name": "Radium-226",
+        "code": "08a91e70-3ddc-11dd-98be-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -6427,15 +6475,16 @@
         ]
       },
       "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Radon-222",
+        "code": "fe0acd60-3ddc-11dd-abb3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -6470,15 +6519,16 @@
         ]
       },
       "target": {
-        "name": "lead-210",
-        "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
+        "name": "Lead-210",
+        "code": "08a91e70-3ddc-11dd-95d3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -7648,15 +7698,16 @@
         ]
       },
       "target": {
-        "name": "atrazine",
-        "code": "08a91e70-3ddc-11dd-962e-0050c2490048",
+        "name": "Atrazine",
+        "code": "fe0acd60-3ddc-11dd-a3cc-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -7858,15 +7909,16 @@
         ]
       },
       "target": {
-        "name": "caprolactam",
-        "code": "08a91e70-3ddc-11dd-91ea-0050c2490048",
+        "name": "Caprolactam",
+        "code": "fe0acd60-3ddc-11dd-9fcf-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -7900,15 +7952,16 @@
         ]
       },
       "target": {
-        "name": "carbon-14",
-        "code": "08a91e70-3ddc-11dd-925b-0050c2490048",
+        "name": "Carbon-14",
+        "code": "08a91e70-3ddc-11dd-9ded-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -8220,15 +8273,16 @@
         ]
       },
       "target": {
-        "name": "chrysene",
-        "code": "fe0acd60-3ddc-11dd-a7b5-0050c2490048",
+        "name": "Chrysene",
+        "code": "fe0acd60-3ddc-11dd-a7b9-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8325,15 +8379,16 @@
         ]
       },
       "target": {
-        "name": "cresol",
-        "code": "4d9a8790-3ddd-11dd-8f53-0050c2490048",
+        "name": "Cresol",
+        "code": "4d9a8790-3ddd-11dd-8f56-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8431,15 +8486,16 @@
         ]
       },
       "target": {
-        "name": "decane",
-        "code": "08a91e70-3ddc-11dd-9808-0050c2490048",
+        "name": "Decane",
+        "code": "08a91e70-3ddc-11dd-980c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8517,15 +8573,16 @@
         ]
       },
       "target": {
-        "name": "dicamba",
-        "code": "1f30fd60-6556-11dd-ad8b-0800200c9a66",
+        "name": "Dicamba",
+        "code": "fe0acd60-3ddc-11dd-a984-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -8580,15 +8637,16 @@
         ]
       },
       "target": {
-        "name": "dimethenamid",
-        "code": "4d9a8790-3ddd-11dd-8f01-0050c2490048",
+        "name": "Dimethenamid",
+        "code": "4d9a8790-3ddd-11dd-8efe-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -8769,15 +8827,16 @@
         ]
       },
       "target": {
-        "name": "fluoranthene",
-        "code": "fe0acd60-3ddc-11dd-a5df-0050c2490048",
+        "name": "Fluoranthene",
+        "code": "fe0acd60-3ddc-11dd-a5e3-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8895,15 +8954,16 @@
         ]
       },
       "target": {
-        "name": "glyphosate",
-        "code": "172b2800-6556-11dd-ad8b-0800200c9a66",
+        "name": "Glyphosate",
+        "code": "fe0acd60-3ddc-11dd-a646-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9042,15 +9102,16 @@
         ]
       },
       "target": {
-        "name": "hydrogen bromide",
-        "code": "2029f2a8-e828-466b-859d-808047d20ece",
+        "name": "bromane",
+        "code": "fe0acd60-3ddc-11dd-aaaa-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, indoor"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9063,15 +9124,16 @@
         ]
       },
       "target": {
-        "name": "hydrogen iodide",
-        "code": "29063b59-6556-11dd-ad8b-0800200c9a66",
+        "name": "Hydrogen Iodide",
+        "code": "fe0acd60-3ddc-11dd-a95a-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9231,15 +9293,16 @@
         ]
       },
       "target": {
-        "name": "isobutane",
-        "code": "4d9a8790-3ddd-11dd-9357-0050c2490048",
+        "name": "Isobutane",
+        "code": "4d9a8790-3ddd-11dd-9355-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9252,15 +9315,16 @@
         ]
       },
       "target": {
-        "name": "lead dioxide",
-        "code": "1f30881b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Lead Dioxide",
+        "code": "fe0acd60-3ddc-11dd-9f5a-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9273,15 +9337,16 @@
         ]
       },
       "target": {
-        "name": "lead-210",
-        "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
+        "name": "Lead-210",
+        "code": "4d9a8790-3ddd-11dd-91e5-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -9400,15 +9465,16 @@
         ]
       },
       "target": {
-        "name": "m-cresol",
-        "code": "39a4229a-0ae7-4178-8be1-0a6ef124e790",
+        "name": "M-cresol",
+        "code": "4d9a8790-3ddd-11dd-8f57-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, indoor"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9421,15 +9487,16 @@
         ]
       },
       "target": {
-        "name": "methyl mercaptan",
-        "code": "d86cd6eb-6555-11dd-ad8b-0800200c9a66",
+        "name": "Methanethiol",
+        "code": "fe0acd60-3ddc-11dd-9e59-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9463,15 +9530,16 @@
         ]
       },
       "target": {
-        "name": "methomyl",
-        "code": "3e4c8d3b-6556-11dd-ad8b-0800200c9a66",
+        "name": "(E)-Methomyl",
+        "code": "fe0acd60-3ddc-11dd-a940-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9505,15 +9573,16 @@
         ]
       },
       "target": {
-        "name": "methyl methacrylate",
-        "code": "e2fb2bc4-6555-11dd-ad8b-0800200c9a66",
+        "name": "Methyl Methacrylate",
+        "code": "fe0acd60-3ddc-11dd-a9a5-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9547,15 +9616,16 @@
         ]
       },
       "target": {
-        "name": "naphthalene",
-        "code": "fe0acd60-3ddc-11dd-a686-0050c2490048",
+        "name": "Naphthalene",
+        "code": "fe0acd60-3ddc-11dd-a9e5-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -9589,15 +9659,16 @@
         ]
       },
       "target": {
-        "name": "nitrate",
-        "code": "4d9a8790-3ddd-11dd-8d68-0050c2490048",
+        "name": "Nitrate",
+        "code": "fe0acd60-3ddc-11dd-aa32-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -9631,15 +9702,16 @@
         ]
       },
       "target": {
-        "name": "nitrite",
-        "code": "08a91e70-3ddc-11dd-96e0-0050c2490048",
+        "name": "Nitrite",
+        "code": "08a91e70-3ddc-11dd-96e3-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -9738,15 +9810,16 @@
         ]
       },
       "target": {
-        "name": "polonium-210",
-        "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
+        "name": "Polonium-210",
+        "code": "fe0acd60-3ddc-11dd-aa99-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -9843,15 +9916,16 @@
         ]
       },
       "target": {
-        "name": "ruthenium-106",
-        "code": "fe0acd60-3ddc-11dd-abdb-0050c2490048",
+        "name": "Ruthenium-106",
+        "code": "fe0acd60-3ddc-11dd-abde-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -9969,15 +10043,16 @@
         ]
       },
       "target": {
-        "name": "strontium-90",
-        "code": "4d9a8790-3ddd-11dd-926c-0050c2490048",
+        "name": "Strontium-90",
+        "code": "fe0acd60-3ddc-11dd-9f07-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -10159,15 +10234,16 @@
         ]
       },
       "target": {
-        "name": "trifluralin",
-        "code": "1f30af4e-6556-11dd-ad8b-0800200c9a66",
+        "name": "Trifluralin",
+        "code": "4d9a8790-3ddd-11dd-9782-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -10390,15 +10466,16 @@
         ]
       },
       "target": {
-        "name": "zinc oxide",
-        "code": "1f308823-6556-11dd-ad8b-0800200c9a66",
+        "name": "Desitin",
+        "code": "4d9a8790-3ddd-11dd-9448-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -10537,15 +10614,16 @@
         ]
       },
       "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Radon-222",
+        "code": "fe0acd60-3ddc-11dd-abb2-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -10558,15 +10636,16 @@
         ]
       },
       "target": {
-        "name": "strontium",
-        "code": "cf649751-1284-488e-9668-6a8b66385f91",
+        "name": "Strontium",
+        "code": "fe0acd60-3ddc-11dd-ac0c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air low stack"
+          "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -10768,15 +10847,16 @@
         ]
       },
       "target": {
-        "name": "chromium",
-        "code": "08a91e70-3ddc-11dd-9acb-0050c2490048",
+        "name": "Chromium(6+)",
+        "code": "4d9a8790-3ddd-11dd-8fd6-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to soil, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -10811,14 +10891,15 @@
       },
       "target": {
         "name": "boron",
-        "code": "29059f1d-6556-11dd-ad8b-0800200c9a66",
+        "code": "29059f20-6556-11dd-ad8b-0800200c9a66",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to agricultural soil"
+          "Emissions to soil, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -10936,15 +11017,16 @@
         ]
       },
       "target": {
-        "name": "Halon-1301",
-        "code": "e2fa8f92-6555-11dd-ad8b-0800200c9a66",
+        "name": "Bromotrifluoromethane",
+        "code": "fe0acd60-3ddc-11dd-a90c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -11293,15 +11375,16 @@
         ]
       },
       "target": {
-        "name": "Oils, unspecified",
-        "code": "3435c95d-3920-4e26-8d4e-b7a8dfac5a99",
+        "name": "Hydrocarbons (unspecified)",
+        "code": "d86b9e8a-6555-11dd-ad8b-0800200c9a66",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -11461,15 +11544,16 @@
         ]
       },
       "target": {
-        "name": "chromium",
-        "code": "08a91e70-3ddc-11dd-9f77-0050c2490048",
+        "name": "Chromium(6+)",
+        "code": "4d9a8790-3ddd-11dd-9c1f-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -11504,15 +11588,16 @@
         ]
       },
       "target": {
-        "name": "Oils, unspecified",
-        "code": "01fb7ed6-2137-4226-ad46-438965f1bb78",
+        "name": "Hydrocarbons (unspecified)",
+        "code": "fe0acd60-3ddc-11dd-aaa9-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -11802,16 +11887,17 @@
         ]
       },
       "target": {
-        "name": "lead-210",
-        "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
+        "name": "Lead-210",
+        "code": "4d9a8790-3ddd-11dd-91e5-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -11824,16 +11910,17 @@
         ]
       },
       "target": {
-        "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
+        "name": "Radium-226",
+        "code": "fe0acd60-3ddc-11dd-aba6-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -12185,15 +12272,16 @@
         ]
       },
       "target": {
-        "name": "formaldehyde",
-        "code": "08a91e70-3ddc-11dd-941e-0050c2490048",
+        "name": "Formaldehyde",
+        "code": "08a91e70-3ddc-11dd-941f-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -12397,15 +12485,16 @@
         ]
       },
       "target": {
-        "name": "ioxynil",
-        "code": "08a91e70-3ddc-11dd-9581-0050c2490048",
+        "name": "Ioxynil",
+        "code": "08a91e70-3ddc-11dd-958e-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -12460,15 +12549,16 @@
         ]
       },
       "target": {
-        "name": "nitrous oxide",
-        "code": "08a91e70-3ddc-11dd-94c6-0050c2490048",
+        "name": "Nitrous Oxide",
+        "code": "29061478-6556-11dd-ad8b-0800200c9a66",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -12502,16 +12592,17 @@
         ]
       },
       "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Radon-222",
+        "code": "fe0acd60-3ddc-11dd-abb0-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13034,16 +13125,17 @@
         ]
       },
       "target": {
-        "name": "strontium-90",
-        "code": "4d9a8790-3ddd-11dd-926c-0050c2490048",
+        "name": "Strontium-90",
+        "code": "fe0acd60-3ddc-11dd-9f07-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13140,16 +13232,17 @@
         ]
       },
       "target": {
-        "name": "polonium-210",
-        "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
+        "name": "Polonium-210",
+        "code": "08a91e70-3ddc-11dd-97be-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13438,15 +13531,16 @@
         ]
       },
       "target": {
-        "name": "Nitrogen oxides",
-        "code": "191b44d4-90c9-465a-8802-93a651b4fd52",
+        "name": "Nitrogen Oxides",
+        "code": "1c952836-ea05-43db-9063-0c5e1ee65fa8",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13502,16 +13596,17 @@
         ]
       },
       "target": {
-        "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bd-0050c2490048",
+        "name": "Radium-226",
+        "code": "08a91e70-3ddc-11dd-98be-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13716,15 +13811,16 @@
         ]
       },
       "target": {
-        "name": "ethylene oxide",
-        "code": "08a91e70-3ddc-11dd-938d-0050c2490048",
+        "name": "Ethylene Oxide",
+        "code": "e2fa688e-6555-11dd-ad8b-0800200c9a66",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13824,14 +13920,15 @@
       },
       "target": {
         "name": "strontium",
-        "code": "4d9a8790-3ddd-11dd-9266-0050c2490048",
+        "code": "fe0acd60-3ddc-11dd-ac09-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to soil, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13908,15 +14005,16 @@
         ]
       },
       "target": {
-        "name": "Halon-1301",
-        "code": "e2fa8f92-6555-11dd-ad8b-0800200c9a66",
+        "name": "Bromotrifluoromethane",
+        "code": "fe0acd60-3ddc-11dd-a90b-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -13972,16 +14070,17 @@
         ]
       },
       "target": {
-        "name": "plutonium-238",
-        "code": "32cbe90e-6556-11dd-ad8b-0800200c9a66",
+        "name": "Plutonium-238",
+        "code": "4d9a8790-3ddd-11dd-99d3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -14499,15 +14598,16 @@
         ]
       },
       "target": {
-        "name": "strontium",
-        "code": "4d9a8790-3ddd-11dd-9266-0050c2490048",
+        "name": "Strontium",
+        "code": "fe0acd60-3ddc-11dd-ac08-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -14583,16 +14683,17 @@
         ]
       },
       "target": {
-        "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
+        "name": "Radium-226",
+        "code": "08a91e70-3ddc-11dd-98c2-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -14669,15 +14770,16 @@
         ]
       },
       "target": {
-        "name": "ethylene",
-        "code": "08a91e70-3ddc-11dd-9381-0050c2490048",
+        "name": "Ethylene",
+        "code": "08a91e70-3ddc-11dd-9382-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -15137,16 +15239,17 @@
         ]
       },
       "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Radon-222",
+        "code": "fe0acd60-3ddc-11dd-abb2-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to urban air close to ground"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -15414,16 +15517,17 @@
         ]
       },
       "target": {
-        "name": "polonium-210",
-        "code": "08a91e70-3ddc-11dd-97bd-0050c2490048",
+        "name": "Polonium-210",
+        "code": "fe0acd60-3ddc-11dd-aa99-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -15562,15 +15666,16 @@
         ]
       },
       "target": {
-        "name": "kresoxim methyl",
-        "code": "8e374806-0927-45ba-bbd5-d31fa2f6cf0e",
+        "name": "Kresoxim-methyl",
+        "code": "08a91e70-3ddc-11dd-95c2-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: our target is an EF flow that Brightway Flows 1.1.0 records as merged into theirs; theirs is the live flow)"
     },
     {
       "source": {
@@ -15884,15 +15989,16 @@
       },
       "target": {
         "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
+        "code": "08a91e70-3ddc-11dd-98c1-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -16458,15 +16564,16 @@
         ]
       },
       "target": {
-        "name": "benzene",
-        "code": "08a91e70-3ddc-11dd-9205-0050c2490048",
+        "name": "Benzene",
+        "code": "08a91e70-3ddc-11dd-9206-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -16500,15 +16607,16 @@
         ]
       },
       "target": {
-        "name": "butadiene",
-        "code": "4d9a8790-3ddd-11dd-98ea-0050c2490048",
+        "name": "1,3-Butadiene",
+        "code": "4d9a8790-3ddd-11dd-98eb-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -16754,15 +16862,16 @@
         ]
       },
       "target": {
-        "name": "non-methane volatile organic compounds",
-        "code": "08a91e70-3ddc-11dd-a305-0050c2490048",
+        "name": "Non-methane Volatile Organic Compounds",
+        "code": "fe0acd60-3ddc-11dd-aadb-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -16987,16 +17096,17 @@
         ]
       },
       "target": {
-        "name": "cesium-134",
-        "code": "2906b08b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Cesium-134",
+        "code": "4d9a8790-3ddd-11dd-9b2f-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -17030,16 +17140,17 @@
         ]
       },
       "target": {
-        "name": "cesium-137",
-        "code": "29063b6d-6556-11dd-ad8b-0800200c9a66",
+        "name": "Cesium-137",
+        "code": "4d9a8790-3ddd-11dd-9b3a-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -17625,15 +17736,16 @@
         ]
       },
       "target": {
-        "name": "methane (fossil)",
-        "code": "fe0acd60-3ddc-11dd-a8e6-0050c2490048",
+        "name": "Methane (fossil)",
+        "code": "fe0acd60-3ddc-11dd-a8e7-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to lower stratosphere and upper troposphere"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -17709,16 +17821,17 @@
         ]
       },
       "target": {
-        "name": "iodine-131",
-        "code": "29063b69-6556-11dd-ad8b-0800200c9a66",
+        "name": "Iodine-131",
+        "code": "fe0acd60-3ddc-11dd-a7ef-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -18156,16 +18269,17 @@
         ]
       },
       "target": {
-        "name": "uranium-234",
-        "code": "2906899d-6556-11dd-ad8b-0800200c9a66",
+        "name": "Uranium-234",
+        "code": "4d9a8790-3ddd-11dd-8db2-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -18220,16 +18334,17 @@
         ]
       },
       "target": {
-        "name": "lead-210",
-        "code": "08a91e70-3ddc-11dd-95d2-0050c2490048",
+        "name": "Lead-210",
+        "code": "08a91e70-3ddc-11dd-95d3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -18284,16 +18399,17 @@
         ]
       },
       "target": {
-        "name": "radon-222",
-        "code": "32cd21a4-6556-11dd-ad8b-0800200c9a66",
+        "name": "Radon-222",
+        "code": "fe0acd60-3ddc-11dd-abb3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -18327,16 +18443,16 @@
         ]
       },
       "target": {
-        "name": "chlorine",
-        "code": "4d9a8790-3ddd-11dd-9b43-0050c2490048",
+        "name": "Chlorine",
+        "code": "4d9a8790-3ddd-11dd-9b44-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to agricultural soil"
+          "Emissions to soil, unspecified"
         ]
       },
-      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives"
+      "comment": "the EF flow is characterised in impact categories beyond those this flow currently receives; target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -18647,16 +18763,17 @@
         ]
       },
       "target": {
-        "name": "iodine-129",
-        "code": "32cd48a7-6556-11dd-ad8b-0800200c9a66",
+        "name": "Iodine-129",
+        "code": "fe0acd60-3ddc-11dd-a7e7-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
       },
-      "conversion_factor": 0.001
+      "conversion_factor": 0.001,
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19132,15 +19249,16 @@
         ]
       },
       "target": {
-        "name": "iodine-131",
-        "code": "29063b69-6556-11dd-ad8b-0800200c9a66",
+        "name": "Iodine-131",
+        "code": "fe0acd60-3ddc-11dd-a7ef-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19216,15 +19334,16 @@
         ]
       },
       "target": {
-        "name": "radium-226",
-        "code": "08a91e70-3ddc-11dd-98bf-0050c2490048",
+        "name": "Radium-226",
+        "code": "08a91e70-3ddc-11dd-98c2-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19258,15 +19377,16 @@
         ]
       },
       "target": {
-        "name": "plutonium-238",
-        "code": "32cbe90e-6556-11dd-ad8b-0800200c9a66",
+        "name": "Plutonium-238",
+        "code": "4d9a8790-3ddd-11dd-99d3-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19300,15 +19420,16 @@
         ]
       },
       "target": {
-        "name": "iodine-129",
-        "code": "32cd48a7-6556-11dd-ad8b-0800200c9a66",
+        "name": "Iodine-129",
+        "code": "fe0acd60-3ddc-11dd-a7e7-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19447,15 +19568,16 @@
         ]
       },
       "target": {
-        "name": "cesium-137",
-        "code": "29063b6d-6556-11dd-ad8b-0800200c9a66",
+        "name": "Cesium-137",
+        "code": "4d9a8790-3ddd-11dd-9b3a-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19489,15 +19611,16 @@
         ]
       },
       "target": {
-        "name": "cesium-134",
-        "code": "2906b08b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Cesium-134",
+        "code": "4d9a8790-3ddd-11dd-9b2f-0050c2490048",
         "unit": "kBq",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -19954,15 +20077,16 @@
         ]
       },
       "target": {
-        "name": "cyclanilide",
-        "code": "fe0acd60-3ddc-11dd-ae36-0050c2490048",
+        "name": "Cyclanilide",
+        "code": "fe0acd60-3ddc-11dd-aec4-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -20081,15 +20205,16 @@
         ]
       },
       "target": {
-        "name": "thidiazuron",
-        "code": "4d9a8790-3ddd-11dd-974b-0050c2490048",
+        "name": "Thidiazuron",
+        "code": "fe0acd60-3ddc-11dd-aed3-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -20777,15 +20902,16 @@
         ]
       },
       "target": {
-        "name": "flufenacet",
-        "code": "08a91e70-3ddc-11dd-a0bb-0050c2490048",
+        "name": "Flufenacet",
+        "code": "4d9a8790-3ddd-11dd-9105-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -20819,15 +20945,16 @@
         ]
       },
       "target": {
-        "name": "Carbon dioxide (land use change)",
-        "code": "1bf31577-1939-49f0-9606-9c7b8fd3021c",
+        "name": "Carbon Dioxide (land Use Change)",
+        "code": "adcb79f3-89cf-45fb-b0b2-65558cb2af26",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -20924,15 +21051,16 @@
         ]
       },
       "target": {
-        "name": "prothioconazol",
-        "code": "629f6552-3424-4702-b948-323eb05f846e",
+        "name": "Prothioconazole",
+        "code": "a75721cb-85d6-48ef-a6dd-b89bf5ef7358",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to agricultural soil; our target sat on non-agricultural soil)"
     },
     {
       "source": {
@@ -20967,15 +21095,16 @@
         ]
       },
       "target": {
-        "name": "vinyl acetate",
-        "code": "08a91e70-3ddc-11dd-9090-0050c2490048",
+        "name": "Vinyl Acetate",
+        "code": "08a91e70-3ddc-11dd-9092-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to water, unspecified; our target sat on fresh water)"
     },
     {
       "source": {
@@ -21788,15 +21917,16 @@
         ]
       },
       "target": {
-        "name": "iodide",
-        "code": "08a91e70-3ddc-11dd-94d6-0050c2490048",
+        "name": "Iodide Ion",
+        "code": "fe0acd60-3ddc-11dd-a7bb-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -22126,15 +22256,16 @@
         ]
       },
       "target": {
-        "name": "Herbicides, unspecified",
-        "code": "4cd70c71-1ac0-4dba-b448-3d41a06c4b00",
+        "name": "Mecoprop-p",
+        "code": "232e8031-e545-4d16-8812-35d9dd38fd1a",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: theirs is the EF flow of the substance itself; ours was a group flow ('herbicides, unspecified'))"
     },
     {
       "source": {
@@ -22295,15 +22426,16 @@
         ]
       },
       "target": {
-        "name": "halosulfuron-methyl",
-        "code": "08a91e70-3ddc-11dd-a183-0050c2490048",
+        "name": "Halosulfuron-methyl",
+        "code": "4d9a8790-3ddd-11dd-9c05-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (identical factors)"
     },
     {
       "source": {
@@ -23759,14 +23891,15 @@
         ]
       },
       "target": {
-        "name": "arable",
-        "code": "b88d3b6d-229e-477e-bce1-e16376f75c7b",
+        "name": "Agriculture, Mosaic",
+        "code": "1d443c61-ff6f-419a-99a8-9ff3055f4922",
         "unit": "m2*a",
         "context": [
           "Land use",
           "Land occupation"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: 'heterogeneous, agricultural' is the EF land class 'agriculture, mosaic', not 'arable')"
     },
     {
       "source": {
@@ -24539,14 +24672,15 @@
         ]
       },
       "target": {
-        "name": "from arable",
-        "code": "9699a63f-c966-43a4-816c-b1fbbf0a3e88",
+        "name": "From Agriculture, Mosaic",
+        "code": "aeea42cc-4215-465f-981f-ae2ab387fbb9",
         "unit": "m2",
         "context": [
           "Land use",
           "Land transformation"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: 'heterogeneous, agricultural' is the EF land class 'agriculture, mosaic', not 'arable')"
     },
     {
       "source": {
@@ -25339,14 +25473,15 @@
         ]
       },
       "target": {
-        "name": "to arable",
-        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
+        "name": "To Agriculture, Mosaic",
+        "code": "b886560e-7ab8-4ec9-8a0a-802affe63186",
         "unit": "m2",
         "context": [
           "Land use",
           "Land transformation"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: 'heterogeneous, agricultural' is the EF land class 'agriculture, mosaic', not 'arable')"
     },
     {
       "source": {

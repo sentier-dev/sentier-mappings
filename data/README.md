@@ -36,17 +36,19 @@ provenance and confidence record, not a live conflict resolver.
 
 ## Worked example: `bafu-2026-v1__ef-3.1`
 
-Four biosphere packages, each built over what the earlier ones leave unmapped:
+Five biosphere packages, each built over what the earlier ones leave unmapped:
 
 ```
 bafu-2026-v1__ef-3.1/
-  metadata.json                   identity + the four packages in order
+  metadata.json                   identity + the five packages in order
   biosphere-1-curated.json        hand-reviewed reference bridge
   biosphere-2-inferred.json       inferred via Eaternity's biosphere3 pair family
   biosphere-3-matched.json        public name/synonym/CAS/land/alias matching
   biosphere-4-nomenclature.json   EF flows with no characterization factor, names only
+  biosphere-5-brightway-flows.json  links from Brightway Flows 1.1.0 for what is still unmapped, names only
   coverage.json                   pair-level sidecar: one row per BAFU flow, which package (if any) covers it
   land_use_review.json, subcompartment_review.json, inference_review.json   per-package review sidecars
+  brightway_flows_review.json     Brightway Flows 1.1.0 links that were not applied, with the reason
 ```
 
 See [../schema/](../schema/) for the package profile and the `metadata.json`
