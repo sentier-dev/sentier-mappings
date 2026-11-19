@@ -3903,15 +3903,16 @@
         ]
       },
       "target": {
-        "code": "91d2a56f-e3f9-4a87-9149-cd496fb4370c",
-        "name": "vanadium (v)",
+        "code": "4d9a8790-3ddd-11dd-8dbc-0050c2490048",
+        "name": "Vanadium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to urban air close to ground"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: BAFU names the element; our target was the vanadium (V) species, theirs is the EF flow 'vanadium')"
     },
     {
       "source": {
@@ -3924,15 +3925,16 @@
         ]
       },
       "target": {
-        "code": "33351e62-3b57-4e04-a115-4452591bbb4b",
-        "name": "vanadium (v)",
+        "code": "4d9a8790-3ddd-11dd-8dbd-0050c2490048",
+        "name": "Vanadium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to non-urban air or from high stacks"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: BAFU names the element; our target was the vanadium (V) species, theirs is the EF flow 'vanadium')"
     },
     {
       "source": {
@@ -3945,15 +3947,16 @@
         ]
       },
       "target": {
-        "code": "810164cf-f2c2-4e2d-a5ee-6bbd007a3a38",
-        "name": "vanadium (v)",
+        "code": "4d9a8790-3ddd-11dd-8dba-0050c2490048",
+        "name": "Vanadium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
           "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: BAFU names the element; our target was the vanadium (V) species, theirs is the EF flow 'vanadium')"
     },
     {
       "source": {
@@ -3966,15 +3969,16 @@
         ]
       },
       "target": {
-        "code": "5e6fbd97-f822-42c6-afd2-458c3d88db9f",
-        "name": "vanadium (v)",
+        "code": "4d9a8790-3ddd-11dd-8db8-0050c2490048",
+        "name": "Vanadium",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: BAFU names the element; our target was the vanadium (V) species, theirs is the EF flow 'vanadium')"
     },
     {
       "source": {

@@ -10712,9 +10712,8 @@
           "low. pop."
         ]
       },
-      "status": "unmapped",
-      "reason": "ambiguous_substances",
-      "detail": "CAS 71-55-6 finds 2 EF flows with different factors for 1,1,1-trichloroethane, hcfc-140; the source CAS 71-55-6 does not single one out"
+      "status": "mapped",
+      "package": "biosphere-5-brightway-flows"
     },
     {
       "source": {

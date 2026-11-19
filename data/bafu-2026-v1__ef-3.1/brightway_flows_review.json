@@ -939,6 +939,8 @@
         "ef-3.1:human-toxicity-non-cancer",
         "ef-3.1:human-toxicity-non-cancer-inorganics"
       ],
+      "decision": "ours",
+      "decision_reason": "BAFU names the element; theirs is the aluminium(3+) ion flow",
       "brightway_flows": {
         "code": "c9b156f3-7d47-4bb2-ad51-385b54c8612a",
         "match": "closeMatch",
@@ -1658,45 +1660,6 @@
         "name": "Arsenic, ion",
         "context": "envi-air-unkn",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Atrazine",
-        "code": "3f7b2453-30a4-58dd-a851-7b9c3add5c4f",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "atrazine",
-        "code": "08a91e70-3ddc-11dd-962e-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a3cc-0050c2490048",
-        "match": "closeMatch",
-        "name": "Atrazine",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -3418,43 +3381,6 @@
     },
     {
       "source": {
-        "name": "Caprolactam",
-        "code": "870653a9-319a-597d-80fc-1b95b7d8efdc",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "caprolactam",
-        "code": "08a91e70-3ddc-11dd-91ea-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to urban air close to ground"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-9fcf-0050c2490048",
-        "match": "closeMatch",
-        "name": "Caprolactam",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Carbon",
         "code": "0a0e5a1d-2755-5217-ab90-9a76039c9fa5",
         "unit": "kg",
@@ -4448,43 +4374,6 @@
     },
     {
       "source": {
-        "name": "Chlorine dioxide",
-        "code": "0ef2d971-093e-5d4d-94b0-c3eda0824377",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "chlorine dioxide",
-        "code": "09674987-c48d-4f45-8e11-6b3daa7991f1",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-inorganics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "c378beea-5bf3-4385-a602-fbc79ac93204",
-        "match": "closeMatch",
-        "name": "Chlorine Dioxide",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Chlormequat",
         "code": "8f790f20-3c32-503e-b98e-7b095c6c79e2",
         "unit": "kg",
@@ -4946,45 +4835,6 @@
         "name": "Chromium-51",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Chrysene",
-        "code": "4d1f1135-c747-55ed-917f-b7d28e6b9c37",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "ocean"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "chrysene",
-        "code": "fe0acd60-3ddc-11dd-a7b5-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a7b9-0050c2490048",
-        "match": "closeMatch",
-        "name": "Chrysene",
-        "context": "envi-wate-ocea",
-        "in_ef": true
       }
     },
     {
@@ -5621,43 +5471,6 @@
     {
       "source": {
         "name": "Cresol",
-        "code": "6754081c-2abd-515b-8473-415f4890a7a7",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "ocean"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "cresol",
-        "code": "4d9a8790-3ddd-11dd-8f53-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8f56-0050c2490048",
-        "match": "closeMatch",
-        "name": "Cresol",
-        "context": "envi-wate-ocea",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Cresol",
         "code": "af2bd71e-98eb-5f0e-acf1-d2709c8b1da9",
         "unit": "kg",
         "context": [
@@ -5875,43 +5688,6 @@
     {
       "source": {
         "name": "Decane",
-        "code": "a920f39f-2503-5744-bf0e-e41186a163b6",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "ocean"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "decane",
-        "code": "08a91e70-3ddc-11dd-9808-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-980c-0050c2490048",
-        "match": "closeMatch",
-        "name": "Decane",
-        "context": "envi-wate-ocea",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Decane",
         "code": "94912b42-0551-5eef-898f-2c1f76e817ae",
         "unit": "kg",
         "context": [
@@ -5969,43 +5745,6 @@
         "name": "Deltamethrin",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Dicamba",
-        "code": "2ccbcec2-4abf-56dd-a02e-1f03ba45f5e5",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "dicamba",
-        "code": "1f30fd60-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a984-0050c2490048",
-        "match": "closeMatch",
-        "name": "Dicamba",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -6166,43 +5905,6 @@
     {
       "source": {
         "name": "Dimethenamid",
-        "code": "c15ea805-577b-575a-a3e1-7ae4818c3e1c",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "dimethenamid",
-        "code": "4d9a8790-3ddd-11dd-8f01-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8efe-0050c2490048",
-        "match": "closeMatch",
-        "name": "Dimethenamid",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Dimethenamid",
         "code": "1c44564d-58a1-5d1b-b292-45a2d49c441a",
         "unit": "kg",
         "context": [
@@ -6260,43 +5962,6 @@
         "name": "Methyl Ether",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Dimethyl formamide",
-        "code": "35a8f93e-fd02-547e-b0c9-3ddfc5a4d161",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "dimethyl formamide",
-        "code": "d86cafd1-6555-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-acdb-0050c2490048",
-        "match": "closeMatch",
-        "name": "Dimethyl Formamide",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -6508,36 +6173,6 @@
         "match": "broadMatch",
         "name": "Energy, Potential (in Hydropower Reservoir), Converted",
         "context": "reso-wate",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Ethane, 1,1,1-trichloro-, HCFC-140",
-        "code": "64409968-2b46-51ca-9762-6bd13b323f85",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop."
-        ]
-      },
-      "kind": "new_link_withheld",
-      "reason": "characterised_held_for_review",
-      "ours": null,
-      "methods": [
-        "ef-3.1:climate-change",
-        "ef-3.1:climate-change-fossil",
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics",
-        "ef-3.1:photochemical-ozone-formation-human-health"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-925c-0050c2490048",
-        "match": "closeMatch",
-        "name": "1,1,1-Trichloroethane",
-        "context": "envi-air-mest15me-ru10pesq",
         "in_ef": true
       }
     },
@@ -7082,45 +6717,6 @@
     {
       "source": {
         "name": "Fluoranthene",
-        "code": "5f57751f-2b4e-5f1b-b3e8-d26a9c7da0d5",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "ocean"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "fluoranthene",
-        "code": "fe0acd60-3ddc-11dd-a5df-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a5e3-0050c2490048",
-        "match": "closeMatch",
-        "name": "Fluoranthene",
-        "context": "envi-wate-ocea",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Fluoranthene",
         "code": "7845026d-77f8-5092-b879-cac7b1a304da",
         "unit": "kg",
         "context": [
@@ -7485,6 +7081,8 @@
       "methods": [
         "ef-3.1:resource-use-fossils"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "00fdc4bc-724b-4993-ad43-c70df533b092",
         "match": "closeMatch",
@@ -7519,48 +7117,13 @@
       "methods": [
         "ef-3.1:resource-use-fossils"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "00fdc4bc-724b-4993-ad43-c70df533b092",
         "match": "closeMatch",
         "name": "Gas, Mine, Off-gas, Process, Coal Mining",
         "context": "reso-grou",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Glyphosate",
-        "code": "ff969de7-6e26-5cb2-9951-ffa1b33d69a3",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "glyphosate",
-        "code": "172b2800-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a646-0050c2490048",
-        "match": "closeMatch",
-        "name": "Glyphosate",
-        "context": "envi-air-unkn",
         "in_ef": true
       }
     },
@@ -7898,43 +7461,6 @@
     {
       "source": {
         "name": "Hydrocarbons, unspecified",
-        "code": "fadf50c1-e714-5173-902f-2f13546fa4b8",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "Oils, unspecified",
-        "code": "3435c95d-3920-4e26-8d4e-b7a8dfac5a99",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "d86b9e8a-6555-11dd-ad8b-0800200c9a66",
-        "match": "exactMatch",
-        "name": "Hydrocarbons (unspecified)",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Hydrocarbons, unspecified",
         "code": "bf590c0c-8939-5808-a232-1ee7e3ea31e5",
         "unit": "kg",
         "context": [
@@ -7992,41 +7518,6 @@
         "name": "Hydrocarbons (unspecified)",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Hydrogen bromide",
-        "code": "7ad2b67d-fe04-55c9-8b3e-babd6ec50372",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "hydrogen bromide",
-        "code": "2029f2a8-e828-466b-859d-808047d20ece",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, indoor"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-aaaa-0050c2490048",
-        "match": "closeMatch",
-        "name": "Hydrogen Bromide",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -8120,41 +7611,6 @@
         "name": "Hydrogen Fluoride",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Hydrogen iodide",
-        "code": "608a2135-f7cc-591f-88f0-997f9865b3ec",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "hydrogen iodide",
-        "code": "29063b59-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a95a-0050c2490048",
-        "match": "closeMatch",
-        "name": "Hydrogen Iodide",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -8779,43 +8235,6 @@
     },
     {
       "source": {
-        "name": "Isobutane",
-        "code": "427045b0-d9e4-50e5-b6fe-5dabd3e2fac5",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "isobutane",
-        "code": "4d9a8790-3ddd-11dd-9357-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to urban air close to ground"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-9355-0050c2490048",
-        "match": "closeMatch",
-        "name": "Isobutane",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Isopropylamine",
         "code": "e8687951-5866-5574-918a-26ac73b65a8a",
         "unit": "kg",
@@ -8874,43 +8293,6 @@
         "name": "Kerosene",
         "context": "envi-air-grle-ur10pesq",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Kresoxim-methyl",
-        "code": "d1456bb6-1a53-532a-a213-645d6dffe754",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "agricultural"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "kresoxim methyl",
-        "code": "8e374806-0927-45ba-bbd5-d31fa2f6cf0e",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to agricultural soil"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-95c2-0050c2490048",
-        "match": "closeMatch",
-        "name": "Kresoxim-methyl",
-        "context": "envi-grou-agri",
-        "in_ef": true
       }
     },
     {
@@ -9128,43 +8510,6 @@
         "name": "Lead",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Lead dioxide",
-        "code": "c58cb164-5235-51ea-9601-d12f3dc304bc",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "lead dioxide",
-        "code": "1f30881b-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-inorganics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-9f5a-0050c2490048",
-        "match": "closeMatch",
-        "name": "Lead Dioxide",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -9413,43 +8758,6 @@
         "name": "Lithium",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "m-Cresol",
-        "code": "376f2cac-b9e4-50ee-b9a2-69ff7e5e8159",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "m-cresol",
-        "code": "39a4229a-0ae7-4178-8be1-0a6ef124e790",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, indoor"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8f57-0050c2490048",
-        "match": "closeMatch",
-        "name": "M-cresol",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -9826,43 +9134,6 @@
     },
     {
       "source": {
-        "name": "Mecoprop",
-        "code": "a620f26d-1421-5801-bd40-74071fa035e0",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "agricultural"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "Herbicides, unspecified",
-        "code": "4cd70c71-1ac0-4dba-b448-3d41a06c4b00",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to agricultural soil"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "232e8031-e545-4d16-8812-35d9dd38fd1a",
-        "match": "closeMatch",
-        "name": "Mecoprop",
-        "context": "envi-grou-agri",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Mercury",
         "code": "29b57124-e15b-5f74-9fd9-564cc9e2d0a8",
         "unit": "kg",
@@ -10060,41 +9331,6 @@
     },
     {
       "source": {
-        "name": "Methane, dichloro-, HCC-30",
-        "code": "44646b70-b225-537c-8bd5-1838174bface",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "dichloromethane",
-        "code": "fe0acd60-3ddc-11dd-9efb-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to water, unspecified"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "086aceab-7365-4d5c-b9c8-cc81610a72fc",
-        "match": "closeMatch",
-        "name": "Dichloromethane",
-        "context": "envi-wate-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Methane, monochloro-, R-40",
         "code": "78a14a3b-72a7-5920-80f0-db6e8b184f6f",
         "unit": "kg",
@@ -10184,43 +9420,6 @@
         "name": "Methanol",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Methomyl",
-        "code": "d70a74f3-da5d-5faa-8ccc-fb7336aacb05",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "methomyl",
-        "code": "3e4c8d3b-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a940-0050c2490048",
-        "match": "closeMatch",
-        "name": "Methomyl",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -10345,80 +9544,6 @@
         "name": "Methyl Formate",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Methyl mercaptan",
-        "code": "8b6bbe92-0492-549a-b932-59dc4f45a00a",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "methyl mercaptan",
-        "code": "d86cd6eb-6555-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-9e59-0050c2490048",
-        "match": "closeMatch",
-        "name": "Methanethiol",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Methyl methacrylate",
-        "code": "f38ca209-dcb6-5f34-b8cb-21733a352bd0",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "methyl methacrylate",
-        "code": "e2fb2bc4-6555-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a9a5-0050c2490048",
-        "match": "closeMatch",
-        "name": "Methyl Methacrylate",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -10698,45 +9823,6 @@
         "name": "N-octane",
         "context": "envi-air-unkn",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Naphthalene",
-        "code": "e3790c52-f260-585d-af13-76020c4156a1",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "ocean"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "naphthalene",
-        "code": "fe0acd60-3ddc-11dd-a686-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "fe0acd60-3ddc-11dd-a9e5-0050c2490048",
-        "match": "closeMatch",
-        "name": "Naphthalene",
-        "context": "envi-wate-ocea",
-        "in_ef": true
       }
     },
     {
@@ -11199,6 +10285,8 @@
       "methods": [
         "ef-3.1:eutrophication-marine"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is dinitrogen (N2); BAFU 'Nitrogen' to water is nitrogen as a nutrient",
       "brightway_flows": {
         "code": "fe0acd60-3ddc-11dd-aada-0050c2490048",
         "match": "closeMatch",
@@ -11264,6 +10352,8 @@
       "methods": [
         "ef-3.1:eutrophication-marine"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is dinitrogen (N2); BAFU 'Nitrogen' to water is nitrogen as a nutrient",
       "brightway_flows": {
         "code": "fe0acd60-3ddc-11dd-aad8-0050c2490048",
         "match": "closeMatch",
@@ -11650,39 +10740,6 @@
         "name": "Forest, intensive, short rotation",
         "context": "laus-occu",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Occupation, heterogeneous, agricultural",
-        "code": "9aae09e1-5eb4-573e-acd7-c3ba54a4b84f",
-        "unit": "m2a",
-        "context": [
-          "resources",
-          "land"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "arable",
-        "code": "b88d3b6d-229e-477e-bce1-e16376f75c7b",
-        "unit": "m2*a",
-        "context": [
-          "Land use",
-          "Land occupation"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:land-use"
-      ],
-      "brightway_flows": {
-        "code": "1d443c61-ff6f-419a-99a8-9ff3055f4922",
-        "match": "closeMatch",
-        "name": "Agriculture, mosaic",
-        "context": "laus-occu",
-        "in_ef": true
       }
     },
     {
@@ -12349,6 +11406,8 @@
         "ef-3.1:human-toxicity-non-cancer",
         "ef-3.1:human-toxicity-non-cancer-organics"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs sits on 'Other emissions to industrial soil', which JRC does not characterise; industrial soil is non-agricultural soil and the other implementations apply the same factors there",
       "brightway_flows": {
         "code": "8d467a31-5ee4-4890-83ea-d7d191034dfc",
         "match": "closeMatch",
@@ -12590,6 +11649,8 @@
       "methods": [
         "ef-3.1:ef-particulate-matter"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "08a91e70-3ddc-11dd-9503-0050c2490048",
         "match": "closeMatch",
@@ -12624,6 +11685,8 @@
       "methods": [
         "ef-3.1:ef-particulate-matter"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "08a91e70-3ddc-11dd-9504-0050c2490048",
         "match": "closeMatch",
@@ -12658,6 +11721,8 @@
       "methods": [
         "ef-3.1:ef-particulate-matter"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "08a91e70-3ddc-11dd-9502-0050c2490048",
         "match": "closeMatch",
@@ -12692,6 +11757,8 @@
       "methods": [
         "ef-3.1:ef-particulate-matter"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "08a91e70-3ddc-11dd-9501-0050c2490048",
         "match": "closeMatch",
@@ -12719,41 +11786,6 @@
         "name": "Particles (unspecified size)",
         "context": "envi-air-unkn",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Pentane, perfluoro-",
-        "code": "0db28dcb-d229-5458-960f-4fc2bd143768",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-4-nomenclature",
-      "ours": {
-        "code": "4d9a8790-3ddd-11dd-9062-0050c2490048",
-        "name": "Perfluoropentane",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
-        ],
-        "unit": "kilogram"
-      },
-      "kind": "score_changing_retarget",
-      "factors": "ours_zero",
-      "methods": [
-        "ef-3.1:climate-change",
-        "ef-3.1:climate-change-fossil"
-      ],
-      "brightway_flows": {
-        "code": "a19c0cee-e251-11e6-bf01-fe55135034f3",
-        "match": "closeMatch",
-        "name": "Perfluoropentane",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -13034,6 +12066,8 @@
         "ef-3.1:human-toxicity-non-cancer",
         "ef-3.1:human-toxicity-non-cancer-inorganics"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs sits on 'Other emissions to industrial soil', which JRC does not characterise; industrial soil is non-agricultural soil and the other implementations apply the same factors there",
       "brightway_flows": {
         "code": "84ae695d-4e87-4e02-9152-261516d4975d",
         "match": "closeMatch",
@@ -13130,6 +12164,8 @@
       "methods": [
         "ef-3.1:ionising-radiation-human-health"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "4057d39e-382f-4c8e-85ed-15a11fc7fa48",
         "match": "closeMatch",
@@ -13164,6 +12200,8 @@
       "methods": [
         "ef-3.1:ionising-radiation-human-health"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "4057d39e-382f-4c8e-85ed-15a11fc7fa48",
         "match": "closeMatch",
@@ -13198,6 +12236,8 @@
       "methods": [
         "ef-3.1:ionising-radiation-human-health"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs is the EF flow of the same name but JRC gives it no factor, while the ecoinvent and GreenDelta EF implementations and the Brightway Flows consensus apply the factor our target carries; sentier-methods holds JRC factors only",
       "brightway_flows": {
         "code": "13d3b697-739e-47d6-a1a7-d500fff42ae4",
         "match": "closeMatch",
@@ -13969,43 +13009,6 @@
         "name": "Protactinium-234",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Prothioconazol",
-        "code": "f2a2f017-5f37-5c06-8bc7-dbc0e88a144d",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "agricultural"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "prothioconazol",
-        "code": "629f6552-3424-4702-b948-323eb05f846e",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to non-agricultural soil"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "a75721cb-85d6-48ef-a6dd-b89bf5ef7358",
-        "match": "closeMatch",
-        "name": "Prothioconazole",
-        "context": "envi-grou-agri",
-        "in_ef": true
       }
     },
     {
@@ -14844,6 +13847,8 @@
         "ef-3.1:human-toxicity-non-cancer",
         "ef-3.1:human-toxicity-non-cancer-inorganics"
       ],
+      "decision": "ours",
+      "decision_reason": "theirs sits on 'Other emissions to industrial soil', which JRC does not characterise; industrial soil is non-agricultural soil and the other implementations apply the same factors there",
       "brightway_flows": {
         "code": "7bd57a67-e05a-426a-9b97-16638d41fad9",
         "match": "closeMatch",
@@ -17616,39 +16621,6 @@
     },
     {
       "source": {
-        "name": "Transformation, from heterogeneous, agricultural",
-        "code": "1d1c7af3-8429-5f05-9f4e-991b3875fce9",
-        "unit": "m2",
-        "context": [
-          "resources",
-          "land"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "from arable",
-        "code": "9699a63f-c966-43a4-816c-b1fbbf0a3e88",
-        "unit": "m2",
-        "context": [
-          "Land use",
-          "Land transformation"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:land-use"
-      ],
-      "brightway_flows": {
-        "code": "aeea42cc-4215-465f-981f-ae2ab387fbb9",
-        "match": "closeMatch",
-        "name": "From agriculture, mosaic",
-        "context": "laus-tran",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Transformation, from industrial area, benthos",
         "code": "72ceac17-f345-5e1e-bf2a-0953bccc341b",
         "unit": "m2",
@@ -18369,39 +17341,6 @@
     },
     {
       "source": {
-        "name": "Transformation, to heterogeneous, agricultural",
-        "code": "90949650-dffa-5945-a106-dbe0a549dd9e",
-        "unit": "m2",
-        "context": [
-          "resources",
-          "land"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "to arable",
-        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
-        "unit": "m2",
-        "context": [
-          "Land use",
-          "Land transformation"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:land-use"
-      ],
-      "brightway_flows": {
-        "code": "b886560e-7ab8-4ec9-8a0a-802affe63186",
-        "match": "closeMatch",
-        "name": "To agriculture, mosaic",
-        "context": "laus-tran",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Transformation, to industrial area, benthos",
         "code": "4d5f5cd2-b5a0-5ccc-9a63-0eac12b2b588",
         "unit": "m2",
@@ -18974,41 +17913,6 @@
     },
     {
       "source": {
-        "name": "Trichloroethane",
-        "code": "72ba89ca-0fe1-5c7c-919d-9ab972cb0137",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "trichloroethane",
-        "code": "3fc3a8d7-a7bd-4b7c-8545-52bc5a261e9a",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics"
-      ],
-      "brightway_flows": {
-        "code": "946840f9-710b-4be7-9446-0e3aabe80372",
-        "match": "closeMatch",
-        "name": "Trichloroethane",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
         "name": "Triethylene glycol",
         "code": "e2a2f9fc-bdd3-5e2e-a348-5f21370ff3dd",
         "unit": "kg",
@@ -19036,45 +17940,6 @@
         "name": "Triethylene Glycol",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Trifluralin",
-        "code": "6d8af521-dcf0-551a-9d51-f753b8b3748c",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "trifluralin",
-        "code": "1f30af4e-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-organics",
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-9782-0050c2490048",
-        "match": "closeMatch",
-        "name": "Trifluralin",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {
@@ -19795,146 +18660,6 @@
     {
       "source": {
         "name": "Vanadium",
-        "code": "624996a6-a0f7-5257-9b40-9f1c92ba3b7c",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "high. pop."
-        ]
-      },
-      "package": "biosphere-2-inferred",
-      "ours": {
-        "code": "91d2a56f-e3f9-4a87-9149-cd496fb4370c",
-        "name": "vanadium (v)",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to urban air close to ground"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8dbc-0050c2490048",
-        "match": "closeMatch",
-        "name": "Vanadium",
-        "context": "envi-air-grle-ur10pesq",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Vanadium",
-        "code": "a3bd78ff-4752-5894-8755-bb6b8d23ab0b",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "low. pop."
-        ]
-      },
-      "package": "biosphere-2-inferred",
-      "ours": {
-        "code": "33351e62-3b57-4e04-a115-4452591bbb4b",
-        "name": "vanadium (v)",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8dbd-0050c2490048",
-        "match": "closeMatch",
-        "name": "Vanadium",
-        "context": "envi-air-mest15me-ru10pesq",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Vanadium",
-        "code": "66c70411-bd76-53a1-b4bb-fa4c05da6d6b",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-2-inferred",
-      "ours": {
-        "code": "810164cf-f2c2-4e2d-a5ee-6bbd007a3a38",
-        "name": "vanadium (v)",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to air, unspecified"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8dba-0050c2490048",
-        "match": "closeMatch",
-        "name": "Vanadium",
-        "context": "envi-air-unkn",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Vanadium",
-        "code": "0d5ce24b-92a2-581b-97d5-70ed14827bb3",
-        "unit": "kg",
-        "context": [
-          "emissions to soil",
-          "agricultural"
-        ]
-      },
-      "package": "biosphere-2-inferred",
-      "ours": {
-        "code": "5e6fbd97-f822-42c6-afd2-458c3d88db9f",
-        "name": "vanadium (v)",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to soil",
-          "Emissions to agricultural soil"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-8db8-0050c2490048",
-        "match": "closeMatch",
-        "name": "Vanadium",
-        "context": "envi-grou-agri",
-        "in_ef": true
-      }
-    },
-    {
-      "source": {
-        "name": "Vanadium",
         "code": "7179782d-d328-5680-ace0-ef04f2e299ce",
         "unit": "kg",
         "context": [
@@ -20054,43 +18779,6 @@
         "name": "Vanadium",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Vinyl acetate",
-        "code": "9863ecd3-319a-5338-8d2c-890be2fa046d",
-        "unit": "kg",
-        "context": [
-          "emissions to water",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "vinyl acetate",
-        "code": "08a91e70-3ddc-11dd-9090-0050c2490048",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to water",
-          "Emissions to fresh water"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:human-toxicity-cancer",
-        "ef-3.1:human-toxicity-cancer-organics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-organics"
-      ],
-      "brightway_flows": {
-        "code": "08a91e70-3ddc-11dd-9092-0050c2490048",
-        "match": "closeMatch",
-        "name": "Vinyl Acetate",
-        "context": "envi-wate-unkn",
-        "in_ef": true
       }
     },
     {
@@ -20798,6 +19486,8 @@
       "methods": [
         "ef-3.1:water-use"
       ],
+      "decision": "hold",
+      "decision_reason": "'Water, embodied in product' is a BAFU 'economic issues' flow, not an exchange with the environment; mapping it onto a water resource would add water-use scores",
       "brightway_flows": {
         "code": "419682fe-60fb-4b43-be89-bf2824b51104",
         "match": "closeMatch",
@@ -20822,6 +19512,8 @@
       "methods": [
         "ef-3.1:water-use"
       ],
+      "decision": "hold",
+      "decision_reason": "'Water, embodied in product' is a BAFU 'economic issues' flow, not an exchange with the environment; mapping it onto a water resource would add water-use scores",
       "brightway_flows": {
         "code": "419682fe-60fb-4b43-be89-bf2824b51104",
         "match": "closeMatch",
@@ -20846,6 +19538,8 @@
       "methods": [
         "ef-3.1:water-use"
       ],
+      "decision": "hold",
+      "decision_reason": "'Water, embodied in product' is a BAFU 'economic issues' flow, not an exchange with the environment; mapping it onto a water resource would add water-use scores",
       "brightway_flows": {
         "code": "419682fe-60fb-4b43-be89-bf2824b51104",
         "match": "closeMatch",
@@ -20870,6 +19564,8 @@
       "methods": [
         "ef-3.1:water-use"
       ],
+      "decision": "hold",
+      "decision_reason": "'Water, embodied in product' is a BAFU 'economic issues' flow, not an exchange with the environment; mapping it onto a water resource would add water-use scores",
       "brightway_flows": {
         "code": "419682fe-60fb-4b43-be89-bf2824b51104",
         "match": "closeMatch",
@@ -20894,6 +19590,8 @@
       "methods": [
         "ef-3.1:water-use"
       ],
+      "decision": "hold",
+      "decision_reason": "'Water, embodied in product' is a BAFU 'economic issues' flow, not an exchange with the environment; mapping it onto a water resource would add water-use scores",
       "brightway_flows": {
         "code": "419682fe-60fb-4b43-be89-bf2824b51104",
         "match": "closeMatch",
@@ -22498,43 +21196,6 @@
         "name": "Zinc",
         "context": "envi-wate-rive",
         "in_ef": false
-      }
-    },
-    {
-      "source": {
-        "name": "Zinc oxide",
-        "code": "989d4eef-f15a-5e08-90bb-0be888316030",
-        "unit": "kg",
-        "context": [
-          "emissions to air",
-          "unspecified"
-        ]
-      },
-      "package": "biosphere-1-curated",
-      "ours": {
-        "name": "zinc oxide",
-        "code": "1f308823-6556-11dd-ad8b-0800200c9a66",
-        "unit": "kilogram",
-        "context": [
-          "Emissions",
-          "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
-        ]
-      },
-      "kind": "score_changing_retarget",
-      "factors": "differ",
-      "methods": [
-        "ef-3.1:ecotoxicity-freshwater",
-        "ef-3.1:ecotoxicity-freshwater-inorganics",
-        "ef-3.1:human-toxicity-non-cancer",
-        "ef-3.1:human-toxicity-non-cancer-inorganics"
-      ],
-      "brightway_flows": {
-        "code": "4d9a8790-3ddd-11dd-9448-0050c2490048",
-        "match": "closeMatch",
-        "name": "Zinc Oxide",
-        "context": "envi-air-unkn",
-        "in_ef": true
       }
     },
     {

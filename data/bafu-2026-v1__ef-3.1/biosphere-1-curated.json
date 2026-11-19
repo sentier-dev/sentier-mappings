@@ -2533,15 +2533,16 @@
         ]
       },
       "target": {
-        "name": "chlorine dioxide",
-        "code": "09674987-c48d-4f45-8e11-6b3daa7991f1",
+        "name": "Chlorine Dioxide",
+        "code": "c378beea-5bf3-4385-a602-fbc79ac93204",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -2702,15 +2703,16 @@
         ]
       },
       "target": {
-        "name": "dimethyl formamide",
-        "code": "d86cafd1-6555-11dd-ad8b-0800200c9a66",
+        "name": "Dimethyl Formamide",
+        "code": "fe0acd60-3ddc-11dd-acdb-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -2787,15 +2789,16 @@
         ]
       },
       "target": {
-        "name": "trichloroethane",
-        "code": "3fc3a8d7-a7bd-4b7c-8545-52bc5a261e9a",
+        "name": "Trichloroethane",
+        "code": "946840f9-710b-4be7-9446-0e3aabe80372",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -5531,15 +5534,16 @@
         ]
       },
       "target": {
-        "name": "dichloromethane",
-        "code": "fe0acd60-3ddc-11dd-9efb-0050c2490048",
+        "name": "Methylene Chloride",
+        "code": "086aceab-7365-4d5c-b9c8-cc81610a72fc",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
           "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: our target is an EF flow that Brightway Flows 1.1.0 records as merged into theirs; theirs is the live flow)"
     },
     {
       "source": {
@@ -7694,15 +7698,16 @@
         ]
       },
       "target": {
-        "name": "atrazine",
-        "code": "08a91e70-3ddc-11dd-962e-0050c2490048",
+        "name": "Atrazine",
+        "code": "fe0acd60-3ddc-11dd-a3cc-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -7904,15 +7909,16 @@
         ]
       },
       "target": {
-        "name": "caprolactam",
-        "code": "08a91e70-3ddc-11dd-91ea-0050c2490048",
+        "name": "Caprolactam",
+        "code": "fe0acd60-3ddc-11dd-9fcf-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -8267,15 +8273,16 @@
         ]
       },
       "target": {
-        "name": "chrysene",
-        "code": "fe0acd60-3ddc-11dd-a7b5-0050c2490048",
+        "name": "Chrysene",
+        "code": "fe0acd60-3ddc-11dd-a7b9-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8372,15 +8379,16 @@
         ]
       },
       "target": {
-        "name": "cresol",
-        "code": "4d9a8790-3ddd-11dd-8f53-0050c2490048",
+        "name": "Cresol",
+        "code": "4d9a8790-3ddd-11dd-8f56-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8478,15 +8486,16 @@
         ]
       },
       "target": {
-        "name": "decane",
-        "code": "08a91e70-3ddc-11dd-9808-0050c2490048",
+        "name": "Decane",
+        "code": "08a91e70-3ddc-11dd-980c-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8564,15 +8573,16 @@
         ]
       },
       "target": {
-        "name": "dicamba",
-        "code": "1f30fd60-6556-11dd-ad8b-0800200c9a66",
+        "name": "Dicamba",
+        "code": "fe0acd60-3ddc-11dd-a984-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -8627,15 +8637,16 @@
         ]
       },
       "target": {
-        "name": "dimethenamid",
-        "code": "4d9a8790-3ddd-11dd-8f01-0050c2490048",
+        "name": "Dimethenamid",
+        "code": "4d9a8790-3ddd-11dd-8efe-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -8816,15 +8827,16 @@
         ]
       },
       "target": {
-        "name": "fluoranthene",
-        "code": "fe0acd60-3ddc-11dd-a5df-0050c2490048",
+        "name": "Fluoranthene",
+        "code": "fe0acd60-3ddc-11dd-a5e3-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -8942,15 +8954,16 @@
         ]
       },
       "target": {
-        "name": "glyphosate",
-        "code": "172b2800-6556-11dd-ad8b-0800200c9a66",
+        "name": "Glyphosate",
+        "code": "fe0acd60-3ddc-11dd-a646-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9089,15 +9102,16 @@
         ]
       },
       "target": {
-        "name": "hydrogen bromide",
-        "code": "2029f2a8-e828-466b-859d-808047d20ece",
+        "name": "bromane",
+        "code": "fe0acd60-3ddc-11dd-aaaa-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, indoor"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9110,15 +9124,16 @@
         ]
       },
       "target": {
-        "name": "hydrogen iodide",
-        "code": "29063b59-6556-11dd-ad8b-0800200c9a66",
+        "name": "Hydrogen Iodide",
+        "code": "fe0acd60-3ddc-11dd-a95a-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9278,15 +9293,16 @@
         ]
       },
       "target": {
-        "name": "isobutane",
-        "code": "4d9a8790-3ddd-11dd-9357-0050c2490048",
+        "name": "Isobutane",
+        "code": "4d9a8790-3ddd-11dd-9355-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to urban air close to ground"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9299,15 +9315,16 @@
         ]
       },
       "target": {
-        "name": "lead dioxide",
-        "code": "1f30881b-6556-11dd-ad8b-0800200c9a66",
+        "name": "Lead Dioxide",
+        "code": "fe0acd60-3ddc-11dd-9f5a-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9448,15 +9465,16 @@
         ]
       },
       "target": {
-        "name": "m-cresol",
-        "code": "39a4229a-0ae7-4178-8be1-0a6ef124e790",
+        "name": "M-cresol",
+        "code": "4d9a8790-3ddd-11dd-8f57-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to air, indoor"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9469,15 +9487,16 @@
         ]
       },
       "target": {
-        "name": "methyl mercaptan",
-        "code": "d86cd6eb-6555-11dd-ad8b-0800200c9a66",
+        "name": "Methanethiol",
+        "code": "fe0acd60-3ddc-11dd-9e59-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9511,15 +9530,16 @@
         ]
       },
       "target": {
-        "name": "methomyl",
-        "code": "3e4c8d3b-6556-11dd-ad8b-0800200c9a66",
+        "name": "(E)-Methomyl",
+        "code": "fe0acd60-3ddc-11dd-a940-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9553,15 +9573,16 @@
         ]
       },
       "target": {
-        "name": "methyl methacrylate",
-        "code": "e2fb2bc4-6555-11dd-ad8b-0800200c9a66",
+        "name": "Methyl Methacrylate",
+        "code": "fe0acd60-3ddc-11dd-a9a5-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -9595,15 +9616,16 @@
         ]
       },
       "target": {
-        "name": "naphthalene",
-        "code": "fe0acd60-3ddc-11dd-a686-0050c2490048",
+        "name": "Naphthalene",
+        "code": "fe0acd60-3ddc-11dd-a9e5-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to sea water"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to the ocean; our target was the fresh water flow, theirs is the sea water flow)"
     },
     {
       "source": {
@@ -10212,15 +10234,16 @@
         ]
       },
       "target": {
-        "name": "trifluralin",
-        "code": "1f30af4e-6556-11dd-ad8b-0800200c9a66",
+        "name": "Trifluralin",
+        "code": "4d9a8790-3ddd-11dd-9782-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -10443,15 +10466,16 @@
         ]
       },
       "target": {
-        "name": "zinc oxide",
-        "code": "1f308823-6556-11dd-ad8b-0800200c9a66",
+        "name": "Desitin",
+        "code": "4d9a8790-3ddd-11dd-9448-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to lower stratosphere and upper troposphere"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -11351,15 +11375,16 @@
         ]
       },
       "target": {
-        "name": "Oils, unspecified",
-        "code": "3435c95d-3920-4e26-8d4e-b7a8dfac5a99",
+        "name": "Hydrocarbons (unspecified)",
+        "code": "d86b9e8a-6555-11dd-ad8b-0800200c9a66",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to air",
-          "Emissions to non-urban air or from high stacks"
+          "Emissions to air, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to air, unspecified; our target sat on another air compartment, theirs is the same substance on 'Emissions to air, unspecified')"
     },
     {
       "source": {
@@ -15641,15 +15666,16 @@
         ]
       },
       "target": {
-        "name": "kresoxim methyl",
-        "code": "8e374806-0927-45ba-bbd5-d31fa2f6cf0e",
+        "name": "Kresoxim-methyl",
+        "code": "08a91e70-3ddc-11dd-95c2-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: our target is an EF flow that Brightway Flows 1.1.0 records as merged into theirs; theirs is the live flow)"
     },
     {
       "source": {
@@ -21025,15 +21051,16 @@
         ]
       },
       "target": {
-        "name": "prothioconazol",
-        "code": "629f6552-3424-4702-b948-323eb05f846e",
+        "name": "Prothioconazole",
+        "code": "a75721cb-85d6-48ef-a6dd-b89bf5ef7358",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
-          "Emissions to non-agricultural soil"
+          "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to agricultural soil; our target sat on non-agricultural soil)"
     },
     {
       "source": {
@@ -21068,15 +21095,16 @@
         ]
       },
       "target": {
-        "name": "vinyl acetate",
-        "code": "08a91e70-3ddc-11dd-9090-0050c2490048",
+        "name": "Vinyl Acetate",
+        "code": "08a91e70-3ddc-11dd-9092-0050c2490048",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to water",
-          "Emissions to fresh water"
+          "Emissions to water, unspecified"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: the source is an emission to water, unspecified; our target sat on fresh water)"
     },
     {
       "source": {
@@ -22228,15 +22256,16 @@
         ]
       },
       "target": {
-        "name": "Herbicides, unspecified",
-        "code": "4cd70c71-1ac0-4dba-b448-3d41a06c4b00",
+        "name": "Mecoprop-p",
+        "code": "232e8031-e545-4d16-8812-35d9dd38fd1a",
         "unit": "kilogram",
         "context": [
           "Emissions",
           "Emissions to soil",
           "Emissions to agricultural soil"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: theirs is the EF flow of the substance itself; ours was a group flow ('herbicides, unspecified'))"
     },
     {
       "source": {
@@ -23862,14 +23891,15 @@
         ]
       },
       "target": {
-        "name": "arable",
-        "code": "b88d3b6d-229e-477e-bce1-e16376f75c7b",
+        "name": "Agriculture, Mosaic",
+        "code": "1d443c61-ff6f-419a-99a8-9ff3055f4922",
         "unit": "m2*a",
         "context": [
           "Land use",
           "Land occupation"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: 'heterogeneous, agricultural' is the EF land class 'agriculture, mosaic', not 'arable')"
     },
     {
       "source": {
@@ -24642,14 +24672,15 @@
         ]
       },
       "target": {
-        "name": "from arable",
-        "code": "9699a63f-c966-43a4-816c-b1fbbf0a3e88",
+        "name": "From Agriculture, Mosaic",
+        "code": "aeea42cc-4215-465f-981f-ae2ab387fbb9",
         "unit": "m2",
         "context": [
           "Land use",
           "Land transformation"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: 'heterogeneous, agricultural' is the EF land class 'agriculture, mosaic', not 'arable')"
     },
     {
       "source": {
@@ -25442,14 +25473,15 @@
         ]
       },
       "target": {
-        "name": "to arable",
-        "code": "933debfd-2aa5-4a35-b07b-2732350ea29c",
+        "name": "To Agriculture, Mosaic",
+        "code": "b886560e-7ab8-4ec9-8a0a-802affe63186",
         "unit": "m2",
         "context": [
           "Land use",
           "Land transformation"
         ]
-      }
+      },
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: 'heterogeneous, agricultural' is the EF land class 'agriculture, mosaic', not 'arable')"
     },
     {
       "source": {

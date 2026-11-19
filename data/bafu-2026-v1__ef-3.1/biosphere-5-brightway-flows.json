@@ -370,6 +370,28 @@
     },
     {
       "source": {
+        "name": "Ethane, 1,1,1-trichloro-, HCFC-140",
+        "code": "64409968-2b46-51ca-9762-6bd13b323f85",
+        "unit": "kg",
+        "context": [
+          "emissions to air",
+          "low. pop."
+        ]
+      },
+      "target": {
+        "name": "HCFC-140",
+        "code": "4d9a8790-3ddd-11dd-925c-0050c2490048",
+        "unit": "kilogram",
+        "context": [
+          "Emissions",
+          "Emissions to air",
+          "Emissions to non-urban air or from high stacks"
+        ]
+      },
+      "comment": "brightway-flows 1.1.0, skos:closeMatch; reviewed 2026-11-19: same substance (CAS 71-55-6) on the matching air compartment; we had withheld it as ambiguous"
+    },
+    {
+      "source": {
         "name": "Ethane, 1,1-dichloro-",
         "code": "ded92570-f0d3-5718-a270-dd5e30dbac2c",
         "unit": "kg",

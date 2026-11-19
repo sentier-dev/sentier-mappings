@@ -4712,8 +4712,8 @@
         ]
       },
       "target": {
-        "code": "4d9a8790-3ddd-11dd-9062-0050c2490048",
-        "name": "Perfluoropentane",
+        "code": "a19c0cee-e251-11e6-bf01-fe55135034f3",
+        "name": "PFC-41-12",
         "context": [
           "Emissions",
           "Emissions to air",
@@ -4721,7 +4721,7 @@
         ],
         "unit": "kilogram"
       },
-      "comment": "uncharacterised in EF 3.1: no factor in any method; target unit is the EF convention for this dimension (EF states no reference unit for this flow)"
+      "comment": "target aligned with brightway-flows 1.1.0 (reviewed 2026-11-19: our target is an EF flow that Brightway Flows 1.1.0 records as merged into theirs; theirs is the live flow)"
     },
     {
       "source": {
